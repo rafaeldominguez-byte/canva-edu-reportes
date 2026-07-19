@@ -25,6 +25,11 @@ a.sf{border:1.5px solid #8B3DFF;color:#8B3DFF;background:#fff;}
 .stat .v{font-size:17px;font-weight:800;}
 .stat .l{font-size:10.5px;color:#5c6b7a;text-transform:uppercase;letter-spacing:.05em;margin-top:2px;}
 .foot{color:#5c6b7a;font-size:12px;margin-top:14px;}
+.fresh{font-size:11.5px;font-weight:700;padding:4px 10px;border-radius:999px;white-space:nowrap;}
+.fresh.ok{background:#E3F6EF;color:#12A480;}
+.fresh.old{background:#FBF3DC;color:#9a7100;}
+.hist{font-size:11.5px;color:#5c6b7a;margin-top:10px;}
+.hist a{color:#8B3DFF;font-weight:600;text-decoration:none;margin-right:8px;}
 #estado{color:#5c6b7a;font-size:13.5px;padding:30px 0;text-align:center;}
 .resumen{display:inline-block;margin-left:8px;}
 </style></head>
@@ -43,7 +48,7 @@ box-shadow:0 4px 14px rgba(20,30,60,.15);outline:none;"></div>
 <p class="foot">Live data from the account tracking sheet. Each institution only receives the direct link to its own report; the button is disabled for accounts without a published report (pending).</p>
 </div></div>
 <script>
-const SLUGS = {"001Od00000RSMPX": "nazaret-colegios-innovadores", "0012u00000qllrz": "salesianos-maria-auxiliadora"}; // account_id (15 primeros chars) -> slug del reporte publicado
+const SLUGS = {"001Od00000RSMPX": {"slug": "nazaret-colegios-innovadores", "history": ["2026-q3"], "updated": "2026-07-19"}, "0012u00000qllrz": "salesianos-maria-auxiliadora"}; // account_id (15 primeros chars) -> slug del reporte publicado
 const SHEET = "https://docs.google.com/spreadsheets/d/1CTSSkCwTmUdVn8y3zag_pQnEgj6TBTwsN70JYR6Nu9o/gviz/tq?tqx=out:csv&gid=0";
 const SF = id => `https://canva.lightning.force.com/lightning/r/Account/${id}/view`;
 
@@ -71,18 +76,26 @@ fetch(SHEET).then(r=>{ if(!r.ok) throw new Error(r.status); return r.text(); }).
         iPeak=col("K12 Peak MAU Current Quarter"), iAct=col("Education Total Activated Users"), iPct=col("% MAU");
   let accts = rows.slice(1).filter(r=>r[iName] && r[iName].trim()).map(r=>({
     name:r[iName].trim(), id:(r[iId]||"").trim(), tpu:num(r[iTPU]), peak:num(r[iPeak]), act:num(r[iAct]),
-    pct:(r[iPct]||"–").trim(), slug: SLUGS[(r[iId]||"").trim().slice(0,15)] || null
-  }));
+    pct:(r[iPct]||"–").trim(), entry: SLUGS[(r[iId]||"").trim().slice(0,15)] || null
+  })).map(a=>{
+    const e = a.entry;
+    a.slug = e ? (e.slug || e) : null;
+    a.updated = e && e.updated ? e.updated : null;
+    a.history = e && e.history ? e.history : [];
+    a.stale = a.updated ? (Date.now() - new Date(a.updated)) / 864e5 > 60 : false;
+    return a;
+  });
   accts.sort((a,b)=>(b.tpu||0)-(a.tpu||0));
   const con = accts.filter(a=>a.slug).length;
   document.getElementById("sub").textContent =
-    `${accts.length} accounts · ${con} with published report · ${accts.length-con} pending · live data`;
+    `${accts.length} accounts · ${con} published · ${accts.filter(a=>a.stale).length} outdated (>60d) · ${accts.length-con} pending · live data`;
   document.getElementById("estado").style.display="none";
   const render = list => { document.getElementById("items").innerHTML = list.length ? list.map((a,i)=>`
     <div class="item">
       <div class="top">
         <span class="rank">${i+1}</span>
         <span class="name">${a.name}</span>
+        ${a.updated ? `<span class="fresh ${a.stale ? "old" : "ok"}" title="Last published">${a.stale ? "⚠ " : ""}Updated ${a.updated}</span>` : ""}
         ${a.slug ? `<a class="btn rep" href="../reportes/${a.slug}/">View report →</a>`
                  : `<span class="btn rep-off" title="Report not generated yet">No report</span>`}
         ${a.id ? `<a class="btn sf" href="${SF(a.id)}" target="_blank" rel="noopener">Salesforce</a>` : ""}
@@ -93,6 +106,7 @@ fetch(SHEET).then(r=>{ if(!r.ok) throw new Error(r.status); return r.text(); }).
         <div class="stat"><div class="v">${fmt(a.act)}</div><div class="l">Activated users</div></div>
         <div class="stat"><div class="v">${a.pct}</div><div class="l">% MAU</div></div>
       </div>
+      ${a.history && a.history.length > 1 ? `<div class="hist">Archive: ${a.history.slice(0,-1).map(q=>`<a href="../reportes/${a.slug}/${q}/">${q.toUpperCase()}</a>`).join("")}</div>` : ""}
     </div>`).join("") : '<div id="estado" style="display:block">No accounts match your search.</div>'; };
   render(accts);
   document.getElementById("buscar").addEventListener("input", e => {
