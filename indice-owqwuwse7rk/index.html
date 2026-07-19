@@ -68,16 +68,28 @@ function parseCSV(text){
 const num = s => { const n = parseFloat(String(s||"").replace(/\./g,"").replace(",",".")); return isNaN(n)?null:n; };
 const fmt = n => n==null ? "–" : Math.round(n).toLocaleString("en-US");
 
-fetch(SHEET).then(r=>{ if(!r.ok) throw new Error(r.status); return r.text(); }).then(text=>{
+// primario: accounts.json (sync diario desde Salesforce) · fallback: hoja de Google
+fetch("../accounts.json").then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+.then(j => proceed(j.accounts.map(a=>({
+    name:a.name, id:a.id, tpu:a.tpu, peak:a.peak, act:a.act,
+    pct:(a.mau && a.act) ? Math.round(a.mau/a.act*100)+"%" : "–"
+  })), `Salesforce data · synced ${j.generated}`))
+.catch(() => fetch(SHEET).then(r=>{ if(!r.ok) throw new Error(r.status); return r.text(); }).then(text=>{
   const rows = parseCSV(text);
   const h = rows[0].map(s=>s.trim());
   const col = name => h.findIndex(x=>x.toLowerCase()===name.toLowerCase());
   const iName=col("Account Name"), iId=col("Account ID"), iTPU=col("Total Potential Users"),
         iPeak=col("K12 Peak MAU Current Quarter"), iAct=col("Education Total Activated Users"), iPct=col("% MAU");
-  let accts = rows.slice(1).filter(r=>r[iName] && r[iName].trim()).map(r=>({
+  proceed(rows.slice(1).filter(r=>r[iName] && r[iName].trim()).map(r=>({
     name:r[iName].trim(), id:(r[iId]||"").trim(), tpu:num(r[iTPU]), peak:num(r[iPeak]), act:num(r[iAct]),
-    pct:(r[iPct]||"–").trim(), entry: SLUGS[(r[iId]||"").trim().slice(0,15)] || null
-  })).map(a=>{
+    pct:(r[iPct]||"–").trim()
+  })), "live sheet data (fallback)");
+}).catch(e=>{
+  document.getElementById("estado").innerHTML =
+    "Could not load account data (" + e.message + ")."; }));
+
+function proceed(base, sourceLabel){
+  let accts = base.map(a=>{ a.entry = SLUGS[(a.id||"").slice(0,15)] || null; return a; }).map(a=>{
     const e = a.entry;
     a.slug = e ? (e.slug || e) : null;
     a.updated = e && e.updated ? e.updated : null;
@@ -88,7 +100,7 @@ fetch(SHEET).then(r=>{ if(!r.ok) throw new Error(r.status); return r.text(); }).
   accts.sort((a,b)=>(b.tpu||0)-(a.tpu||0));
   const con = accts.filter(a=>a.slug).length;
   document.getElementById("sub").textContent =
-    `${accts.length} accounts · ${con} published · ${accts.filter(a=>a.stale).length} outdated (>60d) · ${accts.length-con} pending · live data`;
+    `${accts.length} accounts · ${con} published · ${accts.filter(a=>a.stale).length} outdated (>60d) · ${accts.length-con} pending · ${sourceLabel}`;
   document.getElementById("estado").style.display="none";
   const render = list => { document.getElementById("items").innerHTML = list.length ? list.map((a,i)=>`
     <div class="item">
@@ -113,9 +125,6 @@ fetch(SHEET).then(r=>{ if(!r.ok) throw new Error(r.status); return r.text(); }).
     const q = e.target.value.trim().toLowerCase();
     render(!q ? accts : accts.filter(a => a.name.toLowerCase().includes(q) || a.id.toLowerCase().includes(q)));
   });
-}).catch(e=>{
-  document.getElementById("estado").innerHTML =
-    "Could not load the accounts sheet (" + e.message + "). Check that it is still shared by link.";
-});
+}
 </script>
 </body></html>
