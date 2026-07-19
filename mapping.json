@@ -1,4 +1,10 @@
 {
- "001Od00000RSMPX": "nazaret-colegios-innovadores",
+ "001Od00000RSMPX": {
+  "slug": "nazaret-colegios-innovadores",
+  "history": [
+   "2026-q3"
+  ],
+  "updated": "2026-07-19"
+ },
  "0012u00000qllrz": "salesianos-maria-auxiliadora"
 }
