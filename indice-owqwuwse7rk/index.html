@@ -76,7 +76,7 @@ const num = s => { const n = parseFloat(String(s||"").replace(/\./g,"").replace(
 const fmt = n => n==null ? "–" : Math.round(n).toLocaleString("en-US");
 
 // primario: accounts.json (sync diario desde Salesforce) · fallback: hoja de Google
-fetch("../accounts.json").then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+fetch("../accounts.json?t=" + Date.now()).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
 .then(j => proceed(j.accounts.map(a=>({
     name:a.name, id:a.id, tpu:a.tpu, mau:a.mau, peak:a.peak, act:a.act, prev:a.prev,
     pct:(a.mau && a.act) ? Math.round(a.mau/a.act*100)+"%" : "–"
