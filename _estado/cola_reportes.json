@@ -1,14 +1,16 @@
 {
- "updated": "2026-07-20 15:16 UTC",
+ "updated": "2026-07-20 15:42 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
    "id": "001Od00000ToLgcIAF",
    "name": "Secretaria Regional de Educação, Ciência e Tecnologia Madeira",
    "tpu": 49740,
-   "status": "published",
+   "status": "launched",
    "run": "d0c2b0536720",
-   "slug": "educacao-madeira"
+   "slug": "educacao-madeira",
+   "lang": "pt-PT",
+   "nota": "REGENERAR EN PT-PT: el reporte publicado (educacao-madeira) y el borrador de email actuales están en español; rehacer ambos en portugués de Portugal reutilizando el run existente. Avisar a Rafa de que borre el borrador en español de Emanuel."
   },
   {
    "id": "001Od00000YUVIwIAP",
@@ -321,7 +323,8 @@
    "tpu": 3380,
    "status": "launched",
    "run": "0dd0c8f0a0c2",
-   "report": "lite"
+   "report": "lite",
+   "lang": "pt-PT"
   },
   {
    "id": "001Od00000g33HMIAY",
@@ -329,7 +332,8 @@
    "tpu": 2460,
    "status": "launched",
    "run": "54273fbd1893",
-   "report": "lite"
+   "report": "lite",
+   "lang": "pt-PT"
   },
   {
    "id": "001Od00000gAmKvIAK",
