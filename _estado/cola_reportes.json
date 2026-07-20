@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20 21:32 UTC",
+ "updated": "2026-07-21 00:35 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -78,17 +78,17 @@
    "id": "0012u00000k7rueAAA",
    "name": "Fundación SAFA",
    "tpu": 21500,
-   "status": "launched",
+   "status": "published",
    "run": "a7b7aceab627",
-   "nota": "Run original failed-parcial verificado 2026-07-20 (42/43 succeeded; solo fallo Copy of Top Collaborating Teachers). Procesable."
+   "slug": "fundacion-safa"
   },
   {
    "id": "0012u00000rRCOVAA4",
    "name": "Fundacion Educativa Jesuitinas",
    "tpu": 21200,
-   "status": "launched",
+   "status": "published",
    "run": "9aec40c404dc",
-   "nota": "Run original failed-parcial verificado 2026-07-20 (42/43 succeeded; solo fallo Copy of Top Collaborating Teachers). Procesable."
+   "slug": "fundacion-jesuitinas"
   },
   {
    "id": "001Od00000ZPAQHIA5",
@@ -233,7 +233,7 @@
    "status": "launched",
    "run": "6adcc8be5ada",
    "report": "lite",
-   "nota": "Run relanzado seguía enqueued a 2026-07-20 ~23h UTC. Verificar en la próxima ejecución."
+   "nota": "Run lite succeeded (verificado 2026-07-21 ~00:25 UTC). Listo para generar reporte."
   },
   {
    "id": "0012u00000d8UNYAA2",
@@ -242,7 +242,7 @@
    "status": "launched",
    "run": "9f587ccaafbd",
    "report": "lite",
-   "nota": "Relanzado escalonado 2026-07-20 21:32 UTC. Mary Ward y Champagnat salieron con ~20s de separación (los waits del navegador se truncaron); ISP con ~85s. Verificar estado en la próxima ejecución."
+   "nota": "Run lite succeeded (verificado 2026-07-21 ~00:25 UTC). Listo para generar reporte."
   },
   {
    "id": "001If000003bCXvIAM",
@@ -251,7 +251,7 @@
    "status": "launched",
    "run": "8f953d6eaba9",
    "report": "lite",
-   "nota": "Relanzado escalonado 2026-07-20 21:32 UTC. Mary Ward y Champagnat salieron con ~20s de separación (los waits del navegador se truncaron); ISP con ~85s. Verificar estado en la próxima ejecución."
+   "nota": "Run lite succeeded (verificado 2026-07-21 ~00:25 UTC). Listo para generar reporte."
   },
   {
    "id": "0012u00000j1ApIAAU",
@@ -260,34 +260,34 @@
    "status": "launched",
    "run": "3fa34c08db75",
    "report": "lite",
-   "nota": "Relanzado escalonado 2026-07-20 21:32 UTC. Mary Ward y Champagnat salieron con ~20s de separación (los waits del navegador se truncaron); ISP con ~85s. Verificar estado en la próxima ejecución."
+   "nota": "Run lite succeeded (verificado 2026-07-21 ~00:25 UTC). Listo para generar reporte."
   },
   {
    "id": "0012u00000j3XomAAE",
    "name": "Fundación Educativa ACI",
    "tpu": 10427,
-   "status": "error",
-   "run": "c1923943401f",
+   "status": "launched",
+   "run": "7f62b768b9c8",
    "report": "lite",
-   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run c1923943401f fallaron 1/26 consultas."
+   "nota": "Relanzado escalonado 2026-07-21 ~00:30 UTC. ACI y Manyanet salieron con ~20s de separacion (waits del navegador truncados a 10s); Galino con ~80s. Verificar estado en la proxima ejecucion."
   },
   {
    "id": "001Od00000ata4aIAA",
    "name": "Manyanet",
    "tpu": 10280,
-   "status": "error",
-   "run": "30f25a8a27de",
+   "status": "launched",
+   "run": "44bec7ecb514",
    "report": "lite",
-   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run 30f25a8a27de fallaron 9/26 consultas."
+   "nota": "Relanzado escalonado 2026-07-21 ~00:30 UTC. ACI y Manyanet salieron con ~20s de separacion (waits del navegador truncados a 10s); Galino con ~80s. Verificar estado en la proxima ejecucion."
   },
   {
    "id": "001Od00000XKaXXIA1",
    "name": "FUNDACIÓN EDUCATIVA ÁNGELES GALINO",
    "tpu": 10250,
-   "status": "error",
-   "run": "deadfd1d3384",
+   "status": "launched",
+   "run": "cb72989ad383",
    "report": "lite",
-   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run deadfd1d3384 fallaron 1/26 consultas."
+   "nota": "Relanzado escalonado 2026-07-21 ~00:30 UTC. ACI y Manyanet salieron con ~20s de separacion (waits del navegador truncados a 10s); Galino con ~80s. Verificar estado en la proxima ejecucion."
   },
   {
    "id": "0012u00000pQcLfAAK",
