@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20 14:16 UTC",
+ "updated": "2026-07-20 14:40 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -22,15 +22,17 @@
    "id": "001If000002PTI3IAO",
    "name": "HH. Maristas Provincia Mediterranea",
    "tpu": 42800,
-   "status": "launched",
-   "run": "cffd1cab8d6f"
+   "status": "published",
+   "run": "cffd1cab8d6f",
+   "slug": "maristas-mediterranea"
   },
   {
    "id": "001If000002R1LKIA0",
    "name": "Salesianas María Auxiliadora",
    "tpu": 42000,
-   "status": "launched",
-   "run": "ca333b688384"
+   "status": "published",
+   "run": "ca333b688384",
+   "slug": "salesianas-maria-auxiliadora"
   },
   {
    "id": "001If000002Qx6bIAC",
@@ -120,22 +122,22 @@
    "id": "0012u00000rSdSWAA0",
    "name": "Gredos San Diego",
    "tpu": 17000,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "887e09d10cbb"
   },
   {
    "id": "001Od00000PWteOIAT",
    "name": "RED EDUCATIVA ARENALES",
    "tpu": 16500,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "2681fc1830c9"
   },
   {
    "id": "0012u00000qjbfNAAQ",
    "name": "Maristas Compostela",
    "tpu": 15704,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "1eb9ead05b44"
   },
   {
    "id": "0012u00000qjaWGAAY",
