@@ -126,7 +126,7 @@ function proceed(base, sourceLabel){
         <span class="rank">${i+1}</span>
         <span class="name">${a.name}</span>
         ${a.updated ? `<span class="fresh ${a.stale ? "old" : "ok"}" title="Last published">${a.stale ? "⚠ " : ""}Updated ${a.updated}</span>` : ""}
-        ${a.slug ? `<a class="btn rep" href="../reportes/${a.slug}/">View report →</a>`
+        ${a.slug ? `<a class="btn rep" href="../reportes/${a.slug}/" target="_blank" rel="noopener">View report →</a>`
                  : `<span class="btn rep-off" title="Report not generated yet">No report</span>`}
         ${a.id ? `<a class="btn sf" href="${SF(a.id)}" target="_blank" rel="noopener">Salesforce</a>` : ""}
       </div>
@@ -136,7 +136,7 @@ function proceed(base, sourceLabel){
         <div class="stat"><div class="v">${fmt(a.act)}</div><div class="l">Activated users</div></div>
         <div class="stat"><div class="v">${a.pct}</div><div class="l">% MAU</div></div>
       </div>
-      ${a.history && a.history.length > 1 ? `<div class="hist">Archive: ${a.history.slice(0,-1).map(q=>`<a href="../reportes/${a.slug}/${q}/">${q.toUpperCase()}</a>`).join("")}</div>` : ""}
+      ${a.history && a.history.length > 1 ? `<div class="hist">Archive: ${a.history.slice(0,-1).map(q=>`<a href="../reportes/${a.slug}/${q}/" target="_blank" rel="noopener">${q.toUpperCase()}</a>`).join("")}</div>` : ""}
     </div>`).join("") : '<div id="estado" style="display:block">No accounts match your search.</div>'; };
   render(accts);
   document.getElementById("buscar").addEventListener("input", e => {
