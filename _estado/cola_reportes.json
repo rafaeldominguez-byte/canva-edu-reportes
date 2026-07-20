@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20 16:53 UTC",
+ "updated": "2026-07-20 23:00 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -46,15 +46,17 @@
    "id": "001Od00000TB6TEIA1",
    "name": "Fundación Educativa Santo Domingo - FESD",
    "tpu": 28500,
-   "status": "launched",
-   "run": "d842bc7a1b22"
+   "status": "published",
+   "run": "d842bc7a1b22",
+   "slug": "fesd-santo-domingo"
   },
   {
    "id": "0012u00000sf1EWAAY",
    "name": "Grupo Attendis",
    "tpu": 22000,
-   "status": "launched",
-   "run": "5f02b35e96ef"
+   "status": "published",
+   "run": "5f02b35e96ef",
+   "slug": "grupo-attendis"
   },
   {
    "id": "001Od00000ID7LZIA1",
@@ -192,28 +194,28 @@
    "id": "0012u00000pQvlZAAS",
    "name": "ESCOLES FEDAC",
    "tpu": 12100,
-   "status": "error",
-   "run": "2bf19d81049f",
+   "status": "launched",
+   "run": "9367f7ce05ac",
    "report": "lite",
-   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run 2bf19d81049f fallaron 3/26 consultas."
+   "nota": "Relanzado 2026-07-20 ~22:55 UTC tras fallo del lote masivo. FEDAC y Globeducate salieron con ~15-20s de separación (límite del navegador); Loyola con ~80s. Verificar estado en la próxima ejecución."
   },
   {
    "id": "0012u00000qjrqrAAA",
    "name": "Globeducate",
    "tpu": 11750,
-   "status": "error",
-   "run": "fe51f52a6328",
+   "status": "launched",
+   "run": "edcf071e2595",
    "report": "lite",
-   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run fe51f52a6328 fallaron 1/26 consultas."
+   "nota": "Relanzado 2026-07-20 ~22:55 UTC tras fallo del lote masivo. FEDAC y Globeducate salieron con ~15-20s de separación (límite del navegador); Loyola con ~80s. Verificar estado en la próxima ejecución."
   },
   {
    "id": "0012u00000m013JAAQ",
    "name": "Fundación Loyola ACE",
    "tpu": 10900,
-   "status": "error",
-   "run": "fb572251b43f",
+   "status": "launched",
+   "run": "6adcc8be5ada",
    "report": "lite",
-   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run fb572251b43f fallaron 8/26 consultas."
+   "nota": "Relanzado 2026-07-20 ~22:55 UTC tras fallo del lote masivo. FEDAC y Globeducate salieron con ~15-20s de separación (límite del navegador); Loyola con ~80s. Verificar estado en la próxima ejecución."
   },
   {
    "id": "0012u00000d8UNYAA2",
@@ -285,7 +287,7 @@
    "status": "launched",
    "run": "c1f2fbfe358e",
    "report": "lite",
-   "nota": "Relanzado escalonado 2026-07-20 (2 POSTs con ~75s de separación). Si termina succeeded, queda confirmada la hipótesis de contención por concurrencia."
+   "nota": "Run escalonado succeeded 2026-07-20 → hipótesis de contención por concurrencia CONFIRMADA. Listo para generar reporte."
   },
   {
    "id": "001Od00000KeZQWIA3",
@@ -294,7 +296,7 @@
    "status": "launched",
    "run": "ff789784350d",
    "report": "lite",
-   "nota": "Relanzado escalonado 2026-07-20 (2 POSTs con ~75s de separación). Si termina succeeded, queda confirmada la hipótesis de contención por concurrencia."
+   "nota": "Run escalonado succeeded 2026-07-20 → hipótesis de contención por concurrencia CONFIRMADA. Listo para generar reporte."
   },
   {
    "id": "001Od00000VIJfRIAX",
