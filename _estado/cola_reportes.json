@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20 16:10 UTC",
+ "updated": "2026-07-20 16:53 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -30,17 +30,17 @@
    "id": "001If000002R1LKIA0",
    "name": "Salesianas María Auxiliadora",
    "tpu": 42000,
-   "status": "launched",
+   "status": "published",
    "run": "ca333b688384",
-   "slug": "salesianas-maria-auxiliadora",
-   "nota": "REGENERAR conservando slug \"salesianas-maria-auxiliadora\": al reporte publicado le falta la caja de conclusiones \"⚠️ arranque de curso y brecha de activación\". Rehacer el reporte completo con las conclusiones obligatorias, reutilizando el run existente. NO crear nuevo borrador de email (ya existe y es válido)."
+   "slug": "salesianas-maria-auxiliadora"
   },
   {
    "id": "001If000002Qx6bIAC",
    "name": "Maristas Ibérica",
    "tpu": 33300,
-   "status": "launched",
-   "run": "551ba8d3ef18"
+   "status": "published",
+   "run": "551ba8d3ef18",
+   "slug": "maristas-iberica"
   },
   {
    "id": "001Od00000TB6TEIA1",
@@ -192,99 +192,109 @@
    "id": "0012u00000pQvlZAAS",
    "name": "ESCOLES FEDAC",
    "tpu": 12100,
-   "status": "launched",
+   "status": "error",
    "run": "2bf19d81049f",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run 2bf19d81049f fallaron 3/26 consultas."
   },
   {
    "id": "0012u00000qjrqrAAA",
    "name": "Globeducate",
    "tpu": 11750,
-   "status": "launched",
+   "status": "error",
    "run": "fe51f52a6328",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run fe51f52a6328 fallaron 1/26 consultas."
   },
   {
    "id": "0012u00000m013JAAQ",
    "name": "Fundación Loyola ACE",
    "tpu": 10900,
-   "status": "launched",
+   "status": "error",
    "run": "fb572251b43f",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run fb572251b43f fallaron 8/26 consultas."
   },
   {
    "id": "0012u00000d8UNYAA2",
    "name": "Fundación Educativa Mary Ward España",
    "tpu": 10800,
-   "status": "launched",
+   "status": "error",
    "run": "78038dd7195a",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run 78038dd7195a fallaron 1/26 consultas."
   },
   {
    "id": "001If000003bCXvIAM",
    "name": "Fundació Champagnat - Maristes",
    "tpu": 10800,
-   "status": "launched",
+   "status": "error",
    "run": "a6cedacd6a86",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run a6cedacd6a86 fallaron 2/26 consultas."
   },
   {
    "id": "0012u00000j1ApIAAU",
    "name": "International Schools Partnership (ISP Schools)",
    "tpu": 10558,
-   "status": "launched",
+   "status": "error",
    "run": "743915158d6e",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run 743915158d6e fallaron 1/26 consultas."
   },
   {
    "id": "0012u00000j3XomAAE",
    "name": "Fundación Educativa ACI",
    "tpu": 10427,
-   "status": "launched",
+   "status": "error",
    "run": "c1923943401f",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run c1923943401f fallaron 1/26 consultas."
   },
   {
    "id": "001Od00000ata4aIAA",
    "name": "Manyanet",
    "tpu": 10280,
-   "status": "launched",
+   "status": "error",
    "run": "30f25a8a27de",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run 30f25a8a27de fallaron 9/26 consultas."
   },
   {
    "id": "001Od00000XKaXXIA1",
    "name": "FUNDACIÓN EDUCATIVA ÁNGELES GALINO",
    "tpu": 10250,
-   "status": "launched",
+   "status": "error",
    "run": "deadfd1d3384",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run deadfd1d3384 fallaron 1/26 consultas."
   },
   {
    "id": "0012u00000pQcLfAAK",
    "name": "Fundación Educación y Evangelio",
    "tpu": 10230,
-   "status": "launched",
+   "status": "error",
    "run": "343dd15198ba",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run 343dd15198ba fallaron 10/26 consultas."
   },
   {
    "id": "001Od00000Jnx8vIAB",
    "name": "Fundación Spínola",
    "tpu": 10150,
-   "status": "error",
-   "run": "221af912a1a6",
+   "status": "launched",
+   "run": "c1f2fbfe358e",
    "report": "lite",
-   "nota": "Run lite falló al completo (26/26 consultas, 2026-07-20), sospecha de contención por lanzar muchos runs a la vez. RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. Anotar en el resumen si el run escalonado termina succeeded, para confirmar la hipótesis de concurrencia."
+   "nota": "Relanzado escalonado 2026-07-20 (2 POSTs con ~75s de separación). Si termina succeeded, queda confirmada la hipótesis de contención por concurrencia."
   },
   {
    "id": "001Od00000KeZQWIA3",
    "name": "Fundación Educativa Francisco Coll G85311033",
    "tpu": 10100,
-   "status": "error",
-   "run": "091256948aa0",
+   "status": "launched",
+   "run": "ff789784350d",
    "report": "lite",
-   "nota": "Run lite falló al completo (26/26 consultas, 2026-07-20), sospecha de contención por lanzar muchos runs a la vez. RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. Anotar en el resumen si el run escalonado termina succeeded, para confirmar la hipótesis de concurrencia."
+   "nota": "Relanzado escalonado 2026-07-20 (2 POSTs con ~75s de separación). Si termina succeeded, queda confirmada la hipótesis de contención por concurrencia."
   },
   {
    "id": "001Od00000VIJfRIAX",
@@ -317,41 +327,46 @@
    "id": "001Od00000h6DIAIA2",
    "name": "Colegios Franciscanos TOR",
    "tpu": 5120,
-   "status": "launched",
+   "status": "error",
    "run": "63c3aa20aef7",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run 63c3aa20aef7 fallaron 16/26 consultas."
   },
   {
    "id": "001Od00000ekJQlIAM",
    "name": "Agrupamento de Escolas Amadora Oeste",
    "tpu": 3380,
-   "status": "launched",
+   "status": "error",
    "run": "0dd0c8f0a0c2",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run 0dd0c8f0a0c2 fallaron 4/26 consultas."
   },
   {
    "id": "001Od00000g33HMIAY",
    "name": "Agrupamento de Escolas Professor Lindley Cintra",
    "tpu": 2460,
-   "status": "launched",
+   "status": "error",
    "run": "54273fbd1893",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run 54273fbd1893 fallaron 8/26 consultas."
   },
   {
    "id": "001Od00000gAmKvIAK",
    "name": "Saint Albert the Great College",
    "tpu": 560,
-   "status": "launched",
+   "status": "error",
    "run": "e5cdcdb69fe5",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run e5cdcdb69fe5 fallaron 7/26 consultas."
   },
   {
    "id": "001Mo00001HQAHZIA5",
    "name": "Mediterranean College of Sport",
    "tpu": 500,
-   "status": "launched",
+   "status": "error",
    "run": "bffa61043bf3",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run bffa61043bf3 fallaron 8/26 consultas."
   }
  ]
 }
