@@ -1,40 +1,41 @@
 {
- "updated": "2026-07-20 15:42 UTC",
+ "updated": "2026-07-20 15:44 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
    "id": "001Od00000ToLgcIAF",
    "name": "Secretaria Regional de Educação, Ciência e Tecnologia Madeira",
    "tpu": 49740,
-   "status": "launched",
+   "status": "published",
    "run": "d0c2b0536720",
-   "slug": "educacao-madeira",
-   "lang": "pt-PT",
-   "nota": "REGENERAR EN PT-PT: el reporte publicado (educacao-madeira) y el borrador de email actuales están en español; rehacer ambos en portugués de Portugal reutilizando el run existente. Avisar a Rafa de que borre el borrador en español de Emanuel."
+   "slug": "educacao-madeira"
   },
   {
    "id": "001Od00000YUVIwIAP",
    "name": "Inspectoría Salesiana Santiago el Mayor",
    "tpu": 43250,
-   "status": "published",
+   "status": "launched",
    "run": "194a56dcd92b",
-   "slug": "salesianos-santiago-el-mayor"
+   "slug": "salesianos-santiago-el-mayor",
+   "nota": "REGENERAR conservando slug \"salesianos-santiago-el-mayor\": al reporte publicado le falta la caja de conclusiones \"⚠️ arranque de curso y brecha de activación\". Rehacer el reporte completo con las conclusiones obligatorias, reutilizando el run existente. NO crear nuevo borrador de email (ya existe y es válido)."
   },
   {
    "id": "001If000002PTI3IAO",
    "name": "HH. Maristas Provincia Mediterranea",
    "tpu": 42800,
-   "status": "published",
+   "status": "launched",
    "run": "cffd1cab8d6f",
-   "slug": "maristas-mediterranea"
+   "slug": "maristas-mediterranea",
+   "nota": "REGENERAR conservando slug \"maristas-mediterranea\": al reporte publicado le falta la caja de conclusiones \"⚠️ arranque de curso y brecha de activación\". Rehacer el reporte completo con las conclusiones obligatorias, reutilizando el run existente. NO crear nuevo borrador de email (ya existe y es válido)."
   },
   {
    "id": "001If000002R1LKIA0",
    "name": "Salesianas María Auxiliadora",
    "tpu": 42000,
-   "status": "published",
+   "status": "launched",
    "run": "ca333b688384",
-   "slug": "salesianas-maria-auxiliadora"
+   "slug": "salesianas-maria-auxiliadora",
+   "nota": "REGENERAR conservando slug \"salesianas-maria-auxiliadora\": al reporte publicado le falta la caja de conclusiones \"⚠️ arranque de curso y brecha de activación\". Rehacer el reporte completo con las conclusiones obligatorias, reutilizando el run existente. NO crear nuevo borrador de email (ya existe y es válido)."
   },
   {
    "id": "001If000002Qx6bIAC",
@@ -323,8 +324,7 @@
    "tpu": 3380,
    "status": "launched",
    "run": "0dd0c8f0a0c2",
-   "report": "lite",
-   "lang": "pt-PT"
+   "report": "lite"
   },
   {
    "id": "001Od00000g33HMIAY",
@@ -332,8 +332,7 @@
    "tpu": 2460,
    "status": "launched",
    "run": "54273fbd1893",
-   "report": "lite",
-   "lang": "pt-PT"
+   "report": "lite"
   },
   {
    "id": "001Od00000gAmKvIAK",
