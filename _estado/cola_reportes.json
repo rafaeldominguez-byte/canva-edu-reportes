@@ -1,20 +1,22 @@
 {
- "updated": "2026-07-20 12:26 UTC",
+ "updated": "2026-07-20 14:16 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
    "id": "001Od00000ToLgcIAF",
    "name": "Secretaria Regional de Educação, Ciência e Tecnologia Madeira",
    "tpu": 49740,
-   "status": "launched",
-   "run": "d0c2b0536720"
+   "status": "published",
+   "run": "d0c2b0536720",
+   "slug": "educacao-madeira"
   },
   {
    "id": "001Od00000YUVIwIAP",
    "name": "Inspectoría Salesiana Santiago el Mayor",
    "tpu": 43250,
-   "status": "launched",
-   "run": "194a56dcd92b"
+   "status": "published",
+   "run": "194a56dcd92b",
+   "slug": "salesianos-santiago-el-mayor"
   },
   {
    "id": "001If000002PTI3IAO",
@@ -76,43 +78,43 @@
    "id": "0012u00000rRCOVAA4",
    "name": "Fundacion Educativa Jesuitinas",
    "tpu": 21200,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "9aec40c404dc"
   },
   {
    "id": "001Od00000ZPAQHIA5",
    "name": "ESCUELAS PIAS PROVINCIA BETANIA",
    "tpu": 20668,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "5917609c3566"
   },
   {
    "id": "0012u00000mxeNbAAI",
    "name": "Colegio Escuelas Pías de Zaragoza",
    "tpu": 19000,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "f0cda3ed9110"
   },
   {
    "id": "0012u00000plALJAA2",
    "name": "Ministerio de Educación de Melilla",
    "tpu": 17600,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "a8f98596b71b"
   },
   {
    "id": "001Od00000Np69QIAR",
    "name": "Fundación Educación Católica",
    "tpu": 17346,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "bea01410d0bb"
   },
   {
    "id": "0012u00000qlmvCAAQ",
    "name": "Compañía de María N. S.",
    "tpu": 17200,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "e0eb6a80940c"
   },
   {
    "id": "0012u00000rSdSWAA0",
