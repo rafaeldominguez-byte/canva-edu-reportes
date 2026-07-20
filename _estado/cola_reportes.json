@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20 14:40 UTC",
+ "updated": "2026-07-20 15:16 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -143,183 +143,209 @@
    "id": "0012u00000qjaWGAAY",
    "name": "FUNDACION EDUCATIVA AMOR DE DIOS",
    "tpu": 15169,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "0f0161e4837a",
+   "report": "lite"
   },
   {
    "id": "001Od00000gBMppIAG",
    "name": "Jesús-María",
    "tpu": 14720,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "1fb30cba777a",
+   "report": "lite"
   },
   {
    "id": "0012u00000aeYNwAAM",
    "name": "Fundació JesuÏtes Educació",
    "tpu": 14000,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "5c02ce3cc52a",
+   "report": "lite"
   },
   {
    "id": "001If000004Tje6IAC",
    "name": "HIJAS DE LA CARIDAD ESPAÑA CENTRO",
    "tpu": 13486,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "6bb2ad87693d",
+   "report": "lite"
   },
   {
    "id": "0012u00000dBDDxAAO",
    "name": "Fundación Educativa Sofía Barat",
    "tpu": 13000,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "d535983189c9",
+   "report": "lite"
   },
   {
    "id": "0012u00000dyvwcAAA",
    "name": "Divino Maestro Fundación Educativa",
    "tpu": 12150,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "177fcaa0e8d6",
+   "report": "lite"
   },
   {
    "id": "0012u00000pQvlZAAS",
    "name": "ESCOLES FEDAC",
    "tpu": 12100,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "2bf19d81049f",
+   "report": "lite"
   },
   {
    "id": "0012u00000qjrqrAAA",
    "name": "Globeducate",
    "tpu": 11750,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "fe51f52a6328",
+   "report": "lite"
   },
   {
    "id": "0012u00000m013JAAQ",
    "name": "Fundación Loyola ACE",
    "tpu": 10900,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "fb572251b43f",
+   "report": "lite"
   },
   {
    "id": "0012u00000d8UNYAA2",
    "name": "Fundación Educativa Mary Ward España",
    "tpu": 10800,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "78038dd7195a",
+   "report": "lite"
   },
   {
    "id": "001If000003bCXvIAM",
    "name": "Fundació Champagnat - Maristes",
    "tpu": 10800,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "a6cedacd6a86",
+   "report": "lite"
   },
   {
    "id": "0012u00000j1ApIAAU",
    "name": "International Schools Partnership (ISP Schools)",
    "tpu": 10558,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "743915158d6e",
+   "report": "lite"
   },
   {
    "id": "0012u00000j3XomAAE",
    "name": "Fundación Educativa ACI",
    "tpu": 10427,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "c1923943401f",
+   "report": "lite"
   },
   {
    "id": "001Od00000ata4aIAA",
    "name": "Manyanet",
    "tpu": 10280,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "30f25a8a27de",
+   "report": "lite"
   },
   {
    "id": "001Od00000XKaXXIA1",
    "name": "FUNDACIÓN EDUCATIVA ÁNGELES GALINO",
    "tpu": 10250,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "deadfd1d3384",
+   "report": "lite"
   },
   {
    "id": "0012u00000pQcLfAAK",
    "name": "Fundación Educación y Evangelio",
    "tpu": 10230,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "343dd15198ba",
+   "report": "lite"
   },
   {
    "id": "001Od00000Jnx8vIAB",
    "name": "Fundación Spínola",
    "tpu": 10150,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "221af912a1a6",
+   "report": "lite"
   },
   {
    "id": "001Od00000KeZQWIA3",
    "name": "Fundación Educativa Francisco Coll G85311033",
    "tpu": 10100,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "091256948aa0",
+   "report": "lite"
   },
   {
    "id": "001Od00000VIJfRIAX",
    "name": "Institucionalizados Internacional SEK",
    "tpu": 10060,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "ffc7b70463f1",
+   "report": "lite"
   },
   {
    "id": "001Od00000fXPgCIAW",
    "name": "Fundación Educativa Santísima Trinidad (centros FEST)",
    "tpu": 6500,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "5dfad3a281d5",
+   "report": "lite"
   },
   {
    "id": "001Od00000gFgrZIAS",
    "name": "Fundación Educativa Franciscanas de la Inmaculada",
    "tpu": 5590,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "4964b327733d",
+   "report": "lite"
   },
   {
    "id": "001Od00000h6DIAIA2",
    "name": "Colegios Franciscanos TOR",
    "tpu": 5120,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "63c3aa20aef7",
+   "report": "lite"
   },
   {
    "id": "001Od00000ekJQlIAM",
    "name": "Agrupamento de Escolas Amadora Oeste",
    "tpu": 3380,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "0dd0c8f0a0c2",
+   "report": "lite"
   },
   {
    "id": "001Od00000g33HMIAY",
    "name": "Agrupamento de Escolas Professor Lindley Cintra",
    "tpu": 2460,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "54273fbd1893",
+   "report": "lite"
   },
   {
    "id": "001Od00000gAmKvIAK",
    "name": "Saint Albert the Great College",
    "tpu": 560,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "e5cdcdb69fe5",
+   "report": "lite"
   },
   {
    "id": "001Mo00001HQAHZIA5",
    "name": "Mediterranean College of Sport",
    "tpu": 500,
-   "status": "pending",
-   "run": null
+   "status": "launched",
+   "run": "bffa61043bf3",
+   "report": "lite"
   }
  ]
 }
