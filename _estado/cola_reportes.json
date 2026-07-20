@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20 15:44 UTC",
+ "updated": "2026-07-20 16:05 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -14,19 +14,17 @@
    "id": "001Od00000YUVIwIAP",
    "name": "Inspectoría Salesiana Santiago el Mayor",
    "tpu": 43250,
-   "status": "launched",
+   "status": "published",
    "run": "194a56dcd92b",
-   "slug": "salesianos-santiago-el-mayor",
-   "nota": "REGENERAR conservando slug \"salesianos-santiago-el-mayor\": al reporte publicado le falta la caja de conclusiones \"⚠️ arranque de curso y brecha de activación\". Rehacer el reporte completo con las conclusiones obligatorias, reutilizando el run existente. NO crear nuevo borrador de email (ya existe y es válido)."
+   "slug": "salesianos-santiago-el-mayor"
   },
   {
    "id": "001If000002PTI3IAO",
    "name": "HH. Maristas Provincia Mediterranea",
    "tpu": 42800,
-   "status": "launched",
+   "status": "published",
    "run": "cffd1cab8d6f",
-   "slug": "maristas-mediterranea",
-   "nota": "REGENERAR conservando slug \"maristas-mediterranea\": al reporte publicado le falta la caja de conclusiones \"⚠️ arranque de curso y brecha de activación\". Rehacer el reporte completo con las conclusiones obligatorias, reutilizando el run existente. NO crear nuevo borrador de email (ya existe y es válido)."
+   "slug": "maristas-mediterranea"
   },
   {
    "id": "001If000002R1LKIA0",
@@ -274,41 +272,46 @@
    "id": "001Od00000Jnx8vIAB",
    "name": "Fundación Spínola",
    "tpu": 10150,
-   "status": "launched",
+   "status": "error",
    "run": "221af912a1a6",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite 221af912a1a6 falló al completo (26/26 consultas failed el 2026-07-20). Relanzar un run nuevo del LITE cuando haya hueco (<4 en vuelo)."
   },
   {
    "id": "001Od00000KeZQWIA3",
    "name": "Fundación Educativa Francisco Coll G85311033",
    "tpu": 10100,
-   "status": "launched",
+   "status": "error",
    "run": "091256948aa0",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite 091256948aa0 falló al completo (26/26 consultas failed el 2026-07-20). Relanzar un run nuevo del LITE cuando haya hueco (<4 en vuelo)."
   },
   {
    "id": "001Od00000VIJfRIAX",
    "name": "Institucionalizados Internacional SEK",
    "tpu": 10060,
-   "status": "launched",
+   "status": "error",
    "run": "ffc7b70463f1",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite ffc7b70463f1 falló al completo (26/26 consultas failed el 2026-07-20). Relanzar un run nuevo del LITE cuando haya hueco (<4 en vuelo)."
   },
   {
    "id": "001Od00000fXPgCIAW",
    "name": "Fundación Educativa Santísima Trinidad (centros FEST)",
    "tpu": 6500,
-   "status": "launched",
+   "status": "error",
    "run": "5dfad3a281d5",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite 5dfad3a281d5 falló al completo (26/26 consultas failed el 2026-07-20). Relanzar un run nuevo del LITE cuando haya hueco (<4 en vuelo)."
   },
   {
    "id": "001Od00000gFgrZIAS",
    "name": "Fundación Educativa Franciscanas de la Inmaculada",
    "tpu": 5590,
-   "status": "launched",
+   "status": "error",
    "run": "4964b327733d",
-   "report": "lite"
+   "report": "lite",
+   "nota": "Run lite 4964b327733d falló al completo (26/26 consultas failed el 2026-07-20). Relanzar un run nuevo del LITE cuando haya hueco (<4 en vuelo)."
   },
   {
    "id": "001Od00000h6DIAIA2",
