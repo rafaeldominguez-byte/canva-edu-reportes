@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20 16:05 UTC",
+ "updated": "2026-07-20 16:10 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -275,7 +275,7 @@
    "status": "error",
    "run": "221af912a1a6",
    "report": "lite",
-   "nota": "Run lite 221af912a1a6 falló al completo (26/26 consultas failed el 2026-07-20). Relanzar un run nuevo del LITE cuando haya hueco (<4 en vuelo)."
+   "nota": "Run lite falló al completo (26/26 consultas, 2026-07-20), sospecha de contención por lanzar muchos runs a la vez. RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. Anotar en el resumen si el run escalonado termina succeeded, para confirmar la hipótesis de concurrencia."
   },
   {
    "id": "001Od00000KeZQWIA3",
@@ -284,7 +284,7 @@
    "status": "error",
    "run": "091256948aa0",
    "report": "lite",
-   "nota": "Run lite 091256948aa0 falló al completo (26/26 consultas failed el 2026-07-20). Relanzar un run nuevo del LITE cuando haya hueco (<4 en vuelo)."
+   "nota": "Run lite falló al completo (26/26 consultas, 2026-07-20), sospecha de contención por lanzar muchos runs a la vez. RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. Anotar en el resumen si el run escalonado termina succeeded, para confirmar la hipótesis de concurrencia."
   },
   {
    "id": "001Od00000VIJfRIAX",
@@ -293,7 +293,7 @@
    "status": "error",
    "run": "ffc7b70463f1",
    "report": "lite",
-   "nota": "Run lite ffc7b70463f1 falló al completo (26/26 consultas failed el 2026-07-20). Relanzar un run nuevo del LITE cuando haya hueco (<4 en vuelo)."
+   "nota": "Run lite falló al completo (26/26 consultas, 2026-07-20), sospecha de contención por lanzar muchos runs a la vez. RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. Anotar en el resumen si el run escalonado termina succeeded, para confirmar la hipótesis de concurrencia."
   },
   {
    "id": "001Od00000fXPgCIAW",
@@ -302,7 +302,7 @@
    "status": "error",
    "run": "5dfad3a281d5",
    "report": "lite",
-   "nota": "Run lite 5dfad3a281d5 falló al completo (26/26 consultas failed el 2026-07-20). Relanzar un run nuevo del LITE cuando haya hueco (<4 en vuelo)."
+   "nota": "Run lite falló al completo (26/26 consultas, 2026-07-20), sospecha de contención por lanzar muchos runs a la vez. RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. Anotar en el resumen si el run escalonado termina succeeded, para confirmar la hipótesis de concurrencia."
   },
   {
    "id": "001Od00000gFgrZIAS",
@@ -311,7 +311,7 @@
    "status": "error",
    "run": "4964b327733d",
    "report": "lite",
-   "nota": "Run lite 4964b327733d falló al completo (26/26 consultas failed el 2026-07-20). Relanzar un run nuevo del LITE cuando haya hueco (<4 en vuelo)."
+   "nota": "Run lite falló al completo (26/26 consultas, 2026-07-20), sospecha de contención por lanzar muchos runs a la vez. RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. Anotar en el resumen si el run escalonado termina succeeded, para confirmar la hipótesis de concurrencia."
   },
   {
    "id": "001Od00000h6DIAIA2",
