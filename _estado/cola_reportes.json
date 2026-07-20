@@ -1,0 +1,321 @@
+{
+ "updated": "2026-07-20 12:26 UTC",
+ "report": "1a62fdff3292",
+ "accounts": [
+  {
+   "id": "001Od00000ToLgcIAF",
+   "name": "Secretaria Regional de Educação, Ciência e Tecnologia Madeira",
+   "tpu": 49740,
+   "status": "launched",
+   "run": "d0c2b0536720"
+  },
+  {
+   "id": "001Od00000YUVIwIAP",
+   "name": "Inspectoría Salesiana Santiago el Mayor",
+   "tpu": 43250,
+   "status": "launched",
+   "run": "194a56dcd92b"
+  },
+  {
+   "id": "001If000002PTI3IAO",
+   "name": "HH. Maristas Provincia Mediterranea",
+   "tpu": 42800,
+   "status": "launched",
+   "run": "cffd1cab8d6f"
+  },
+  {
+   "id": "001If000002R1LKIA0",
+   "name": "Salesianas María Auxiliadora",
+   "tpu": 42000,
+   "status": "launched",
+   "run": "ca333b688384"
+  },
+  {
+   "id": "001If000002Qx6bIAC",
+   "name": "Maristas Ibérica",
+   "tpu": 33300,
+   "status": "launched",
+   "run": "551ba8d3ef18"
+  },
+  {
+   "id": "001Od00000TB6TEIA1",
+   "name": "Fundación Educativa Santo Domingo - FESD",
+   "tpu": 28500,
+   "status": "launched",
+   "run": "d842bc7a1b22"
+  },
+  {
+   "id": "0012u00000sf1EWAAY",
+   "name": "Grupo Attendis",
+   "tpu": 22000,
+   "status": "launched",
+   "run": "5f02b35e96ef"
+  },
+  {
+   "id": "001Od00000ID7LZIA1",
+   "name": "FUNDACIÓN ESCUELA TERESIANA",
+   "tpu": 22000,
+   "status": "launched",
+   "run": "91742d82291f"
+  },
+  {
+   "id": "0012u00000j3XmmAAE",
+   "name": "Germans de les Escoles Cristianes La Salle Catalunya",
+   "tpu": 21700,
+   "status": "launched",
+   "run": "e176edff44c8"
+  },
+  {
+   "id": "0012u00000k7rueAAA",
+   "name": "Fundación SAFA",
+   "tpu": 21500,
+   "status": "launched",
+   "run": "a7b7aceab627"
+  },
+  {
+   "id": "0012u00000rRCOVAA4",
+   "name": "Fundacion Educativa Jesuitinas",
+   "tpu": 21200,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001Od00000ZPAQHIA5",
+   "name": "ESCUELAS PIAS PROVINCIA BETANIA",
+   "tpu": 20668,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "0012u00000mxeNbAAI",
+   "name": "Colegio Escuelas Pías de Zaragoza",
+   "tpu": 19000,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "0012u00000plALJAA2",
+   "name": "Ministerio de Educación de Melilla",
+   "tpu": 17600,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001Od00000Np69QIAR",
+   "name": "Fundación Educación Católica",
+   "tpu": 17346,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "0012u00000qlmvCAAQ",
+   "name": "Compañía de María N. S.",
+   "tpu": 17200,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "0012u00000rSdSWAA0",
+   "name": "Gredos San Diego",
+   "tpu": 17000,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001Od00000PWteOIAT",
+   "name": "RED EDUCATIVA ARENALES",
+   "tpu": 16500,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "0012u00000qjbfNAAQ",
+   "name": "Maristas Compostela",
+   "tpu": 15704,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "0012u00000qjaWGAAY",
+   "name": "FUNDACION EDUCATIVA AMOR DE DIOS",
+   "tpu": 15169,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001Od00000gBMppIAG",
+   "name": "Jesús-María",
+   "tpu": 14720,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "0012u00000aeYNwAAM",
+   "name": "Fundació JesuÏtes Educació",
+   "tpu": 14000,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001If000004Tje6IAC",
+   "name": "HIJAS DE LA CARIDAD ESPAÑA CENTRO",
+   "tpu": 13486,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "0012u00000dBDDxAAO",
+   "name": "Fundación Educativa Sofía Barat",
+   "tpu": 13000,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "0012u00000dyvwcAAA",
+   "name": "Divino Maestro Fundación Educativa",
+   "tpu": 12150,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "0012u00000pQvlZAAS",
+   "name": "ESCOLES FEDAC",
+   "tpu": 12100,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "0012u00000qjrqrAAA",
+   "name": "Globeducate",
+   "tpu": 11750,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "0012u00000m013JAAQ",
+   "name": "Fundación Loyola ACE",
+   "tpu": 10900,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "0012u00000d8UNYAA2",
+   "name": "Fundación Educativa Mary Ward España",
+   "tpu": 10800,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001If000003bCXvIAM",
+   "name": "Fundació Champagnat - Maristes",
+   "tpu": 10800,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "0012u00000j1ApIAAU",
+   "name": "International Schools Partnership (ISP Schools)",
+   "tpu": 10558,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "0012u00000j3XomAAE",
+   "name": "Fundación Educativa ACI",
+   "tpu": 10427,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001Od00000ata4aIAA",
+   "name": "Manyanet",
+   "tpu": 10280,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001Od00000XKaXXIA1",
+   "name": "FUNDACIÓN EDUCATIVA ÁNGELES GALINO",
+   "tpu": 10250,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "0012u00000pQcLfAAK",
+   "name": "Fundación Educación y Evangelio",
+   "tpu": 10230,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001Od00000Jnx8vIAB",
+   "name": "Fundación Spínola",
+   "tpu": 10150,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001Od00000KeZQWIA3",
+   "name": "Fundación Educativa Francisco Coll G85311033",
+   "tpu": 10100,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001Od00000VIJfRIAX",
+   "name": "Institucionalizados Internacional SEK",
+   "tpu": 10060,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001Od00000fXPgCIAW",
+   "name": "Fundación Educativa Santísima Trinidad (centros FEST)",
+   "tpu": 6500,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001Od00000gFgrZIAS",
+   "name": "Fundación Educativa Franciscanas de la Inmaculada",
+   "tpu": 5590,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001Od00000h6DIAIA2",
+   "name": "Colegios Franciscanos TOR",
+   "tpu": 5120,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001Od00000ekJQlIAM",
+   "name": "Agrupamento de Escolas Amadora Oeste",
+   "tpu": 3380,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001Od00000g33HMIAY",
+   "name": "Agrupamento de Escolas Professor Lindley Cintra",
+   "tpu": 2460,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001Od00000gAmKvIAK",
+   "name": "Saint Albert the Great College",
+   "tpu": 560,
+   "status": "pending",
+   "run": null
+  },
+  {
+   "id": "001Mo00001HQAHZIA5",
+   "name": "Mediterranean College of Sport",
+   "tpu": 500,
+   "status": "pending",
+   "run": null
+  }
+ ]
+}
