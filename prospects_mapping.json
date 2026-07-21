@@ -268,5 +268,20 @@
    "spend_12m_usd": 41599.5,
    "fecha_corte": "2026-07-18"
   }
+ },
+ "melilla": {
+  "slug": "melilla-ea4f8b4db5",
+  "updated": "2026-07-21",
+  "metrics": {
+   "usuarios": 4458,
+   "yau": 2310,
+   "mau": 360,
+   "docentes": 796,
+   "estudiantes": 3216,
+   "pct_free": 97.5,
+   "designs_12m": 55066,
+   "spend_12m_usd": 31.42,
+   "fecha_corte": "2026-07-18"
+  }
  }
 }
