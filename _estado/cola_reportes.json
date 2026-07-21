@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21 09:55 UTC",
+ "updated": "2026-07-21 10:13 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -142,17 +142,17 @@
    "id": "001Od00000PWteOIAT",
    "name": "RED EDUCATIVA ARENALES",
    "tpu": 16500,
-   "status": "launched",
+   "status": "published",
    "run": "2681fc1830c9",
-   "nota": "Run original failed-parcial verificado 2026-07-20 (42/43 succeeded; solo fallo Copy of Top Collaborating Teachers). Procesable."
+   "slug": "red-arenales-791d668a05"
   },
   {
    "id": "0012u00000qjbfNAAQ",
    "name": "Maristas Compostela",
    "tpu": 15704,
-   "status": "launched",
+   "status": "published",
    "run": "1eb9ead05b44",
-   "nota": "Run original failed-parcial verificado 2026-07-20 (42/43 succeeded; solo fallo Copy of Top Collaborating Teachers). Procesable."
+   "slug": "maristas-compostela-576e39761d"
   },
   {
    "id": "0012u00000qjaWGAAY",
@@ -350,7 +350,7 @@
    "status": "launched",
    "run": "207cda8df369",
    "report": "lite",
-   "nota": "Relanzado escalonado 2026-07-21 ~09:07 UTC (3 POSTs con ~70s de separación). Verificar estado en la próxima ejecución."
+   "nota": "Run lite succeeded (verificado 2026-07-21 ~11:50 UTC). Listo para generar reporte."
   },
   {
    "id": "001Od00000ekJQlIAM",
