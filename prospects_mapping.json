@@ -238,5 +238,20 @@
    "spend_12m_usd": 27915.49,
    "fecha_corte": "2026-07-18"
   }
+ },
+ "la-rioja": {
+  "slug": "la-rioja-e556bd54a6",
+  "updated": "2026-07-21",
+  "metrics": {
+   "usuarios": 31826,
+   "yau": 20886,
+   "mau": 2280,
+   "docentes": 3658,
+   "estudiantes": 19604,
+   "pct_free": 87.7,
+   "designs_12m": 377857,
+   "spend_12m_usd": 7265.62,
+   "fecha_corte": "2026-07-18"
+  }
  }
 }
