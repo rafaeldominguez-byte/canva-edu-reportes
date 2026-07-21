@@ -58,5 +58,20 @@
    "spend_12m_usd": 3051.65,
    "fecha_corte": "2026-07-18"
   }
+ },
+ "valencia": {
+  "slug": "valencia-a6e0b8bc98",
+  "updated": "2026-07-21",
+  "metrics": {
+   "usuarios": 191847,
+   "yau": 124399,
+   "mau": 18722,
+   "docentes": 24451,
+   "estudiantes": 122108,
+   "pct_free": 88.5,
+   "designs_12m": 2210625,
+   "spend_12m_usd": 40588.43,
+   "fecha_corte": "2026-07-18"
+  }
  }
 }
