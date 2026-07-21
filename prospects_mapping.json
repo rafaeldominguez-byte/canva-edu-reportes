@@ -133,5 +133,20 @@
    "spend_12m_usd": 2781.74,
    "fecha_corte": "2026-07-18"
   }
+ },
+ "canarias": {
+  "slug": "canarias-495d63d6f2",
+  "updated": "2026-07-21",
+  "metrics": {
+   "usuarios": 53023,
+   "yau": 6873,
+   "mau": 1973,
+   "docentes": 5173,
+   "estudiantes": 22239,
+   "pct_free": 94.0,
+   "designs_12m": 216287,
+   "spend_12m_usd": 20102.34,
+   "fecha_corte": "2026-07-18"
+  }
  }
 }
