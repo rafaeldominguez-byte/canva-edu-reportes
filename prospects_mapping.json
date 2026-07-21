@@ -223,5 +223,20 @@
    "spend_12m_usd": 0.0,
    "fecha_corte": "2026-07-18"
   }
+ },
+ "extremadura": {
+  "slug": "extremadura-4ea7050569",
+  "updated": "2026-07-21",
+  "metrics": {
+   "usuarios": 121826,
+   "yau": 79588,
+   "mau": 11658,
+   "docentes": 13223,
+   "estudiantes": 73716,
+   "pct_free": 87.5,
+   "designs_12m": 1498666,
+   "spend_12m_usd": 27915.49,
+   "fecha_corte": "2026-07-18"
+  }
  }
 }
