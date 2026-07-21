@@ -193,5 +193,20 @@
    "spend_12m_usd": 24284.64,
    "fecha_corte": "2026-07-18"
   }
+ },
+ "cataluna": {
+  "slug": "cataluna-e7871c5e07",
+  "updated": "2026-07-21",
+  "metrics": {
+   "usuarios": 122063,
+   "yau": 89467,
+   "mau": 44136,
+   "docentes": 73255,
+   "estudiantes": 10036,
+   "pct_free": 49.0,
+   "designs_12m": 4509957,
+   "spend_12m_usd": 110343.92,
+   "fecha_corte": "2026-07-18"
+  }
  }
 }
