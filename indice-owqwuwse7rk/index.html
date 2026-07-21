@@ -55,7 +55,7 @@ box-shadow:0 4px 14px rgba(20,30,60,.15);outline:none;"></div>
 <p class="foot">Live data from the account tracking sheet. Each institution only receives the direct link to its own report; the button is disabled for accounts without a published report (pending).</p>
 </div></div>
 <script>
-const SLUGS = {"001Od00000RSMPX": {"slug": "nazaret-colegios-innovadores", "history": ["2026-q3"], "updated": "2026-07-19"}, "0012u00000qllrz": {"slug": "salesianos-maria-auxiliadora", "history": ["2026-q3"], "updated": "2026-07-19"}, "0012u00000nRuxa": {"slug": "vedruna-educacion", "history": ["2026-q3"], "updated": "2026-07-20"}, "001Od00000ToLgc": {"slug": "educacao-madeira", "history": ["2026-q3"], "updated": "2026-07-20"}, "001Od00000YUVIw": {"slug": "salesianos-santiago-el-mayor", "history": ["2026-q3"], "updated": "2026-07-20"}, "001If000002PTI3": {"slug": "maristas-mediterranea", "history": ["2026-q3"], "updated": "2026-07-20"}, "001If000002R1LK": {"slug": "salesianas-maria-auxiliadora", "history": ["2026-q3"], "updated": "2026-07-20"}, "001If000002Qx6b": {"slug": "maristas-iberica", "history": ["2026-q3"], "updated": "2026-07-20"}, "001Od00000TB6TE": {"slug": "fesd-santo-domingo", "history": ["2026-q3"], "updated": "2026-07-20"}, "0012u00000sf1EW": {"slug": "grupo-attendis", "history": ["2026-q3"], "updated": "2026-07-20"}, "001Od00000ID7LZ": {"slug": "escuela-teresiana", "history": ["2026-q3"], "updated": "2026-07-20"}, "0012u00000j3Xmm": {"slug": "la-salle-catalunya", "history": ["2026-q3"], "updated": "2026-07-20"}, "0012u00000k7rue": {"slug": "fundacion-safa", "history": ["2026-q3"], "updated": "2026-07-21"}, "0012u00000rRCOV": {"slug": "fundacion-jesuitinas", "history": ["2026-q3"], "updated": "2026-07-21"}}; // account_id (15 primeros chars) -> slug del reporte publicado
+const SLUGS = {"001Od00000RSMPX": {"slug": "nazaret-colegios-innovadores", "history": ["2026-q3"], "updated": "2026-07-19"}, "0012u00000qllrz": {"slug": "salesianos-maria-auxiliadora", "history": ["2026-q3"], "updated": "2026-07-19"}, "0012u00000nRuxa": {"slug": "vedruna-educacion", "history": ["2026-q3"], "updated": "2026-07-20"}, "001Od00000ToLgc": {"slug": "educacao-madeira-023f0bde94", "history": ["2026-q3"], "updated": "2026-07-20"}, "001Od00000YUVIw": {"slug": "salesianos-santiago-el-mayor-727ead7e73", "history": ["2026-q3"], "updated": "2026-07-20"}, "001If000002PTI3": {"slug": "maristas-mediterranea-cfe257ad93", "history": ["2026-q3"], "updated": "2026-07-20"}, "001If000002R1LK": {"slug": "salesianas-maria-auxiliadora-e37faa1fd2", "history": ["2026-q3"], "updated": "2026-07-20"}, "001If000002Qx6b": {"slug": "maristas-iberica-5c882f75f3", "history": ["2026-q3"], "updated": "2026-07-20"}, "001Od00000TB6TE": {"slug": "fesd-santo-domingo-b5911470c7", "history": ["2026-q3"], "updated": "2026-07-20"}, "0012u00000sf1EW": {"slug": "grupo-attendis-53e8938182", "history": ["2026-q3"], "updated": "2026-07-20"}, "001Od00000ID7LZ": {"slug": "escuela-teresiana-e27d45e6fb", "history": ["2026-q3"], "updated": "2026-07-20"}, "0012u00000j3Xmm": {"slug": "la-salle-catalunya-f4c05f4875", "history": ["2026-q3"], "updated": "2026-07-20"}, "0012u00000k7rue": {"slug": "fundacion-safa-cf0e510d2f", "history": ["2026-q3"], "updated": "2026-07-21"}, "0012u00000rRCOV": {"slug": "fundacion-jesuitinas-e4827ed9f5", "history": ["2026-q3"], "updated": "2026-07-21"}}; // account_id (15 primeros chars) -> slug del reporte publicado
 const SHEET = "https://docs.google.com/spreadsheets/d/1CTSSkCwTmUdVn8y3zag_pQnEgj6TBTwsN70JYR6Nu9o/gviz/tq?tqx=out:csv&gid=0";
 const SF = id => `https://canva.lightning.force.com/lightning/r/Account/${id}/view`;
 
@@ -126,7 +126,7 @@ function proceed(base, sourceLabel){
         <span class="rank">${i+1}</span>
         <span class="name">${a.name}</span>
         ${a.updated ? `<span class="fresh ${a.stale ? "old" : "ok"}" title="Last published">${a.stale ? "⚠ " : ""}Updated ${a.updated}</span>` : ""}
-        ${a.slug ? `<a class="btn rep" href="../reportes/${a.slug}/">View report →</a>`
+        ${a.slug ? `<a class="btn rep" href="../reportes/${a.slug}/" target="_blank" rel="noopener">View report →</a>`
                  : `<span class="btn rep-off" title="Report not generated yet">No report</span>`}
         ${a.id ? `<a class="btn sf" href="${SF(a.id)}" target="_blank" rel="noopener">Salesforce</a>` : ""}
       </div>
@@ -136,7 +136,7 @@ function proceed(base, sourceLabel){
         <div class="stat"><div class="v">${fmt(a.act)}</div><div class="l">Activated users</div></div>
         <div class="stat"><div class="v">${a.pct}</div><div class="l">% MAU</div></div>
       </div>
-      ${a.history && a.history.length > 1 ? `<div class="hist">Archive: ${a.history.slice(0,-1).map(q=>`<a href="../reportes/${a.slug}/${q}/">${q.toUpperCase()}</a>`).join("")}</div>` : ""}
+      ${a.history && a.history.length > 1 ? `<div class="hist">Archive: ${a.history.slice(0,-1).map(q=>`<a href="../reportes/${a.slug}/${q}/" target="_blank" rel="noopener">${q.toUpperCase()}</a>`).join("")}</div>` : ""}
     </div>`).join("") : '<div id="estado" style="display:block">No accounts match your search.</div>'; };
   render(accts);
   document.getElementById("buscar").addEventListener("input", e => {
