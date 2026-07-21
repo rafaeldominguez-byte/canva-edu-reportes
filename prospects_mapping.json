@@ -178,5 +178,20 @@
    "spend_12m_usd": 0.0,
    "fecha_corte": "2026-07-18"
   }
+ },
+ "castilla-y-leon": {
+  "slug": "castilla-y-leon-8ddc74db86",
+  "updated": "2026-07-21",
+  "metrics": {
+   "usuarios": 145873,
+   "yau": 96165,
+   "mau": 17243,
+   "docentes": 21613,
+   "estudiantes": 90596,
+   "pct_free": 83.8,
+   "designs_12m": 1818994,
+   "spend_12m_usd": 24284.64,
+   "fecha_corte": "2026-07-18"
+  }
  }
 }
