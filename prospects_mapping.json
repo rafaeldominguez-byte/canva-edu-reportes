@@ -163,5 +163,20 @@
    "spend_12m_usd": 8458.15,
    "fecha_corte": "2026-07-18"
   }
+ },
+ "castilla-la-mancha": {
+  "slug": "castilla-la-mancha-19d2f65c54",
+  "updated": "2026-07-21",
+  "metrics": {
+   "usuarios": 1664,
+   "yau": 265,
+   "mau": 128,
+   "docentes": 257,
+   "estudiantes": 21,
+   "pct_free": 64.1,
+   "designs_12m": 15698,
+   "spend_12m_usd": 0.0,
+   "fecha_corte": "2026-07-18"
+  }
  }
 }
