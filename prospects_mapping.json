@@ -1,0 +1,17 @@
+{
+ "galicia": {
+  "slug": "galicia-475fdff280",
+  "updated": "2026-07-21",
+  "metrics": {
+   "usuarios": 22130,
+   "yau": 13019,
+   "mau": 5178,
+   "docentes": 11999,
+   "estudiantes": 706,
+   "pct_free": 69.8,
+   "designs_12m": 690571,
+   "spend_12m_usd": 15344.03,
+   "fecha_corte": "2026-07-18"
+  }
+ }
+}
