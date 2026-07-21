@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21 13:41 UTC",
+ "updated": "2026-07-21 13:42 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -302,10 +302,10 @@
    "id": "001Od00000Jnx8vIAB",
    "name": "Fundación Spínola",
    "tpu": 10150,
-   "status": "launched",
+   "status": "error",
    "run": "d8d9199b1ddb",
    "report": "lite",
-   "nota": "Run anterior (c1f2fbfe358e) devolvió datos inconsistentes (5 activados vs 10.150 TPU). Relanzado 2026-07-21 ~15:5x UTC como d8d9199b1ddb. Verificar datos antes de generar."
+   "nota": "DATOS INCONSISTENTES también en el rerun d8d9199b1ddb (5 activados vs 10.150 TPU, 181 filas): el mapeo cuenta→marcas de Spínola parece roto en la fuente del LITE. Probar con el reporte ORIGINAL de Canva o revisar el account mapping en Salesforce/ds_prod antes de reintentar."
   },
   {
    "id": "001Od00000KeZQWIA3",
