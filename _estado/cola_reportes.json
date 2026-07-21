@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21 08:28 UTC",
+ "updated": "2026-07-21 09:10 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -8,8 +8,7 @@
    "tpu": 49740,
    "status": "published",
    "run": "d0c2b0536720",
-   "slug": "educacao-madeira-023f0bde94",
-   "nota": "URL MIGRADA a slug secreto 'educacao-madeira-023f0bde94': si existe borrador de Gmail de esta cuenta con la URL antigua 'educacao-madeira', actualiza el enlace del borrador vía Chrome (nodo de texto, misma técnica del arreglo de enlaces)."
+   "slug": "educacao-madeira-023f0bde94"
   },
   {
    "id": "001Od00000YUVIwIAP",
@@ -17,8 +16,7 @@
    "tpu": 43250,
    "status": "published",
    "run": "194a56dcd92b",
-   "slug": "salesianos-santiago-el-mayor-727ead7e73",
-   "nota": "URL MIGRADA a slug secreto 'salesianos-santiago-el-mayor-727ead7e73': si existe borrador de Gmail de esta cuenta con la URL antigua 'salesianos-santiago-el-mayor', actualiza el enlace del borrador vía Chrome (nodo de texto, misma técnica del arreglo de enlaces)."
+   "slug": "salesianos-santiago-el-mayor-727ead7e73"
   },
   {
    "id": "001If000002PTI3IAO",
@@ -26,8 +24,7 @@
    "tpu": 42800,
    "status": "published",
    "run": "cffd1cab8d6f",
-   "slug": "maristas-mediterranea-cfe257ad93",
-   "nota": "URL MIGRADA a slug secreto 'maristas-mediterranea-cfe257ad93': si existe borrador de Gmail de esta cuenta con la URL antigua 'maristas-mediterranea', actualiza el enlace del borrador vía Chrome (nodo de texto, misma técnica del arreglo de enlaces)."
+   "slug": "maristas-mediterranea-cfe257ad93"
   },
   {
    "id": "001If000002R1LKIA0",
@@ -35,8 +32,7 @@
    "tpu": 42000,
    "status": "published",
    "run": "ca333b688384",
-   "slug": "salesianas-maria-auxiliadora-e37faa1fd2",
-   "nota": "URL MIGRADA a slug secreto 'salesianas-maria-auxiliadora-e37faa1fd2': si existe borrador de Gmail de esta cuenta con la URL antigua 'salesianas-maria-auxiliadora', actualiza el enlace del borrador vía Chrome (nodo de texto, misma técnica del arreglo de enlaces)."
+   "slug": "salesianas-maria-auxiliadora-e37faa1fd2"
   },
   {
    "id": "001If000002Qx6bIAC",
@@ -44,8 +40,7 @@
    "tpu": 33300,
    "status": "published",
    "run": "551ba8d3ef18",
-   "slug": "maristas-iberica-5c882f75f3",
-   "nota": "URL MIGRADA a slug secreto 'maristas-iberica-5c882f75f3': si existe borrador de Gmail de esta cuenta con la URL antigua 'maristas-iberica', actualiza el enlace del borrador vía Chrome (nodo de texto, misma técnica del arreglo de enlaces)."
+   "slug": "maristas-iberica-5c882f75f3"
   },
   {
    "id": "001Od00000TB6TEIA1",
@@ -53,8 +48,7 @@
    "tpu": 28500,
    "status": "published",
    "run": "d842bc7a1b22",
-   "slug": "fesd-santo-domingo-b5911470c7",
-   "nota": "URL MIGRADA a slug secreto 'fesd-santo-domingo-b5911470c7': si existe borrador de Gmail de esta cuenta con la URL antigua 'fesd-santo-domingo', actualiza el enlace del borrador vía Chrome (nodo de texto, misma técnica del arreglo de enlaces)."
+   "slug": "fesd-santo-domingo-b5911470c7"
   },
   {
    "id": "0012u00000sf1EWAAY",
@@ -62,8 +56,7 @@
    "tpu": 22000,
    "status": "published",
    "run": "5f02b35e96ef",
-   "slug": "grupo-attendis-53e8938182",
-   "nota": "URL MIGRADA a slug secreto 'grupo-attendis-53e8938182': si existe borrador de Gmail de esta cuenta con la URL antigua 'grupo-attendis', actualiza el enlace del borrador vía Chrome (nodo de texto, misma técnica del arreglo de enlaces)."
+   "slug": "grupo-attendis-53e8938182"
   },
   {
    "id": "001Od00000ID7LZIA1",
@@ -71,8 +64,7 @@
    "tpu": 22000,
    "status": "published",
    "run": "91742d82291f",
-   "slug": "escuela-teresiana-e27d45e6fb",
-   "nota": "URL MIGRADA a slug secreto 'escuela-teresiana-e27d45e6fb': si existe borrador de Gmail de esta cuenta con la URL antigua 'escuela-teresiana', actualiza el enlace del borrador vía Chrome (nodo de texto, misma técnica del arreglo de enlaces)."
+   "slug": "escuela-teresiana-e27d45e6fb"
   },
   {
    "id": "0012u00000j3XmmAAE",
@@ -80,8 +72,7 @@
    "tpu": 21700,
    "status": "published",
    "run": "e176edff44c8",
-   "slug": "la-salle-catalunya-f4c05f4875",
-   "nota": "URL MIGRADA a slug secreto 'la-salle-catalunya-f4c05f4875': si existe borrador de Gmail de esta cuenta con la URL antigua 'la-salle-catalunya', actualiza el enlace del borrador vía Chrome (nodo de texto, misma técnica del arreglo de enlaces)."
+   "slug": "la-salle-catalunya-f4c05f4875"
   },
   {
    "id": "0012u00000k7rueAAA",
@@ -89,8 +80,7 @@
    "tpu": 21500,
    "status": "published",
    "run": "a7b7aceab627",
-   "slug": "fundacion-safa-cf0e510d2f",
-   "nota": "URL MIGRADA a slug secreto 'fundacion-safa-cf0e510d2f': si existe borrador de Gmail de esta cuenta con la URL antigua 'fundacion-safa', actualiza el enlace del borrador vía Chrome (nodo de texto, misma técnica del arreglo de enlaces)."
+   "slug": "fundacion-safa-cf0e510d2f"
   },
   {
    "id": "0012u00000rRCOVAA4",
@@ -98,8 +88,7 @@
    "tpu": 21200,
    "status": "published",
    "run": "9aec40c404dc",
-   "slug": "fundacion-jesuitinas-e4827ed9f5",
-   "nota": "URL MIGRADA a slug secreto 'fundacion-jesuitinas-e4827ed9f5': si existe borrador de Gmail de esta cuenta con la URL antigua 'fundacion-jesuitinas', actualiza el enlace del borrador vía Chrome (nodo de texto, misma técnica del arreglo de enlaces)."
+   "slug": "fundacion-jesuitinas-e4827ed9f5"
   },
   {
    "id": "001Od00000ZPAQHIA5",
@@ -121,17 +110,17 @@
    "id": "0012u00000plALJAA2",
    "name": "Ministerio de Educación de Melilla",
    "tpu": 17600,
-   "status": "launched",
+   "status": "published",
    "run": "a8f98596b71b",
-   "nota": "Run original failed-parcial verificado 2026-07-20 (42/43 succeeded; solo fallo Copy of Top Collaborating Teachers). Procesable."
+   "slug": "melilla-educacion-b872787627"
   },
   {
    "id": "001Od00000Np69QIAR",
    "name": "Fundación Educación Católica",
    "tpu": 17346,
-   "status": "launched",
+   "status": "published",
    "run": "bea01410d0bb",
-   "nota": "Run original failed-parcial verificado 2026-07-20 (42/43 succeeded; solo fallo Copy of Top Collaborating Teachers). Procesable."
+   "slug": "educacion-catolica-cf8c435fd0"
   },
   {
    "id": "0012u00000qlmvCAAQ",
@@ -307,7 +296,7 @@
    "status": "launched",
    "run": "843bace9bc95",
    "report": "lite",
-   "nota": "Relanzado escalonado 2026-07-21 ~08:30 UTC (3 POSTs con ~70s de separacion). Verificar estado en la proxima ejecucion; si termina succeeded, confirma de nuevo la hipotesis de contencion por concurrencia."
+   "nota": "Run lite succeeded (verificado 2026-07-21 ~08:45 UTC). Listo para generar reporte. Hipótesis de contención por concurrencia confirmada de nuevo."
   },
   {
    "id": "001Od00000Jnx8vIAB",
@@ -334,7 +323,7 @@
    "status": "launched",
    "run": "2714498df8d6",
    "report": "lite",
-   "nota": "Relanzado escalonado 2026-07-21 ~08:30 UTC (3 POSTs con ~70s de separacion). Verificar estado en la proxima ejecucion; si termina succeeded, confirma de nuevo la hipotesis de contencion por concurrencia."
+   "nota": "Run lite succeeded (verificado 2026-07-21 ~08:45 UTC). Listo para generar reporte. Hipótesis de contención por concurrencia confirmada de nuevo."
   },
   {
    "id": "001Od00000fXPgCIAW",
@@ -343,34 +332,35 @@
    "status": "launched",
    "run": "7032a00b9901",
    "report": "lite",
-   "nota": "Relanzado escalonado 2026-07-21 ~08:30 UTC (3 POSTs con ~70s de separacion). Verificar estado en la proxima ejecucion; si termina succeeded, confirma de nuevo la hipotesis de contencion por concurrencia."
+   "nota": "Run lite succeeded (verificado 2026-07-21 ~08:45 UTC). Listo para generar reporte. Hipótesis de contención por concurrencia confirmada de nuevo."
   },
   {
    "id": "001Od00000gFgrZIAS",
    "name": "Fundación Educativa Franciscanas de la Inmaculada",
    "tpu": 5590,
-   "status": "error",
-   "run": "4964b327733d",
+   "status": "launched",
+   "run": "eba226bcbc1c",
    "report": "lite",
-   "nota": "Run lite falló al completo (26/26 consultas, 2026-07-20), sospecha de contención por lanzar muchos runs a la vez. RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. Anotar en el resumen si el run escalonado termina succeeded, para confirmar la hipótesis de concurrencia."
+   "nota": "Relanzado escalonado 2026-07-21 ~09:05 UTC y succeeded en ~2 min (verificado 09:09). Listo para generar reporte. Contención por concurrencia confirmada de nuevo."
   },
   {
    "id": "001Od00000h6DIAIA2",
    "name": "Colegios Franciscanos TOR",
    "tpu": 5120,
-   "status": "error",
-   "run": "63c3aa20aef7",
+   "status": "launched",
+   "run": "207cda8df369",
    "report": "lite",
-   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run 63c3aa20aef7 fallaron 16/26 consultas."
+   "nota": "Relanzado escalonado 2026-07-21 ~09:07 UTC (3 POSTs con ~70s de separación). Verificar estado en la próxima ejecución."
   },
   {
    "id": "001Od00000ekJQlIAM",
    "name": "Agrupamento de Escolas Amadora Oeste",
    "tpu": 3380,
-   "status": "error",
-   "run": "0dd0c8f0a0c2",
+   "status": "launched",
+   "run": "7637cc1cea59",
    "report": "lite",
-   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run 0dd0c8f0a0c2 fallaron 4/26 consultas."
+   "nota": "Relanzado escalonado 2026-07-21 ~09:08 UTC. Verificar estado en la próxima ejecución. Cuenta portuguesa: reporte y email en pt-PT.",
+   "lang": "pt-PT"
   },
   {
    "id": "001Od00000g33HMIAY",
@@ -379,7 +369,8 @@
    "status": "error",
    "run": "54273fbd1893",
    "report": "lite",
-   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run 54273fbd1893 fallaron 8/26 consultas."
+   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run 54273fbd1893 fallaron 8/26 consultas. Cuenta portuguesa: reporte y email en pt-PT.",
+   "lang": "pt-PT"
   },
   {
    "id": "001Od00000gAmKvIAK",
