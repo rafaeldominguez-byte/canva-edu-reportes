@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21 13:42 UTC",
+ "updated": "2026-07-21 15:00 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -390,6 +390,15 @@
    "run": "e822b6bf05f5",
    "report": "lite",
    "nota": "Sin histórico suficiente (cuenta aprovisionada ~2 semanas antes del corte). Posponer reporte al curso 2026-27."
+  },
+  {
+   "id": "001Od00000ZOpF1IAL",
+   "name": "Grupo Sorolla Educación",
+   "tpu": 3997,
+   "status": "launched",
+   "run": "60918f6606da",
+   "report": "lite",
+   "nota": "Cuenta añadida manualmente por Rafa (no está en su reporte de Salesforce: owner Lis Healey, SSO enabled-not-required). Incluida a mano en accounts.json."
   }
  ]
 }
