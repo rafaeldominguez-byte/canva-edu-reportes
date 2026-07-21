@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21 12:22 UTC",
+ "updated": "2026-07-21 12:40 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -194,19 +194,19 @@
    "id": "0012u00000dBDDxAAO",
    "name": "Fundación Educativa Sofía Barat",
    "tpu": 13000,
-   "status": "launched",
+   "status": "published",
    "run": "d535983189c9",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-20 ~23h UTC). Listo para generar reporte."
+   "slug": "sofia-barat-4087277181"
   },
   {
    "id": "0012u00000dyvwcAAA",
    "name": "Divino Maestro Fundación Educativa",
    "tpu": 12150,
-   "status": "launched",
+   "status": "published",
    "run": "177fcaa0e8d6",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-20 ~23h UTC). Listo para generar reporte."
+   "slug": "divino-maestro-aa407c00f2"
   },
   {
    "id": "0012u00000pQvlZAAS",
