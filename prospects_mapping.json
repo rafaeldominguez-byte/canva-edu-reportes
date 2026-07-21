@@ -88,5 +88,20 @@
    "spend_12m_usd": 90464.79,
    "fecha_corte": "2026-07-18"
   }
+ },
+ "aragon": {
+  "slug": "aragon-df67dabad9",
+  "updated": "2026-07-21",
+  "metrics": {
+   "usuarios": 671,
+   "yau": 267,
+   "mau": 111,
+   "docentes": 234,
+   "estudiantes": 22,
+   "pct_free": 79.2,
+   "designs_12m": 20140,
+   "spend_12m_usd": 434.29,
+   "fecha_corte": "2026-07-18"
+  }
  }
 }
