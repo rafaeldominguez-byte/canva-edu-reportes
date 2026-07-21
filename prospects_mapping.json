@@ -28,5 +28,20 @@
    "spend_12m_usd": 48490.69,
    "fecha_corte": "2026-07-18"
   }
+ },
+ "navarra": {
+  "slug": "navarra-5ad3010f6c",
+  "updated": "2026-07-21",
+  "metrics": {
+   "usuarios": 92896,
+   "yau": 61749,
+   "mau": 7918,
+   "docentes": 9054,
+   "estudiantes": 53523,
+   "pct_free": 89.1,
+   "designs_12m": 1122713,
+   "spend_12m_usd": 30357.25,
+   "fecha_corte": "2026-07-18"
+  }
  }
 }
