@@ -73,5 +73,20 @@
    "spend_12m_usd": 40588.43,
    "fecha_corte": "2026-07-18"
   }
+ },
+ "andalucia": {
+  "slug": "andalucia-06a7e53958",
+  "updated": "2026-07-21",
+  "metrics": {
+   "usuarios": 580341,
+   "yau": 358103,
+   "mau": 43310,
+   "docentes": 57357,
+   "estudiantes": 378286,
+   "pct_free": 90.9,
+   "designs_12m": 5669329,
+   "spend_12m_usd": 90464.79,
+   "fecha_corte": "2026-07-18"
+  }
  }
 }
