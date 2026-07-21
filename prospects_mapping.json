@@ -13,5 +13,20 @@
    "spend_12m_usd": 15344.03,
    "fecha_corte": "2026-07-18"
   }
+ },
+ "murcia": {
+  "slug": "murcia-44d0da5fef",
+  "updated": "2026-07-21",
+  "metrics": {
+   "usuarios": 234091,
+   "yau": 158854,
+   "mau": 23896,
+   "docentes": 23064,
+   "estudiantes": 143774,
+   "pct_free": 86.0,
+   "designs_12m": 2930685,
+   "spend_12m_usd": 48490.69,
+   "fecha_corte": "2026-07-18"
+  }
  }
 }
