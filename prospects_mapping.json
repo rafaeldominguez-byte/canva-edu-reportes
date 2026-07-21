@@ -208,5 +208,20 @@
    "spend_12m_usd": 110343.92,
    "fecha_corte": "2026-07-18"
   }
+ },
+ "ceuta": {
+  "slug": "ceuta-c838b944fc",
+  "updated": "2026-07-21",
+  "metrics": {
+   "usuarios": 4,
+   "yau": 0,
+   "mau": 0,
+   "docentes": 0,
+   "estudiantes": 0,
+   "pct_free": 100.0,
+   "designs_12m": 0,
+   "spend_12m_usd": 0.0,
+   "fecha_corte": "2026-07-18"
+  }
  }
 }
