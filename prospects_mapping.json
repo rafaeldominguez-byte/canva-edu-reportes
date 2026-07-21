@@ -118,5 +118,20 @@
    "spend_12m_usd": 17641.62,
    "fecha_corte": "2026-07-18"
   }
+ },
+ "baleares": {
+  "slug": "baleares-04ebc16adb",
+  "updated": "2026-07-21",
+  "metrics": {
+   "usuarios": 2741,
+   "yau": 1185,
+   "mau": 440,
+   "docentes": 904,
+   "estudiantes": 177,
+   "pct_free": 82.0,
+   "designs_12m": 46116,
+   "spend_12m_usd": 2781.74,
+   "fecha_corte": "2026-07-18"
+  }
  }
 }
