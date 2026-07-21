@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21 10:44 UTC",
+ "updated": "2026-07-21 12:22 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -176,19 +176,19 @@
    "id": "0012u00000aeYNwAAM",
    "name": "Fundació JesuÏtes Educació",
    "tpu": 14000,
-   "status": "launched",
+   "status": "published",
    "run": "5c02ce3cc52a",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-20 ~23h UTC). Listo para generar reporte."
+   "slug": "jesuites-educacio-9adf2eaddf"
   },
   {
    "id": "001If000004Tje6IAC",
    "name": "HIJAS DE LA CARIDAD ESPAÑA CENTRO",
    "tpu": 13486,
-   "status": "launched",
+   "status": "published",
    "run": "6bb2ad87693d",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-20 ~23h UTC). Listo para generar reporte."
+   "slug": "hijas-caridad-centro-594a253359"
   },
   {
    "id": "0012u00000dBDDxAAO",
@@ -359,7 +359,7 @@
    "status": "launched",
    "run": "7637cc1cea59",
    "report": "lite",
-   "nota": "Relanzado escalonado 2026-07-21 ~09:08 UTC. Verificar estado en la próxima ejecución. Cuenta portuguesa: reporte y email en pt-PT.",
+   "nota": "Run lite succeeded (verificado 2026-07-21 ~13:55 UTC). Listo para generar reporte. Cuenta portuguesa: reporte y email en pt-PT.",
    "lang": "pt-PT"
   },
   {
