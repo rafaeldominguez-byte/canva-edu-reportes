@@ -75,6 +75,21 @@ function parseCSV(text){
 const num = s => { const n = parseFloat(String(s||"").replace(/\./g,"").replace(",",".")); return isNaN(n)?null:n; };
 const fmt = n => n==null ? "–" : Math.round(n).toLocaleString("en-US");
 
+// nombres coherentes: los que vienen TODO EN MAYÚSCULAS de Salesforce pasan a Title Case
+const ACRO = new Set(["SAFA","FESD","ACE","ISP","SEK","TOR","ACI","HH.","N.","S.","TIC","FP","CEU"]);
+const MINOR = new Set(["de","la","del","las","los","y","e","el","en","da","das","do","dos","of","the"]);
+function pretty(name){
+  if (!name || name !== name.toUpperCase()) return name; // ya tiene mayúsculas/minúsculas: respetar
+  return name.toLowerCase().split(/\s+/).map((w,i)=>{
+    const up = w.toUpperCase();
+    if (ACRO.has(up)) return up;
+    if (MINOR.has(w) && i>0) return w;
+    return w.replace(/(^|[-(“"'.])(\p{L})/gu, (m,p,c)=>p+c.toUpperCase());
+  }).join(" ");
+}
+// búsqueda sin tildes ni mayúsculas
+const fold = s => (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+
 // primario: accounts.json (sync diario desde Salesforce) · fallback: hoja de Google
 fetch("../accounts.json?t=" + Date.now()).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
 .then(j => proceed(j.accounts.map(a=>({
@@ -124,7 +139,7 @@ function proceed(base, sourceLabel){
     <div class="item">
       <div class="top">
         <span class="rank">${i+1}</span>
-        <span class="name">${a.name}</span>
+        <span class="name">${pretty(a.name)}</span>
         ${a.updated ? `<span class="fresh ${a.stale ? "old" : "ok"}" title="Last published">${a.stale ? "⚠ " : ""}Updated ${a.updated}</span>` : ""}
         ${a.slug ? `<a class="btn rep" href="../reportes/${a.slug}/" target="_blank" rel="noopener">View report →</a>`
                  : `<span class="btn rep-off" title="Report not generated yet">No report</span>`}
@@ -140,8 +155,8 @@ function proceed(base, sourceLabel){
     </div>`).join("") : '<div id="estado" style="display:block">No accounts match your search.</div>'; };
   render(accts);
   document.getElementById("buscar").addEventListener("input", e => {
-    const q = e.target.value.trim().toLowerCase();
-    render(!q ? accts : accts.filter(a => a.name.toLowerCase().includes(q) || a.id.toLowerCase().includes(q)));
+    const q = fold(e.target.value.trim());
+    render(!q ? accts : accts.filter(a => fold(a.name).includes(q) || fold(pretty(a.name)).includes(q) || fold(a.id).includes(q)));
   });
 }
 </script>
