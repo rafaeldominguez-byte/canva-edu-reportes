@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21 10:13 UTC",
+ "updated": "2026-07-21 10:44 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -158,19 +158,19 @@
    "id": "0012u00000qjaWGAAY",
    "name": "FUNDACION EDUCATIVA AMOR DE DIOS",
    "tpu": 15169,
-   "status": "launched",
+   "status": "published",
    "run": "0f0161e4837a",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-20 ~23h UTC). Listo para generar reporte."
+   "slug": "amor-de-dios-7a048b4324"
   },
   {
    "id": "001Od00000gBMppIAG",
    "name": "Jesús-María",
    "tpu": 14720,
-   "status": "launched",
+   "status": "published",
    "run": "1fb30cba777a",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-20 ~23h UTC). Listo para generar reporte."
+   "slug": "jesus-maria-e6a40bcf28"
   },
   {
    "id": "0012u00000aeYNwAAM",
