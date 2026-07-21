@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21 08:14 UTC",
+ "updated": "2026-07-21 08:28 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -105,17 +105,17 @@
    "id": "001Od00000ZPAQHIA5",
    "name": "ESCUELAS PIAS PROVINCIA BETANIA",
    "tpu": 20668,
-   "status": "launched",
+   "status": "published",
    "run": "5917609c3566",
-   "nota": "Run original failed-parcial verificado 2026-07-20 (42/43 succeeded; solo fallo Copy of Top Collaborating Teachers). Procesable."
+   "slug": "escuelas-pias-betania"
   },
   {
    "id": "0012u00000mxeNbAAI",
    "name": "Colegio Escuelas Pías de Zaragoza",
    "tpu": 19000,
-   "status": "launched",
+   "status": "published",
    "run": "f0cda3ed9110",
-   "nota": "Run original failed-parcial verificado 2026-07-20 (42/43 succeeded; solo fallo Copy of Top Collaborating Teachers). Procesable."
+   "slug": "escuelas-pias-zaragoza"
   },
   {
    "id": "0012u00000plALJAA2",
@@ -280,7 +280,7 @@
    "status": "launched",
    "run": "7f62b768b9c8",
    "report": "lite",
-   "nota": "Relanzado escalonado 2026-07-21 ~00:30 UTC. ACI y Manyanet salieron con ~20s de separacion (waits del navegador truncados a 10s); Galino con ~80s. Verificar estado en la proxima ejecucion."
+   "nota": "Run lite succeeded (verificado 2026-07-21 ~08:15 UTC). Listo para generar reporte."
   },
   {
    "id": "001Od00000ata4aIAA",
@@ -289,7 +289,7 @@
    "status": "launched",
    "run": "44bec7ecb514",
    "report": "lite",
-   "nota": "Relanzado escalonado 2026-07-21 ~00:30 UTC. ACI y Manyanet salieron con ~20s de separacion (waits del navegador truncados a 10s); Galino con ~80s. Verificar estado en la proxima ejecucion."
+   "nota": "Run lite succeeded (verificado 2026-07-21 ~08:15 UTC). Listo para generar reporte."
   },
   {
    "id": "001Od00000XKaXXIA1",
@@ -298,16 +298,16 @@
    "status": "launched",
    "run": "cb72989ad383",
    "report": "lite",
-   "nota": "Relanzado escalonado 2026-07-21 ~00:30 UTC. ACI y Manyanet salieron con ~20s de separacion (waits del navegador truncados a 10s); Galino con ~80s. Verificar estado en la proxima ejecucion."
+   "nota": "Run lite succeeded (verificado 2026-07-21 ~08:15 UTC). Listo para generar reporte."
   },
   {
    "id": "0012u00000pQcLfAAK",
    "name": "Fundación Educación y Evangelio",
    "tpu": 10230,
-   "status": "error",
-   "run": "343dd15198ba",
+   "status": "launched",
+   "run": "843bace9bc95",
    "report": "lite",
-   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run 343dd15198ba fallaron 10/26 consultas."
+   "nota": "Relanzado escalonado 2026-07-21 ~08:30 UTC (3 POSTs con ~70s de separacion). Verificar estado en la proxima ejecucion; si termina succeeded, confirma de nuevo la hipotesis de contencion por concurrencia."
   },
   {
    "id": "001Od00000Jnx8vIAB",
@@ -331,19 +331,19 @@
    "id": "001Od00000VIJfRIAX",
    "name": "Institucionalizados Internacional SEK",
    "tpu": 10060,
-   "status": "error",
-   "run": "ffc7b70463f1",
+   "status": "launched",
+   "run": "2714498df8d6",
    "report": "lite",
-   "nota": "Run lite falló al completo (26/26 consultas, 2026-07-20), sospecha de contención por lanzar muchos runs a la vez. RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. Anotar en el resumen si el run escalonado termina succeeded, para confirmar la hipótesis de concurrencia."
+   "nota": "Relanzado escalonado 2026-07-21 ~08:30 UTC (3 POSTs con ~70s de separacion). Verificar estado en la proxima ejecucion; si termina succeeded, confirma de nuevo la hipotesis de contencion por concurrencia."
   },
   {
    "id": "001Od00000fXPgCIAW",
    "name": "Fundación Educativa Santísima Trinidad (centros FEST)",
    "tpu": 6500,
-   "status": "error",
-   "run": "5dfad3a281d5",
+   "status": "launched",
+   "run": "7032a00b9901",
    "report": "lite",
-   "nota": "Run lite falló al completo (26/26 consultas, 2026-07-20), sospecha de contención por lanzar muchos runs a la vez. RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. Anotar en el resumen si el run escalonado termina succeeded, para confirmar la hipótesis de concurrencia."
+   "nota": "Relanzado escalonado 2026-07-21 ~08:30 UTC (3 POSTs con ~70s de separacion). Verificar estado en la proxima ejecucion; si termina succeeded, confirma de nuevo la hipotesis de contencion por concurrencia."
   },
   {
    "id": "001Od00000gFgrZIAS",
