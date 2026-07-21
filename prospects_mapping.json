@@ -43,5 +43,20 @@
    "spend_12m_usd": 30357.25,
    "fecha_corte": "2026-07-18"
   }
+ },
+ "pais-vasco": {
+  "slug": "pais-vasco-9ecc01e567",
+  "updated": "2026-07-21",
+  "metrics": {
+   "usuarios": 7569,
+   "yau": 3806,
+   "mau": 1122,
+   "docentes": 3263,
+   "estudiantes": 269,
+   "pct_free": 85.1,
+   "designs_12m": 142799,
+   "spend_12m_usd": 3051.65,
+   "fecha_corte": "2026-07-18"
+  }
  }
 }
