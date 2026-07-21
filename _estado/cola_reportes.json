@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21 15:00 UTC",
+ "updated": "2026-07-21 15:23 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -395,10 +395,11 @@
    "id": "001Od00000ZOpF1IAL",
    "name": "Grupo Sorolla Educación",
    "tpu": 3997,
-   "status": "launched",
+   "status": "published",
    "run": "60918f6606da",
    "report": "lite",
-   "nota": "Cuenta añadida manualmente por Rafa (no está en su reporte de Salesforce: owner Lis Healey, SSO enabled-not-required). Incluida a mano en accounts.json."
+   "nota": "Publicado manualmente el 21/07/2026 (fuera de la cola pausada). Borrador de Gmail listo con enlace limpio.",
+   "slug": "grupo-sorolla-4b89959ec5"
   }
  ]
 }
