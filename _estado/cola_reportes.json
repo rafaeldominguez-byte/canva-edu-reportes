@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21 09:10 UTC",
+ "updated": "2026-07-21 09:55 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -126,17 +126,17 @@
    "id": "0012u00000qlmvCAAQ",
    "name": "Compañía de María N. S.",
    "tpu": 17200,
-   "status": "launched",
+   "status": "published",
    "run": "e0eb6a80940c",
-   "nota": "Run original failed-parcial verificado 2026-07-20 (42/43 succeeded; solo fallo Copy of Top Collaborating Teachers). Procesable."
+   "slug": "compania-de-maria-d92d1dc48d"
   },
   {
    "id": "0012u00000rSdSWAA0",
    "name": "Gredos San Diego",
    "tpu": 17000,
-   "status": "launched",
+   "status": "published",
    "run": "887e09d10cbb",
-   "nota": "Run original failed-parcial verificado 2026-07-20 (42/43 succeeded; solo fallo Copy of Top Collaborating Teachers). Procesable."
+   "slug": "gredos-san-diego-a75387fdd9"
   },
   {
    "id": "001Od00000PWteOIAT",
@@ -366,29 +366,29 @@
    "id": "001Od00000g33HMIAY",
    "name": "Agrupamento de Escolas Professor Lindley Cintra",
    "tpu": 2460,
-   "status": "error",
-   "run": "54273fbd1893",
+   "status": "launched",
+   "run": "8f3f4c392545",
    "report": "lite",
-   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run 54273fbd1893 fallaron 8/26 consultas. Cuenta portuguesa: reporte y email en pt-PT.",
+   "nota": "Relanzado escalonado 2026-07-21 ~09:23 UTC y succeeded en ~2 min (26/26). Listo para generar reporte. Cuenta portuguesa: reporte y email en pt-PT.",
    "lang": "pt-PT"
   },
   {
    "id": "001Od00000gAmKvIAK",
    "name": "Saint Albert the Great College",
    "tpu": 560,
-   "status": "error",
-   "run": "e5cdcdb69fe5",
+   "status": "launched",
+   "run": "58714a99de93",
    "report": "lite",
-   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run e5cdcdb69fe5 fallaron 7/26 consultas."
+   "nota": "Relanzado escalonado 2026-07-21 ~09:25 UTC y succeeded (verificado 09:33). Listo para generar reporte."
   },
   {
    "id": "001Mo00001HQAHZIA5",
    "name": "Mediterranean College of Sport",
    "tpu": 500,
-   "status": "error",
-   "run": "bffa61043bf3",
+   "status": "launched",
+   "run": "e822b6bf05f5",
    "report": "lite",
-   "nota": "Run lite falló (parcial o total, 2026-07-20 ~15:22 UTC, lote masivo). RELANZAR ESCALONADO: máximo 2-3 runs lite por ejecución y con 60-90s de separación entre POSTs, sin coincidir con otros lanzamientos. En el run bffa61043bf3 fallaron 8/26 consultas."
+   "nota": "Relanzado escalonado 2026-07-21 ~09:33 UTC y succeeded (verificado 09:50). Listo para generar reporte."
   }
  ]
 }
