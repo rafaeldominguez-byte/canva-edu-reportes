@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21 12:40 UTC",
+ "updated": "2026-07-21 13:41 UTC",
  "report": "1a62fdff3292",
  "accounts": [
   {
@@ -212,183 +212,184 @@
    "id": "0012u00000pQvlZAAS",
    "name": "ESCOLES FEDAC",
    "tpu": 12100,
-   "status": "launched",
+   "status": "published",
    "run": "9367f7ce05ac",
    "report": "lite",
-   "nota": "Run relanzado terminó succeeded (verificado 2026-07-20 ~23h UTC). Listo para generar reporte."
+   "slug": "escoles-fedac-b43ecdd448"
   },
   {
    "id": "0012u00000qjrqrAAA",
    "name": "Globeducate",
    "tpu": 11750,
-   "status": "launched",
+   "status": "published",
    "run": "edcf071e2595",
    "report": "lite",
-   "nota": "Run relanzado terminó succeeded (verificado 2026-07-20 ~23h UTC). Listo para generar reporte."
+   "slug": "globeducate-721e0b9136"
   },
   {
    "id": "0012u00000m013JAAQ",
    "name": "Fundación Loyola ACE",
    "tpu": 10900,
-   "status": "launched",
+   "status": "published",
    "run": "6adcc8be5ada",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-21 ~00:25 UTC). Listo para generar reporte."
+   "slug": "fundacion-loyola-ace-253661c129"
   },
   {
    "id": "0012u00000d8UNYAA2",
    "name": "Fundación Educativa Mary Ward España",
    "tpu": 10800,
-   "status": "launched",
+   "status": "published",
    "run": "9f587ccaafbd",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-21 ~00:25 UTC). Listo para generar reporte."
+   "slug": "mary-ward-espana-e464c260d1"
   },
   {
    "id": "001If000003bCXvIAM",
    "name": "Fundació Champagnat - Maristes",
    "tpu": 10800,
-   "status": "launched",
+   "status": "published",
    "run": "8f953d6eaba9",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-21 ~00:25 UTC). Listo para generar reporte."
+   "slug": "champagnat-maristes-ca0885432f"
   },
   {
    "id": "0012u00000j1ApIAAU",
    "name": "International Schools Partnership (ISP Schools)",
    "tpu": 10558,
-   "status": "launched",
+   "status": "published",
    "run": "3fa34c08db75",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-21 ~00:25 UTC). Listo para generar reporte."
+   "slug": "isp-schools-a37079e6e0"
   },
   {
    "id": "0012u00000j3XomAAE",
    "name": "Fundación Educativa ACI",
    "tpu": 10427,
-   "status": "launched",
+   "status": "published",
    "run": "7f62b768b9c8",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-21 ~08:15 UTC). Listo para generar reporte."
+   "slug": "fundacion-aci-aa4c0fd34d"
   },
   {
    "id": "001Od00000ata4aIAA",
    "name": "Manyanet",
    "tpu": 10280,
-   "status": "launched",
+   "status": "published",
    "run": "44bec7ecb514",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-21 ~08:15 UTC). Listo para generar reporte."
+   "slug": "manyanet-b92155a3b5"
   },
   {
    "id": "001Od00000XKaXXIA1",
    "name": "FUNDACIÓN EDUCATIVA ÁNGELES GALINO",
    "tpu": 10250,
-   "status": "launched",
+   "status": "published",
    "run": "cb72989ad383",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-21 ~08:15 UTC). Listo para generar reporte."
+   "slug": "angeles-galino-95804a6187"
   },
   {
    "id": "0012u00000pQcLfAAK",
    "name": "Fundación Educación y Evangelio",
    "tpu": 10230,
-   "status": "launched",
+   "status": "published",
    "run": "843bace9bc95",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-21 ~08:45 UTC). Listo para generar reporte. Hipótesis de contención por concurrencia confirmada de nuevo."
+   "slug": "educacion-y-evangelio-bb64d5d79b"
   },
   {
    "id": "001Od00000Jnx8vIAB",
    "name": "Fundación Spínola",
    "tpu": 10150,
    "status": "launched",
-   "run": "c1f2fbfe358e",
+   "run": "d8d9199b1ddb",
    "report": "lite",
-   "nota": "Run escalonado succeeded 2026-07-20 → hipótesis de contención por concurrencia CONFIRMADA. Listo para generar reporte."
+   "nota": "Run anterior (c1f2fbfe358e) devolvió datos inconsistentes (5 activados vs 10.150 TPU). Relanzado 2026-07-21 ~15:5x UTC como d8d9199b1ddb. Verificar datos antes de generar."
   },
   {
    "id": "001Od00000KeZQWIA3",
    "name": "Fundación Educativa Francisco Coll G85311033",
    "tpu": 10100,
-   "status": "launched",
+   "status": "published",
    "run": "ff789784350d",
    "report": "lite",
-   "nota": "Run escalonado succeeded 2026-07-20 → hipótesis de contención por concurrencia CONFIRMADA. Listo para generar reporte."
+   "slug": "francisco-coll-b9f98f8277"
   },
   {
    "id": "001Od00000VIJfRIAX",
    "name": "Institucionalizados Internacional SEK",
    "tpu": 10060,
-   "status": "launched",
+   "status": "published",
    "run": "2714498df8d6",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-21 ~08:45 UTC). Listo para generar reporte. Hipótesis de contención por concurrencia confirmada de nuevo."
+   "slug": "internacional-sek-82cba4e082"
   },
   {
    "id": "001Od00000fXPgCIAW",
    "name": "Fundación Educativa Santísima Trinidad (centros FEST)",
    "tpu": 6500,
-   "status": "launched",
+   "status": "published",
    "run": "7032a00b9901",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-21 ~08:45 UTC). Listo para generar reporte. Hipótesis de contención por concurrencia confirmada de nuevo."
+   "slug": "fest-santisima-trinidad-8b68ed899a"
   },
   {
    "id": "001Od00000gFgrZIAS",
    "name": "Fundación Educativa Franciscanas de la Inmaculada",
    "tpu": 5590,
-   "status": "launched",
+   "status": "published",
    "run": "eba226bcbc1c",
    "report": "lite",
-   "nota": "Relanzado escalonado 2026-07-21 ~09:05 UTC y succeeded en ~2 min (verificado 09:09). Listo para generar reporte. Contención por concurrencia confirmada de nuevo."
+   "slug": "franciscanas-inmaculada-7851a489eb"
   },
   {
    "id": "001Od00000h6DIAIA2",
    "name": "Colegios Franciscanos TOR",
    "tpu": 5120,
-   "status": "launched",
+   "status": "published",
    "run": "207cda8df369",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-21 ~11:50 UTC). Listo para generar reporte."
+   "slug": "franciscanos-tor-b70e87e0e4"
   },
   {
    "id": "001Od00000ekJQlIAM",
    "name": "Agrupamento de Escolas Amadora Oeste",
    "tpu": 3380,
-   "status": "launched",
+   "status": "published",
    "run": "7637cc1cea59",
    "report": "lite",
-   "nota": "Run lite succeeded (verificado 2026-07-21 ~13:55 UTC). Listo para generar reporte. Cuenta portuguesa: reporte y email en pt-PT.",
-   "lang": "pt-PT"
+   "lang": "pt-PT",
+   "slug": "amadora-oeste-2073bd8bf0"
   },
   {
    "id": "001Od00000g33HMIAY",
    "name": "Agrupamento de Escolas Professor Lindley Cintra",
    "tpu": 2460,
-   "status": "launched",
+   "status": "published",
    "run": "8f3f4c392545",
    "report": "lite",
-   "nota": "Relanzado escalonado 2026-07-21 ~09:23 UTC y succeeded en ~2 min (26/26). Listo para generar reporte. Cuenta portuguesa: reporte y email en pt-PT.",
-   "lang": "pt-PT"
+   "lang": "pt-PT",
+   "slug": "lindley-cintra-af21f0f9e7"
   },
   {
    "id": "001Od00000gAmKvIAK",
    "name": "Saint Albert the Great College",
    "tpu": 560,
-   "status": "launched",
+   "status": "published",
    "run": "58714a99de93",
    "report": "lite",
-   "nota": "Relanzado escalonado 2026-07-21 ~09:25 UTC y succeeded (verificado 09:33). Listo para generar reporte."
+   "slug": "saint-albert-e8bc4418b2",
+   "nota": "Publicado en es-ES, pero el contacto es de Malta (adel@stalbert.edu.mt): valorar versión en inglés antes de enviar. Datos solo de abr-may 2026 (cuenta joven). Borrador de email NO creado."
   },
   {
    "id": "001Mo00001HQAHZIA5",
    "name": "Mediterranean College of Sport",
    "tpu": 500,
-   "status": "launched",
+   "status": "error",
    "run": "e822b6bf05f5",
    "report": "lite",
-   "nota": "Relanzado escalonado 2026-07-21 ~09:33 UTC y succeeded (verificado 09:50). Listo para generar reporte."
+   "nota": "Sin histórico suficiente (cuenta aprovisionada ~2 semanas antes del corte). Posponer reporte al curso 2026-27."
   }
  ]
 }
