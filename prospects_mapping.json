@@ -253,5 +253,20 @@
    "spend_12m_usd": 7265.62,
    "fecha_corte": "2026-07-18"
   }
+ },
+ "madrid": {
+  "slug": "madrid-404f0a0f90",
+  "updated": "2026-07-21",
+  "metrics": {
+   "usuarios": 145309,
+   "yau": 65414,
+   "mau": 13318,
+   "docentes": 25889,
+   "estudiantes": 77004,
+   "pct_free": 86.5,
+   "designs_12m": 1563189,
+   "spend_12m_usd": 41599.5,
+   "fecha_corte": "2026-07-18"
+  }
  }
 }
