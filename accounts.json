@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-21 07:50 UTC",
+ "generated": "2026-07-22 07:39 UTC",
  "source": "Salesforce report: Copy of Spain Edu Customers",
  "accounts": [
   {
@@ -75,15 +75,6 @@
    "act": 14644
   },
   {
-   "id": "0012u00000sf1EWAAY",
-   "name": "Grupo Attendis",
-   "tpu": 22000,
-   "mau": 904,
-   "peak": 3125,
-   "prev": 4080,
-   "act": 7325
-  },
-  {
    "id": "001Od00000ID7LZIA1",
    "name": "FUNDACIÓN ESCUELA TERESIANA",
    "tpu": 22000,
@@ -91,6 +82,15 @@
    "peak": 6683,
    "prev": 8159,
    "act": 12294
+  },
+  {
+   "id": "0012u00000sf1EWAAY",
+   "name": "Grupo Attendis",
+   "tpu": 22000,
+   "mau": 904,
+   "peak": 3125,
+   "prev": 4080,
+   "act": 7325
   },
   {
    "id": "0012u00000j3XmmAAE",
@@ -273,15 +273,6 @@
    "act": 5432
   },
   {
-   "id": "0012u00000d8UNYAA2",
-   "name": "Fundación Educativa Mary Ward España",
-   "tpu": 10800,
-   "mau": 591,
-   "peak": 3025,
-   "prev": 3443,
-   "act": 5452
-  },
-  {
    "id": "001If000003bCXvIAM",
    "name": "Fundació Champagnat - Maristes",
    "tpu": 10800,
@@ -289,6 +280,15 @@
    "peak": 4739,
    "prev": 5599,
    "act": 8016
+  },
+  {
+   "id": "0012u00000d8UNYAA2",
+   "name": "Fundación Educativa Mary Ward España",
+   "tpu": 10800,
+   "mau": 591,
+   "peak": 3025,
+   "prev": 3443,
+   "act": 5452
   },
   {
    "id": "0012u00000j1ApIAAU",
@@ -399,6 +399,15 @@
    "act": 1986
   },
   {
+   "id": "001Od00000ZOpF1IAL",
+   "name": "Grupo Sorolla Educación",
+   "tpu": 3997,
+   "mau": 182,
+   "peak": 832,
+   "prev": 1170,
+   "act": 1622
+  },
+  {
    "id": "001Od00000ekJQlIAM",
    "name": "Agrupamento de Escolas Amadora Oeste",
    "tpu": 3380,
@@ -433,15 +442,6 @@
    "peak": 2,
    "prev": 0,
    "act": 3
-  },
-  {
-   "id": "001Od00000ZOpF1IAL",
-   "name": "Grupo Sorolla Educación",
-   "tpu": 3997,
-   "mau": 182,
-   "peak": 832,
-   "prev": 1170,
-   "act": 1622
   }
  ]
 }
