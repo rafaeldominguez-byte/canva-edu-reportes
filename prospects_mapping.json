@@ -181,17 +181,17 @@
  },
  "castilla-y-leon": {
   "slug": "castilla-y-leon-8ddc74db86",
-  "updated": "2026-07-21",
+  "updated": "2026-07-31",
   "metrics": {
-   "usuarios": 145873,
-   "yau": 96165,
-   "mau": 17243,
-   "docentes": 21613,
-   "estudiantes": 90596,
-   "pct_free": 83.8,
-   "designs_12m": 1818994,
-   "spend_12m_usd": 24284.64,
-   "fecha_corte": "2026-07-18"
+   "usuarios": 146466,
+   "yau": 96154,
+   "mau": 11425,
+   "docentes": 21581,
+   "estudiantes": 90580,
+   "pct_free": 69.9,
+   "designs_12m": 1821371,
+   "spend_12m_usd": 18795.1,
+   "fecha_corte": "2026-07-31"
   }
  },
  "cataluna": {
