@@ -46,32 +46,32 @@
  },
  "pais-vasco": {
   "slug": "pais-vasco-9ecc01e567",
-  "updated": "2026-07-31",
+  "updated": "2026-07-21",
   "metrics": {
-   "usuarios": 7582,
-   "yau": 3799,
-   "mau": 771,
-   "docentes": 3260,
+   "usuarios": 7569,
+   "yau": 3806,
+   "mau": 1122,
+   "docentes": 3263,
    "estudiantes": 269,
-   "pct_free": 59.8,
-   "designs_12m": 143042,
-   "spend_12m_usd": 2547.65,
-   "fecha_corte": "2026-07-31"
+   "pct_free": 85.1,
+   "designs_12m": 142799,
+   "spend_12m_usd": 3051.65,
+   "fecha_corte": "2026-07-18"
   }
  },
  "valencia": {
   "slug": "valencia-a6e0b8bc98",
-  "updated": "2026-07-31",
+  "updated": "2026-07-21",
   "metrics": {
-   "usuarios": 193006,
-   "yau": 124375,
-   "mau": 16406,
-   "docentes": 24457,
-   "estudiantes": 122088,
-   "pct_free": 78.8,
-   "designs_12m": 2213095,
-   "spend_12m_usd": 35075.99,
-   "fecha_corte": "2026-07-31"
+   "usuarios": 191847,
+   "yau": 124399,
+   "mau": 18722,
+   "docentes": 24451,
+   "estudiantes": 122108,
+   "pct_free": 88.5,
+   "designs_12m": 2210625,
+   "spend_12m_usd": 40588.43,
+   "fecha_corte": "2026-07-18"
   }
  },
  "andalucia": {
