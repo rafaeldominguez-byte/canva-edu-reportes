@@ -136,17 +136,17 @@
  },
  "canarias": {
   "slug": "canarias-495d63d6f2",
-  "updated": "2026-07-21",
+  "updated": "2026-07-31",
   "metrics": {
-   "usuarios": 53023,
-   "yau": 6873,
-   "mau": 1973,
-   "docentes": 5173,
-   "estudiantes": 22239,
-   "pct_free": 94.0,
-   "designs_12m": 216287,
-   "spend_12m_usd": 20102.34,
-   "fecha_corte": "2026-07-18"
+   "usuarios": 53362,
+   "yau": 6871,
+   "mau": 1469,
+   "docentes": 5174,
+   "estudiantes": 22238,
+   "pct_free": 90.0,
+   "designs_12m": 217274,
+   "spend_12m_usd": 12129.1,
+   "fecha_corte": "2026-07-31"
   }
  },
  "cantabria": {
