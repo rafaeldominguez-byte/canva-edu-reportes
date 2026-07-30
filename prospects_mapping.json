@@ -196,17 +196,17 @@
  },
  "cataluna": {
   "slug": "cataluna-e7871c5e07",
-  "updated": "2026-07-21",
+  "updated": "2026-07-31",
   "metrics": {
-   "usuarios": 122063,
-   "yau": 89467,
-   "mau": 44136,
-   "docentes": 73255,
-   "estudiantes": 10036,
-   "pct_free": 49.0,
-   "designs_12m": 4509957,
-   "spend_12m_usd": 110343.92,
-   "fecha_corte": "2026-07-18"
+   "usuarios": 122248,
+   "yau": 89376,
+   "mau": 36971,
+   "docentes": 73152,
+   "estudiantes": 10024,
+   "pct_free": 33.9,
+   "designs_12m": 4515830,
+   "spend_12m_usd": 87376.5,
+   "fecha_corte": "2026-07-31"
   }
  },
  "ceuta": {
