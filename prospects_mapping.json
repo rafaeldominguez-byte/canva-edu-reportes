@@ -256,17 +256,17 @@
  },
  "madrid": {
   "slug": "madrid-404f0a0f90",
-  "updated": "2026-07-21",
+  "updated": "2026-07-31",
   "metrics": {
-   "usuarios": 145309,
-   "yau": 65414,
-   "mau": 13318,
-   "docentes": 25889,
-   "estudiantes": 77004,
-   "pct_free": 86.5,
-   "designs_12m": 1563189,
-   "spend_12m_usd": 41599.5,
-   "fecha_corte": "2026-07-18"
+   "usuarios": 146047,
+   "yau": 65369,
+   "mau": 10645,
+   "docentes": 25870,
+   "estudiantes": 76981,
+   "pct_free": 78.9,
+   "designs_12m": 1559933,
+   "spend_12m_usd": 34494.03,
+   "fecha_corte": "2026-07-31"
   }
  },
  "melilla": {
