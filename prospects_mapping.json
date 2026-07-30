@@ -61,17 +61,17 @@
  },
  "valencia": {
   "slug": "valencia-a6e0b8bc98",
-  "updated": "2026-07-31",
+  "updated": "2026-07-21",
   "metrics": {
-   "usuarios": 193006,
-   "yau": 124375,
-   "mau": 16406,
-   "docentes": 24457,
-   "estudiantes": 122088,
-   "pct_free": 78.8,
-   "designs_12m": 2213095,
-   "spend_12m_usd": 35075.99,
-   "fecha_corte": "2026-07-31"
+   "usuarios": 191847,
+   "yau": 124399,
+   "mau": 18722,
+   "docentes": 24451,
+   "estudiantes": 122108,
+   "pct_free": 88.5,
+   "designs_12m": 2210625,
+   "spend_12m_usd": 40588.43,
+   "fecha_corte": "2026-07-18"
   }
  },
  "andalucia": {
@@ -226,17 +226,17 @@
  },
  "extremadura": {
   "slug": "extremadura-4ea7050569",
-  "updated": "2026-07-21",
+  "updated": "2026-07-31",
   "metrics": {
-   "usuarios": 121826,
-   "yau": 79588,
-   "mau": 11658,
-   "docentes": 13223,
-   "estudiantes": 73716,
-   "pct_free": 87.5,
-   "designs_12m": 1498666,
-   "spend_12m_usd": 27915.49,
-   "fecha_corte": "2026-07-18"
+   "usuarios": 122008,
+   "yau": 79489,
+   "mau": 9891,
+   "docentes": 13212,
+   "estudiantes": 73709,
+   "pct_free": 80.8,
+   "designs_12m": 1497385,
+   "spend_12m_usd": 22912.68,
+   "fecha_corte": "2026-07-31"
   }
  },
  "la-rioja": {
