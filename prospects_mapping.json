@@ -166,17 +166,17 @@
  },
  "castilla-la-mancha": {
   "slug": "castilla-la-mancha-19d2f65c54",
-  "updated": "2026-07-21",
+  "updated": "2026-07-31",
   "metrics": {
-   "usuarios": 1664,
-   "yau": 265,
-   "mau": 128,
-   "docentes": 257,
+   "usuarios": 1663,
+   "yau": 263,
+   "mau": 101,
+   "docentes": 255,
    "estudiantes": 21,
-   "pct_free": 64.1,
-   "designs_12m": 15698,
-   "spend_12m_usd": 0.0,
-   "fecha_corte": "2026-07-18"
+   "pct_free": 62.2,
+   "designs_12m": 15471,
+   "spend_12m_usd": 37.32,
+   "fecha_corte": "2026-07-31"
   }
  },
  "castilla-y-leon": {
