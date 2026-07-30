@@ -241,17 +241,17 @@
  },
  "la-rioja": {
   "slug": "la-rioja-e556bd54a6",
-  "updated": "2026-07-31",
+  "updated": "2026-07-21",
   "metrics": {
-   "usuarios": 31869,
-   "yau": 20871,
-   "mau": 1756,
-   "docentes": 3653,
-   "estudiantes": 19602,
-   "pct_free": 79.3,
-   "designs_12m": 378002,
-   "spend_12m_usd": 2753.77,
-   "fecha_corte": "2026-07-31"
+   "usuarios": 31826,
+   "yau": 20886,
+   "mau": 2280,
+   "docentes": 3658,
+   "estudiantes": 19604,
+   "pct_free": 87.7,
+   "designs_12m": 377857,
+   "spend_12m_usd": 7265.62,
+   "fecha_corte": "2026-07-18"
   }
  },
  "madrid": {
