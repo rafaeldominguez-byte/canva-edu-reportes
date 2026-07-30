@@ -83,7 +83,7 @@
     <p class="sub">Uso real de Canva por la comunidad educativa con los correos oficiales de la administración educativa — sin que exista todavía un convenio autonómico.</p>
     <div class="meta">
       <span>✉️ Dominios: @ceuta.educacion.gob.es</span>
-      <span>🗂️ Datos a 18 de julio de 2026</span>
+      <span>🗂️ Datos a 31 de julio de 2026</span>
       <span>🎓 Alumnado público estimado: ~14.000</span>
     </div>
   </div>
@@ -94,7 +94,7 @@
     <div class="kpi"><div class="v">0</div><div class="l">Activos en el último año</div><div class="d up">0% de los registrados</div></div>
     <div class="kpi"><div class="v">4</div><div class="l">Docentes registrados</div><div class="d up">0 activos en 12 meses</div></div>
     <div class="kpi"><div class="v">0</div><div class="l">Estudiantes registrados</div><div class="d warn">frente a ~14.000 de alumnado público</div></div>
-    <div class="kpi"><div class="v">100%</div><div class="l">En plan gratuito</div><div class="d warn">4 usuarios fuera del entorno educativo</div></div>
+    <div class="kpi"><div class="v">0%</div><div class="l">En plan gratuito</div><div class="d warn">0 usuarios fuera del entorno educativo</div></div>
     <div class="kpi"><div class="v">0</div><div class="l">Diseños creados (12 meses)</div><div class="d up">Producción del último curso</div></div>
   </div>
 
@@ -108,7 +108,7 @@
     </div>
     <div class="card">
       <h3>Nuevos registros por año</h3>
-      <p class="note">2022* recoge solo hasta el 18 de julio de 2026.</p>
+      <p class="note">2022* recoge solo hasta el 31 de julio de 2026.</p>
       <div class="chartbox tall"><canvas id="ch2"></canvas></div>
     </div>
   </div>
@@ -122,11 +122,11 @@
   </div>
 
   <h2><span class="num">3.</span>Planes y gasto: demanda fuera del entorno educativo</h2>
-  <p class="lead">El <b>100%</b> de los usuarios está en el plan gratuito, fuera del entorno educativo seguro. Con un convenio, toda la comunidad pasa al entorno educativo con las funciones prémium incluidas.</p>
+  <p class="lead">El <b>0%</b> de los usuarios está en el plan gratuito, fuera del entorno educativo seguro. Con un convenio, toda la comunidad pasa al entorno educativo con las funciones prémium incluidas.</p>
   <div class="grid2">
     <div class="card">
       <h3>Usuarios por plan (hoy)</h3>
-      <p class="note">Solo 0 usuarios (0%) están dentro de Canva Educación.</p>
+      <p class="note">Solo 4 usuarios (100%) están dentro de Canva Educación.</p>
       <div class="chartbox tall"><canvas id="ch4"></canvas></div>
     </div>
     <div class="card">
@@ -165,13 +165,13 @@
     <div class="insight pos"><b>✅ Demanda orgánica probada</b><span>4 usuarios registrados y 0 activos en 12 meses sin convenio ni despliegue institucional: la adopción no es una hipótesis, ya ha ocurrido.</span></div>
     <div class="insight pos"><b>✅ El profesorado es el motor</b><span>4 docentes registrados y un 0% activos en el último año, con 0 diseños creados en el curso.</span></div>
     <div class="insight opp"><b>⚠️ El alumnado está sin activar</b><span>Solo 0 estudiantes frente a ~14.000 de alumnado público. Un convenio con acceso para estudiantes multiplica el alcance ~14.000× dentro de un entorno protegido (Canva Shield) y alineado con DigCompEdu.</span></div>
-    <div class="insight opp"><b>⚠️ La mayoría, fuera del entorno educativo</b><span>El 100% usa el plan gratuito: sin las protecciones ni las funciones del entorno educativo. El convenio traslada a toda la comunidad al espacio seguro con funciones prémium.</span></div>
+    <div class="insight opp"><b>⚠️ La mayoría, fuera del entorno educativo</b><span>El 0% usa el plan gratuito: sin las protecciones ni las funciones del entorno educativo. El convenio traslada a toda la comunidad al espacio seguro con funciones prémium.</span></div>
     <div class="insight pos"><b>✅ Uso plenamente didáctico</b><span>0 diseños en el último curso, con predominio de material de aula (documentos, presentaciones, carteles): Canva ya forma parte de la práctica docente.</span></div>
     <div class="insight opp"><b>⚠️ Siguiente paso propuesto</b><span>Sesión de trabajo con la administración educativa para dimensionar un piloto autonómico (SSO + centros seleccionados) el primer trimestre del curso 2026-27, aprovechando el pico de actividad de septiembre-noviembre.</span></div>
   </div>
 
   <p class="footnote">
-    Datos a 18 de julio de 2026. Se contabilizan los usuarios con correo de los dominios @ceuta.educacion.gob.es localizados en España (0 usuarios de otros países excluidos). El último mes es parcial (marcado con *). El gasto se expresa en dólares estadounidenses (US$). Cifras de alumnado público: estimación aproximada a partir de «Datos y cifras. Curso escolar 2025/2026» (Ministerio de Educación, FP y Deportes). MAU = usuarios activos mensuales. «Equipos» son espacios de trabajo de Canva Educación creados por los propios usuarios.
+    Datos a 31 de julio de 2026. Se contabilizan los usuarios con correo de los dominios @ceuta.educacion.gob.es localizados en España (0 usuarios de otros países excluidos). El último mes es parcial (marcado con *). El gasto se expresa en dólares estadounidenses (US$). Cifras de alumnado público: estimación aproximada a partir de «Datos y cifras. Curso escolar 2025/2026» (Ministerio de Educación, FP y Deportes). MAU = usuarios activos mensuales. «Equipos» son espacios de trabajo de Canva Educación creados por los propios usuarios.
   </p>
 </div>
 <script>
@@ -193,7 +193,7 @@ new Chart(ch3, {type:'bar', data: {labels:['Docentes registrados','Estudiantes r
  options:{indexAxis:'y', responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false},
   tooltip:{callbacks:{label:c=>fmt(c.raw)}}}, scales:{x:{type:'logarithmic', ticks:{callback:fmt}}}}});
 new Chart(ch4, {type:'doughnut', data: {labels:['Plan gratuito','Canva Educación','Canva Pro (pago individual)','Otros'],
- datasets:[{data:[4,0,0,0], backgroundColor:[GRAY,PURPLE,AMBER,TEAL], borderWidth:2}]},
+ datasets:[{data:[0,4,0,0], backgroundColor:[GRAY,PURPLE,AMBER,TEAL], borderWidth:2}]},
  options:{responsive:true, maintainAspectRatio:false, plugins:{tooltip:{callbacks:{label:c=>c.label+': '+fmt(c.raw)}}}}});
 new Chart(ch5, {type:'bar', data: {labels: [],
  datasets:[{label:'Gasto mensual (US$)', data: [], backgroundColor:AMBER, borderRadius:4}]},
@@ -205,4 +205,5 @@ new Chart(ch7, {type:'bar', data: {labels: [],
  datasets:[{label:'Diseños', data: [], backgroundColor:TEAL, borderRadius:4}]},
  options:{indexAxis:'y', responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{x:{ticks:{callback:fmt}}}}});
 </script>
+<p style="font-size:11px;opacity:.7;max-width:900px;margin:8px auto"> Datos obtenidos por consulta directa al almacén de datos (31-07-2026). La clasificación por plan se ha refinado en esta edición; no es comparable 1:1 con ediciones anteriores. Serie histórica mensual de adopción: corte 18-07-2026.</p>
 </body></html>
