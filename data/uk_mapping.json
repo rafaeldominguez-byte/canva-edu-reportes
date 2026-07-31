@@ -439,5 +439,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "greenwich": {
+  "slug": "greenwich-6ebadf3cbd",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 1629,
+   "users_global": 1838,
+   "yau": 153,
+   "mau": 52,
+   "staff": 17,
+   "students": 457,
+   "pct_free": 97.2,
+   "designs_12m": 3914,
+   "spend_12m_usd": 104.03,
+   "teams": 3,
+   "campus_users": 0,
+   "paid_users": 40,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
