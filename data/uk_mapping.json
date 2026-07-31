@@ -187,5 +187,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "cam": {
+  "slug": "cam-44c1e566fe",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 11716,
+   "users_global": 12889,
+   "yau": 4002,
+   "mau": 807,
+   "staff": 221,
+   "students": 3218,
+   "pct_free": 96.6,
+   "designs_12m": 32040,
+   "spend_12m_usd": 8156.78,
+   "teams": 17,
+   "campus_users": 0,
+   "paid_users": 379,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
