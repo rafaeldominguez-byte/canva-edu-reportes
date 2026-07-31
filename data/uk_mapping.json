@@ -103,5 +103,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "bham": {
+  "slug": "bham-badd6c61c2",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 2607,
+   "users_global": 2869,
+   "yau": 1061,
+   "mau": 337,
+   "staff": 179,
+   "students": 165,
+   "pct_free": 88.3,
+   "designs_12m": 11433,
+   "spend_12m_usd": 1923.21,
+   "teams": 1,
+   "campus_users": 1,
+   "paid_users": 306,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
