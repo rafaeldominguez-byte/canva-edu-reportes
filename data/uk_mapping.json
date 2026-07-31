@@ -733,5 +733,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "nottingham": {
+  "slug": "nottingham-7af7d5458d",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 6993,
+   "users_global": 7506,
+   "yau": 2003,
+   "mau": 293,
+   "staff": 116,
+   "students": 2338,
+   "pct_free": 97.1,
+   "designs_12m": 17300,
+   "spend_12m_usd": 5408.04,
+   "teams": 8,
+   "campus_users": 0,
+   "paid_users": 136,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
