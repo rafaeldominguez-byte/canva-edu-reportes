@@ -145,5 +145,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "bournemouth": {
+  "slug": "bournemouth-818f0c60eb",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 6313,
+   "users_global": 6555,
+   "yau": 1471,
+   "mau": 220,
+   "staff": 64,
+   "students": 3335,
+   "pct_free": 98.0,
+   "designs_12m": 16215,
+   "spend_12m_usd": 920.66,
+   "teams": 1,
+   "campus_users": 0,
+   "paid_users": 124,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
