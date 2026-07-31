@@ -355,5 +355,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "edgehill": {
+  "slug": "edgehill-4cd11a5990",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 4081,
+   "users_global": 4155,
+   "yau": 1420,
+   "mau": 212,
+   "staff": 226,
+   "students": 1702,
+   "pct_free": 93.4,
+   "designs_12m": 15875,
+   "spend_12m_usd": 358.85,
+   "teams": 180,
+   "campus_users": 0,
+   "paid_users": 73,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
