@@ -250,5 +250,26 @@
    "nation": "Wales",
    "as_of": "2026-07-31"
   }
+ },
+ "chester": {
+  "slug": "chester-537969df2e",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 2910,
+   "users_global": 3024,
+   "yau": 864,
+   "mau": 154,
+   "staff": 88,
+   "students": 1306,
+   "pct_free": 97.6,
+   "designs_12m": 9361,
+   "spend_12m_usd": 385.09,
+   "teams": 6,
+   "campus_users": 0,
+   "paid_users": 62,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
