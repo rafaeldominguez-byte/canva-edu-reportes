@@ -61,5 +61,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "bcu": {
+  "slug": "bcu-4be108273e",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 1075,
+   "users_global": 1096,
+   "yau": 352,
+   "mau": 83,
+   "staff": 105,
+   "students": 62,
+   "pct_free": 91.0,
+   "designs_12m": 4831,
+   "spend_12m_usd": 296.32,
+   "teams": 57,
+   "campus_users": 0,
+   "paid_users": 17,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
