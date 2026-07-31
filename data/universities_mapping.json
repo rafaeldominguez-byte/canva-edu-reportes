@@ -868,5 +868,20 @@
    "spend_12m_usd": 956.41,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "unican": {
+  "slug": "unican-a55131235f",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 1895,
+   "yau": 686,
+   "mau": 73,
+   "docentes": 66,
+   "estudiantes": 893,
+   "pct_free": 97.4,
+   "designs_12m": 7161,
+   "spend_12m_usd": 870.97,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
