@@ -403,5 +403,20 @@
    "spend_12m_usd": 7310.38,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "ual": {
+  "slug": "ual-cd6124ec18",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 6346,
+   "yau": 3242,
+   "mau": 529,
+   "docentes": 404,
+   "estudiantes": 3157,
+   "pct_free": 98.6,
+   "designs_12m": 30841,
+   "spend_12m_usd": 3401.75,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
