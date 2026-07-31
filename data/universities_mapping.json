@@ -583,5 +583,20 @@
    "spend_12m_usd": 2503.86,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "usc": {
+  "slug": "usc-1f81719ae1",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 3806,
+   "yau": 1250,
+   "mau": 188,
+   "docentes": 140,
+   "estudiantes": 1878,
+   "pct_free": 99.0,
+   "designs_12m": 9265,
+   "spend_12m_usd": 1430.13,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
