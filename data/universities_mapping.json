@@ -793,5 +793,20 @@
    "spend_12m_usd": 1613.53,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uloyola": {
+  "slug": "uloyola-74bdba75b2",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 2235,
+   "yau": 743,
+   "mau": 94,
+   "docentes": 41,
+   "estudiantes": 1077,
+   "pct_free": 98.3,
+   "designs_12m": 7285,
+   "spend_12m_usd": 1388.44,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
