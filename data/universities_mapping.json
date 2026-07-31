@@ -58,5 +58,20 @@
    "spend_12m_usd": 18844.52,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uc3m": {
+  "slug": "uc3m-cf51c00fd1",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 27075,
+   "yau": 11903,
+   "mau": 1509,
+   "docentes": 182,
+   "estudiantes": 13330,
+   "pct_free": 99.3,
+   "designs_12m": 78641,
+   "spend_12m_usd": 10053.24,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
