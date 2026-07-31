@@ -838,5 +838,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "qmul": {
+  "slug": "qmul-9478b23f25",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 4522,
+   "users_global": 4913,
+   "yau": 1811,
+   "mau": 321,
+   "staff": 128,
+   "students": 1664,
+   "pct_free": 88.2,
+   "designs_12m": 21669,
+   "spend_12m_usd": 1438.92,
+   "teams": 65,
+   "campus_users": 0,
+   "paid_users": 144,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
