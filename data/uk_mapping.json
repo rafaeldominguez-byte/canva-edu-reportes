@@ -397,5 +397,26 @@
    "nation": "Scotland",
    "as_of": "2026-07-31"
   }
+ },
+ "essex": {
+  "slug": "essex-d52f362da3",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 2656,
+   "users_global": 2885,
+   "yau": 664,
+   "mau": 126,
+   "staff": 53,
+   "students": 859,
+   "pct_free": 97.4,
+   "designs_12m": 11771,
+   "spend_12m_usd": 1320.04,
+   "teams": 3,
+   "campus_users": 0,
+   "paid_users": 67,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
