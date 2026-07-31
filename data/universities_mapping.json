@@ -313,5 +313,20 @@
    "spend_12m_usd": 7166.08,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uma": {
+  "slug": "uma-fe88410549",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 9642,
+   "yau": 3411,
+   "mau": 566,
+   "docentes": 404,
+   "estudiantes": 5029,
+   "pct_free": 98.7,
+   "designs_12m": 34128,
+   "spend_12m_usd": 3420.69,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
