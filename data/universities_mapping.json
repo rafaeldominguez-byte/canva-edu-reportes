@@ -88,5 +88,20 @@
    "spend_12m_usd": 11864.69,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "unizar": {
+  "slug": "unizar-1b0968a3a4",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 27909,
+   "yau": 15059,
+   "mau": 2277,
+   "docentes": 1158,
+   "estudiantes": 14756,
+   "pct_free": 98.5,
+   "designs_12m": 168811,
+   "spend_12m_usd": 10364.97,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
