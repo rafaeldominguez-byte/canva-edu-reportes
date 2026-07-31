@@ -859,5 +859,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "reading": {
+  "slug": "reading-72ea3001cd",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 850,
+   "users_global": 915,
+   "yau": 252,
+   "mau": 63,
+   "staff": 47,
+   "students": 66,
+   "pct_free": 93.4,
+   "designs_12m": 5096,
+   "spend_12m_usd": 185.71,
+   "teams": 20,
+   "campus_users": 0,
+   "paid_users": 34,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
