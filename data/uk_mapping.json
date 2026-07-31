@@ -712,5 +712,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "northumbria": {
+  "slug": "northumbria-07c895b393",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 7425,
+   "users_global": 7798,
+   "yau": 2103,
+   "mau": 218,
+   "staff": 111,
+   "students": 3492,
+   "pct_free": 98.8,
+   "designs_12m": 18380,
+   "spend_12m_usd": 846.2,
+   "teams": 2,
+   "campus_users": 0,
+   "paid_users": 85,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
