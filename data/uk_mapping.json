@@ -1006,5 +1006,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "uwe": {
+  "slug": "uwe-66b5c42ad8",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 1363,
+   "users_global": 1440,
+   "yau": 496,
+   "mau": 112,
+   "staff": 124,
+   "students": 94,
+   "pct_free": 97.8,
+   "designs_12m": 6193,
+   "spend_12m_usd": 893.6,
+   "teams": 1,
+   "campus_users": 0,
+   "paid_users": 29,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
