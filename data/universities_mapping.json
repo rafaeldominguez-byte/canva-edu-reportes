@@ -13,5 +13,20 @@
    "spend_12m_usd": 38426.47,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uoc": {
+  "slug": "uoc-502154a906",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 55236,
+   "yau": 19079,
+   "mau": 1691,
+   "docentes": 1284,
+   "estudiantes": 28571,
+   "pct_free": 98.0,
+   "designs_12m": 184795,
+   "spend_12m_usd": 52583.73,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
