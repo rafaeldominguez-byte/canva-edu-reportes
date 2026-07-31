@@ -1069,5 +1069,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "york": {
+  "slug": "york-1a87a5727a",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 17176,
+   "users_global": 18612,
+   "yau": 5551,
+   "mau": 924,
+   "staff": 224,
+   "students": 6718,
+   "pct_free": 98.4,
+   "designs_12m": 42328,
+   "spend_12m_usd": 3548.59,
+   "teams": 7,
+   "campus_users": 0,
+   "paid_users": 259,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
