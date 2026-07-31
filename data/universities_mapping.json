@@ -433,5 +433,20 @@
    "spend_12m_usd": 3976.64,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uv": {
+  "slug": "uv-de6395f747",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 4959,
+   "yau": 1410,
+   "mau": 223,
+   "docentes": 290,
+   "estudiantes": 2168,
+   "pct_free": 98.4,
+   "designs_12m": 12551,
+   "spend_12m_usd": 3981.73,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
