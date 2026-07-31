@@ -538,5 +538,20 @@
    "spend_12m_usd": 3535.42,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "ehu": {
+  "slug": "ehu-3afe06ea4d",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 3834,
+   "yau": 1503,
+   "mau": 169,
+   "docentes": 194,
+   "estudiantes": 1892,
+   "pct_free": 98.6,
+   "designs_12m": 9467,
+   "spend_12m_usd": 1958.89,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
