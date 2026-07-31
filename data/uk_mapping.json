@@ -229,5 +229,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "cardiff": {
+  "slug": "cardiff-a44b36231c",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 7293,
+   "users_global": 7712,
+   "yau": 2496,
+   "mau": 467,
+   "staff": 167,
+   "students": 2834,
+   "pct_free": 94.8,
+   "designs_12m": 30489,
+   "spend_12m_usd": 5143.29,
+   "teams": 68,
+   "campus_users": 0,
+   "paid_users": 304,
+   "group": "university",
+   "nation": "Wales",
+   "as_of": "2026-07-31"
+  }
  }
 }
