@@ -898,5 +898,20 @@
    "spend_12m_usd": 546.93,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "ucjc": {
+  "slug": "ucjc-6805d6881a",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 1700,
+   "yau": 569,
+   "mau": 83,
+   "docentes": 118,
+   "estudiantes": 842,
+   "pct_free": 92.4,
+   "designs_12m": 10675,
+   "spend_12m_usd": 1010.44,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
