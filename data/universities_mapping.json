@@ -853,5 +853,20 @@
    "spend_12m_usd": 3037.05,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uemc": {
+  "slug": "uemc-080bf9a613",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 802,
+   "yau": 291,
+   "mau": 46,
+   "docentes": 17,
+   "estudiantes": 462,
+   "pct_free": 98.1,
+   "designs_12m": 2968,
+   "spend_12m_usd": 956.41,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
