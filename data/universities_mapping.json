@@ -703,5 +703,20 @@
    "spend_12m_usd": 4122.77,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "ulpgc": {
+  "slug": "ulpgc-86cdeabc22",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 2784,
+   "yau": 708,
+   "mau": 123,
+   "docentes": 103,
+   "estudiantes": 1525,
+   "pct_free": 98.8,
+   "designs_12m": 8675,
+   "spend_12m_usd": 1190.77,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
