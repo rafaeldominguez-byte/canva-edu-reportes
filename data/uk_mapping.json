@@ -985,5 +985,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "ucl": {
+  "slug": "ucl-046a18bfdb",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 13725,
+   "users_global": 15682,
+   "yau": 4398,
+   "mau": 628,
+   "staff": 258,
+   "students": 4721,
+   "pct_free": 97.1,
+   "designs_12m": 35489,
+   "spend_12m_usd": 3152.26,
+   "teams": 37,
+   "campus_users": 0,
+   "paid_users": 364,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
