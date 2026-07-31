@@ -133,5 +133,20 @@
    "spend_12m_usd": 8963.62,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uji": {
+  "slug": "uji-1c9ff8127f",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 22533,
+   "yau": 10593,
+   "mau": 1865,
+   "docentes": 776,
+   "estudiantes": 10826,
+   "pct_free": 97.4,
+   "designs_12m": 134009,
+   "spend_12m_usd": 15460.94,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
