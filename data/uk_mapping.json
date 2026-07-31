@@ -1153,5 +1153,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "acm": {
+  "slug": "acm-f2d3e5bb29",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 214,
+   "users_global": 221,
+   "yau": 87,
+   "mau": 23,
+   "staff": 23,
+   "students": 12,
+   "pct_free": 96.3,
+   "designs_12m": 1174,
+   "spend_12m_usd": 0,
+   "teams": 0,
+   "campus_users": 0,
+   "paid_users": 8,
+   "group": "college",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
