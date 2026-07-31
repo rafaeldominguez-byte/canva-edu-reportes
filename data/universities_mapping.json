@@ -1138,5 +1138,20 @@
    "spend_12m_usd": 277.44,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "ucavila": {
+  "slug": "ucavila-74140dde22",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 142,
+   "yau": 57,
+   "mau": 6,
+   "docentes": 19,
+   "estudiantes": 12,
+   "pct_free": 97.9,
+   "designs_12m": 353,
+   "spend_12m_usd": 114.98,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
