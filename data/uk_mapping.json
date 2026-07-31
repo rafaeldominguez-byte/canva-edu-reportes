@@ -460,5 +460,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "hull": {
+  "slug": "hull-78d3de5f72",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 2952,
+   "users_global": 3076,
+   "yau": 978,
+   "mau": 173,
+   "staff": 78,
+   "students": 1429,
+   "pct_free": 95.6,
+   "designs_12m": 9689,
+   "spend_12m_usd": 619.67,
+   "teams": 37,
+   "campus_users": 0,
+   "paid_users": 80,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
