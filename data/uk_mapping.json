@@ -502,5 +502,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "kcl": {
+  "slug": "kcl-a8255f2a25",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 9828,
+   "users_global": 11217,
+   "yau": 2876,
+   "mau": 511,
+   "staff": 174,
+   "students": 3291,
+   "pct_free": 96.7,
+   "designs_12m": 40402,
+   "spend_12m_usd": 4607.12,
+   "teams": 23,
+   "campus_users": 0,
+   "paid_users": 301,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
