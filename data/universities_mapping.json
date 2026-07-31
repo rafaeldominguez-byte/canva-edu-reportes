@@ -688,5 +688,20 @@
    "spend_12m_usd": 4343.37,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "nebrija": {
+  "slug": "nebrija-9b764f7d96",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 2236,
+   "yau": 706,
+   "mau": 108,
+   "docentes": 92,
+   "estudiantes": 1044,
+   "pct_free": 97.5,
+   "designs_12m": 10616,
+   "spend_12m_usd": 4122.77,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
