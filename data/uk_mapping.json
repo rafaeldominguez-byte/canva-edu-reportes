@@ -565,5 +565,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "leeds": {
+  "slug": "leeds-86e717649f",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 11440,
+   "users_global": 12296,
+   "yau": 4027,
+   "mau": 572,
+   "staff": 225,
+   "students": 4369,
+   "pct_free": 97.0,
+   "designs_12m": 41588,
+   "spend_12m_usd": 2923.04,
+   "teams": 14,
+   "campus_users": 0,
+   "paid_users": 325,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
