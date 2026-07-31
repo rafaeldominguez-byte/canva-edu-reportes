@@ -208,5 +208,20 @@
    "spend_12m_usd": 17467.59,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "ujaen": {
+  "slug": "ujaen-02642f0d60",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 17614,
+   "yau": 8968,
+   "mau": 1437,
+   "docentes": 569,
+   "estudiantes": 8760,
+   "pct_free": 99.0,
+   "designs_12m": 76553,
+   "spend_12m_usd": 4950.53,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
