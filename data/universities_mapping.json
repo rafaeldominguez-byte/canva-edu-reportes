@@ -613,5 +613,20 @@
    "spend_12m_usd": 2248.51,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uax": {
+  "slug": "uax-c394169121",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 2964,
+   "yau": 875,
+   "mau": 85,
+   "docentes": 69,
+   "estudiantes": 1419,
+   "pct_free": 98.8,
+   "designs_12m": 7810,
+   "spend_12m_usd": 1449.22,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
