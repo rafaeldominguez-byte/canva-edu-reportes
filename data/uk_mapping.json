@@ -922,5 +922,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "southampton": {
+  "slug": "southampton-e114cc9bbe",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 28,
+   "users_global": 33,
+   "yau": 7,
+   "mau": 1,
+   "staff": 0,
+   "students": 7,
+   "pct_free": 96.4,
+   "designs_12m": 848,
+   "spend_12m_usd": 0,
+   "teams": 0,
+   "campus_users": 0,
+   "paid_users": 1,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
