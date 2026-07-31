@@ -343,5 +343,20 @@
    "spend_12m_usd": 5047.8,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uic": {
+  "slug": "uic-041727f17c",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 9175,
+   "yau": 4272,
+   "mau": 682,
+   "docentes": 229,
+   "estudiantes": 3974,
+   "pct_free": 97.9,
+   "designs_12m": 46614,
+   "spend_12m_usd": 8875.83,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
