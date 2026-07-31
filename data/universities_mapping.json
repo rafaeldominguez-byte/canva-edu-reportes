@@ -178,5 +178,20 @@
    "spend_12m_usd": 3114.36,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "upf": {
+  "slug": "upf-6e8c417c49",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 21134,
+   "yau": 8525,
+   "mau": 1301,
+   "docentes": 412,
+   "estudiantes": 10229,
+   "pct_free": 97.7,
+   "designs_12m": 72479,
+   "spend_12m_usd": 8666.98,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
