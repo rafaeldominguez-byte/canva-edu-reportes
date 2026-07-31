@@ -733,5 +733,20 @@
    "spend_12m_usd": 2365.92,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uvic": {
+  "slug": "uvic-e027a05f1d",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 2174,
+   "yau": 488,
+   "mau": 70,
+   "docentes": 37,
+   "estudiantes": 944,
+   "pct_free": 98.5,
+   "designs_12m": 7307,
+   "spend_12m_usd": 2172.12,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
