@@ -238,5 +238,20 @@
    "spend_12m_usd": 10000.18,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "unex": {
+  "slug": "unex-cb61e193c1",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 18358,
+   "yau": 8165,
+   "mau": 1795,
+   "docentes": 248,
+   "estudiantes": 11388,
+   "pct_free": 62.9,
+   "designs_12m": 102206,
+   "spend_12m_usd": 3245.73,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
