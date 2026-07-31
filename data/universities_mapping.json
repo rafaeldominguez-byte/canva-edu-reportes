@@ -943,5 +943,20 @@
    "spend_12m_usd": 777.79,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "unir": {
+  "slug": "unir-9bb0281144",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 888,
+   "yau": 349,
+   "mau": 79,
+   "docentes": 66,
+   "estudiantes": 40,
+   "pct_free": 94.1,
+   "designs_12m": 3376,
+   "spend_12m_usd": 884.59,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
