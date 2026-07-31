@@ -1,0 +1,17 @@
+{
+ "ucm": {
+  "slug": "ucm-66eebda025",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 72143,
+   "yau": 34147,
+   "mau": 5100,
+   "docentes": 1892,
+   "estudiantes": 34178,
+   "pct_free": 98.8,
+   "designs_12m": 316323,
+   "spend_12m_usd": 38426.47,
+   "fecha_corte": "2026-07-31"
+  }
+ }
+}
