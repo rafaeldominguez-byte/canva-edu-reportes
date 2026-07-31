@@ -544,5 +544,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "kent": {
+  "slug": "kent-20085176f1",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 4023,
+   "users_global": 4330,
+   "yau": 1067,
+   "mau": 161,
+   "staff": 48,
+   "students": 1346,
+   "pct_free": 98.3,
+   "designs_12m": 9990,
+   "spend_12m_usd": 664.8,
+   "teams": 0,
+   "campus_users": 0,
+   "paid_users": 69,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
