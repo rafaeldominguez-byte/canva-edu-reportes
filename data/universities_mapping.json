@@ -748,5 +748,20 @@
    "spend_12m_usd": 2172.12,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "ucv": {
+  "slug": "ucv-5ab7718ab0",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 2349,
+   "yau": 717,
+   "mau": 99,
+   "docentes": 75,
+   "estudiantes": 1118,
+   "pct_free": 98.2,
+   "designs_12m": 10043,
+   "spend_12m_usd": 1490.82,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
