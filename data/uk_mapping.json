@@ -670,5 +670,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "mmu": {
+  "slug": "mmu-df019ab843",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 1507,
+   "users_global": 1541,
+   "yau": 497,
+   "mau": 117,
+   "staff": 145,
+   "students": 95,
+   "pct_free": 94.4,
+   "designs_12m": 6740,
+   "spend_12m_usd": 223.84,
+   "teams": 3,
+   "campus_users": 0,
+   "paid_users": 62,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
