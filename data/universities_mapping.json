@@ -493,5 +493,20 @@
    "spend_12m_usd": 2633.57,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uniovi": {
+  "slug": "uniovi-da7936cd1f",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 4285,
+   "yau": 1754,
+   "mau": 216,
+   "docentes": 169,
+   "estudiantes": 2246,
+   "pct_free": 98.8,
+   "designs_12m": 16108,
+   "spend_12m_usd": 1408.97,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
