@@ -943,5 +943,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "surrey": {
+  "slug": "surrey-817b087b11",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 5166,
+   "users_global": 5576,
+   "yau": 1693,
+   "mau": 248,
+   "staff": 78,
+   "students": 1980,
+   "pct_free": 97.5,
+   "designs_12m": 19799,
+   "spend_12m_usd": 3549.94,
+   "teams": 4,
+   "campus_users": 0,
+   "paid_users": 125,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
