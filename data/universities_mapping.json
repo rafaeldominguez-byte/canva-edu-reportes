@@ -1048,5 +1048,20 @@
    "spend_12m_usd": 317.73,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "unirioja": {
+  "slug": "unirioja-91ae03ccc8",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 662,
+   "yau": 237,
+   "mau": 28,
+   "docentes": 50,
+   "estudiantes": 273,
+   "pct_free": 98.2,
+   "designs_12m": 1781,
+   "spend_12m_usd": 434.82,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
