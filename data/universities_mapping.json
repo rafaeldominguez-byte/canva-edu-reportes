@@ -253,5 +253,20 @@
    "spend_12m_usd": 3245.73,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "ucam": {
+  "slug": "ucam-22ff61abbf",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 15729,
+   "yau": 7732,
+   "mau": 1103,
+   "docentes": 662,
+   "estudiantes": 7892,
+   "pct_free": 92.7,
+   "designs_12m": 84453,
+   "spend_12m_usd": 8210.54,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
