@@ -973,5 +973,20 @@
    "spend_12m_usd": 1514.71,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uhu": {
+  "slug": "uhu-bfdbee3f6a",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 1166,
+   "yau": 406,
+   "mau": 49,
+   "docentes": 42,
+   "estudiantes": 745,
+   "pct_free": 99.0,
+   "designs_12m": 3689,
+   "spend_12m_usd": 521.09,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
