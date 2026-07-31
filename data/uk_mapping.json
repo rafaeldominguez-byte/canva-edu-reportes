@@ -271,5 +271,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "coventry": {
+  "slug": "coventry-6ea5a2c2f3",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 4178,
+   "users_global": 4408,
+   "yau": 1551,
+   "mau": 232,
+   "staff": 158,
+   "students": 1837,
+   "pct_free": 94.8,
+   "designs_12m": 12887,
+   "spend_12m_usd": 248.38,
+   "teams": 107,
+   "campus_users": 0,
+   "paid_users": 65,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
