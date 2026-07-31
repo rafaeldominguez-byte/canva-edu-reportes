@@ -1321,5 +1321,26 @@
    "nation": "",
    "as_of": "2026-07-31"
   }
+ },
+ "xelgro": {
+  "slug": "xelgro-4a11d0d517",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 0,
+   "users_global": 0,
+   "yau": 0,
+   "mau": 0,
+   "staff": 0,
+   "students": 0,
+   "pct_free": 0.0,
+   "designs_12m": 0,
+   "spend_12m_usd": 0,
+   "teams": 0,
+   "campus_users": 0,
+   "paid_users": 0,
+   "group": "organisation",
+   "nation": "",
+   "as_of": "2026-07-31"
+  }
  }
 }
