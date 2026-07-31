@@ -1018,5 +1018,20 @@
    "spend_12m_usd": 824.63,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "udl": {
+  "slug": "udl-8c77820aa1",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 1043,
+   "yau": 382,
+   "mau": 64,
+   "docentes": 60,
+   "estudiantes": 562,
+   "pct_free": 97.9,
+   "designs_12m": 4652,
+   "spend_12m_usd": 1292.41,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
