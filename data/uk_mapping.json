@@ -1111,5 +1111,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "abingdon-witney": {
+  "slug": "abingdon-witney-0824c55b4d",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 472,
+   "users_global": 484,
+   "yau": 277,
+   "mau": 78,
+   "staff": 216,
+   "students": 24,
+   "pct_free": 50.2,
+   "designs_12m": 5161,
+   "spend_12m_usd": 17.28,
+   "teams": 19,
+   "campus_users": 0,
+   "paid_users": 9,
+   "group": "college",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
