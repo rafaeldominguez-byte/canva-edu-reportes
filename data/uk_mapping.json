@@ -901,5 +901,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "sheffield": {
+  "slug": "sheffield-a649b0e699",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 25211,
+   "users_global": 26932,
+   "yau": 7696,
+   "mau": 1121,
+   "staff": 289,
+   "students": 10222,
+   "pct_free": 98.5,
+   "designs_12m": 52455,
+   "spend_12m_usd": 4558.9,
+   "teams": 21,
+   "campus_users": 0,
+   "paid_users": 346,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
