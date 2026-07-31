@@ -817,5 +817,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "port": {
+  "slug": "port-f23cc183bb",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 1888,
+   "users_global": 1993,
+   "yau": 659,
+   "mau": 174,
+   "staff": 155,
+   "students": 179,
+   "pct_free": 95.9,
+   "designs_12m": 9594,
+   "spend_12m_usd": 550.08,
+   "teams": 4,
+   "campus_users": 0,
+   "paid_users": 71,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
