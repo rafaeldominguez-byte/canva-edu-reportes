@@ -223,5 +223,20 @@
    "spend_12m_usd": 4950.53,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uca": {
+  "slug": "uca-782b910b32",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 17670,
+   "yau": 9190,
+   "mau": 1789,
+   "docentes": 776,
+   "estudiantes": 9662,
+   "pct_free": 94.6,
+   "designs_12m": 98379,
+   "spend_12m_usd": 10000.18,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
