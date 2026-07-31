@@ -775,5 +775,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "ox": {
+  "slug": "ox-232c49076a",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 678,
+   "users_global": 761,
+   "yau": 385,
+   "mau": 61,
+   "staff": 18,
+   "students": 228,
+   "pct_free": 95.7,
+   "designs_12m": 2786,
+   "spend_12m_usd": 198.01,
+   "teams": 0,
+   "campus_users": 0,
+   "paid_users": 29,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
