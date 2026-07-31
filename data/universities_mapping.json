@@ -163,5 +163,20 @@
    "spend_12m_usd": 25094.43,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uned": {
+  "slug": "uned-14129ce189",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 4274,
+   "yau": 1587,
+   "mau": 227,
+   "docentes": 158,
+   "estudiantes": 2785,
+   "pct_free": 90.0,
+   "designs_12m": 17760,
+   "spend_12m_usd": 3114.36,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
