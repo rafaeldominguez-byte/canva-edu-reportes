@@ -103,5 +103,20 @@
    "spend_12m_usd": 10364.97,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "ugr": {
+  "slug": "ugr-b4b55ef80b",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 22792,
+   "yau": 8212,
+   "mau": 1367,
+   "docentes": 835,
+   "estudiantes": 11466,
+   "pct_free": 98.8,
+   "designs_12m": 78700,
+   "spend_12m_usd": 9213.0,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
