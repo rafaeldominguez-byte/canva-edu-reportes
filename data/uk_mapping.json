@@ -334,5 +334,26 @@
    "nation": "Scotland",
    "as_of": "2026-07-31"
   }
+ },
+ "durham": {
+  "slug": "durham-5177ca1691",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 5440,
+   "users_global": 5935,
+   "yau": 1582,
+   "mau": 309,
+   "staff": 102,
+   "students": 1888,
+   "pct_free": 96.3,
+   "designs_12m": 29652,
+   "spend_12m_usd": 5682.09,
+   "teams": 4,
+   "campus_users": 0,
+   "paid_users": 199,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
