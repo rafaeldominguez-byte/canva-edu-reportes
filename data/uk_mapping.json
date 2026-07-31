@@ -19,5 +19,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "arts": {
+  "slug": "arts-b916037807",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 4213,
+   "users_global": 4694,
+   "yau": 1436,
+   "mau": 235,
+   "staff": 46,
+   "students": 1931,
+   "pct_free": 97.2,
+   "designs_12m": 15955,
+   "spend_12m_usd": 1142.24,
+   "teams": 9,
+   "campus_users": 0,
+   "paid_users": 110,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
