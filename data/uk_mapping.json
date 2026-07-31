@@ -1216,5 +1216,26 @@
    "nation": "",
    "as_of": "2026-07-31"
   }
+ },
+ "activelearninggroup": {
+  "slug": "activelearninggroup-1481751d76",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 9,
+   "users_global": 10,
+   "yau": 4,
+   "mau": 3,
+   "staff": 0,
+   "students": 0,
+   "pct_free": 66.7,
+   "designs_12m": 709,
+   "spend_12m_usd": 787.33,
+   "teams": 0,
+   "campus_users": 0,
+   "paid_users": 3,
+   "group": "organisation",
+   "nation": "",
+   "as_of": "2026-07-31"
+  }
  }
 }
