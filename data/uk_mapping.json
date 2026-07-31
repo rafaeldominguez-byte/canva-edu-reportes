@@ -964,5 +964,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "sussex": {
+  "slug": "sussex-1e11bcd690",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 5748,
+   "users_global": 6339,
+   "yau": 1659,
+   "mau": 241,
+   "staff": 110,
+   "students": 2379,
+   "pct_free": 97.5,
+   "designs_12m": 16276,
+   "spend_12m_usd": 3436.65,
+   "teams": 41,
+   "campus_users": 0,
+   "paid_users": 95,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
