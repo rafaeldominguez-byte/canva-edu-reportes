@@ -1048,5 +1048,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "westminster": {
+  "slug": "westminster-23c07d553f",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 3654,
+   "users_global": 4118,
+   "yau": 1941,
+   "mau": 238,
+   "staff": 72,
+   "students": 1865,
+   "pct_free": 93.9,
+   "designs_12m": 20206,
+   "spend_12m_usd": 1210.28,
+   "teams": 6,
+   "campus_users": 0,
+   "paid_users": 99,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
