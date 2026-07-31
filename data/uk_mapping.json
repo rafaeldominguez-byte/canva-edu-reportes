@@ -82,5 +82,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "beds": {
+  "slug": "beds-c84d968c0b",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 389,
+   "users_global": 398,
+   "yau": 137,
+   "mau": 51,
+   "staff": 41,
+   "students": 18,
+   "pct_free": 91.5,
+   "designs_12m": 3120,
+   "spend_12m_usd": 138.92,
+   "teams": 0,
+   "campus_users": 0,
+   "paid_users": 33,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
