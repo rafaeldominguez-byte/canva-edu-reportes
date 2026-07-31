@@ -673,5 +673,20 @@
    "spend_12m_usd": 3185.52,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "ceu": {
+  "slug": "ceu-7e656d1376",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 3339,
+   "yau": 1206,
+   "mau": 174,
+   "docentes": 251,
+   "estudiantes": 1399,
+   "pct_free": 94.3,
+   "designs_12m": 20842,
+   "spend_12m_usd": 4343.37,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
