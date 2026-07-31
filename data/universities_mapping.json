@@ -1123,5 +1123,20 @@
    "spend_12m_usd": 89.21,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "unia": {
+  "slug": "unia-539157f621",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 106,
+   "yau": 33,
+   "mau": 11,
+   "docentes": 7,
+   "estudiantes": 42,
+   "pct_free": 93.4,
+   "designs_12m": 618,
+   "spend_12m_usd": 277.44,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
