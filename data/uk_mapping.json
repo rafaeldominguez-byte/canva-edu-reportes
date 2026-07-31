@@ -1174,5 +1174,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "2simple": {
+  "slug": "2simple-57f3088397",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 23,
+   "users_global": 27,
+   "yau": 6,
+   "mau": 3,
+   "staff": 0,
+   "students": 1,
+   "pct_free": 91.3,
+   "designs_12m": 1531,
+   "spend_12m_usd": 0,
+   "teams": 0,
+   "campus_users": 0,
+   "paid_users": 2,
+   "group": "organisation",
+   "nation": "",
+   "as_of": "2026-07-31"
+  }
  }
 }
