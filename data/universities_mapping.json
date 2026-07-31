@@ -1093,5 +1093,20 @@
    "spend_12m_usd": 503.72,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "udima": {
+  "slug": "udima-fe853f5c0b",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 310,
+   "yau": 137,
+   "mau": 28,
+   "docentes": 59,
+   "estudiantes": 13,
+   "pct_free": 96.1,
+   "designs_12m": 1031,
+   "spend_12m_usd": 352.77,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
