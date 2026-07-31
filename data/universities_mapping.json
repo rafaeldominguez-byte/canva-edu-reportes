@@ -883,5 +883,20 @@
    "spend_12m_usd": 870.97,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uib": {
+  "slug": "uib-8194c60d29",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 914,
+   "yau": 247,
+   "mau": 33,
+   "docentes": 47,
+   "estudiantes": 412,
+   "pct_free": 98.7,
+   "designs_12m": 2067,
+   "spend_12m_usd": 546.93,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
