@@ -118,5 +118,20 @@
    "spend_12m_usd": 9213.0,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "ull": {
+  "slug": "ull-b0f6070e2f",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 23466,
+   "yau": 12120,
+   "mau": 2784,
+   "docentes": 1680,
+   "estudiantes": 12550,
+   "pct_free": 89.1,
+   "designs_12m": 164073,
+   "spend_12m_usd": 8963.62,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
