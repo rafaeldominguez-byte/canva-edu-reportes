@@ -373,5 +373,20 @@
    "spend_12m_usd": 5024.88,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "urjc": {
+  "slug": "urjc-dbeda5ee7b",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 7489,
+   "yau": 2461,
+   "mau": 281,
+   "docentes": 240,
+   "estudiantes": 4172,
+   "pct_free": 99.1,
+   "designs_12m": 18528,
+   "spend_12m_usd": 3336.69,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
