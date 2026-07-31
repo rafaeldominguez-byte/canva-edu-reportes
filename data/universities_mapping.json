@@ -1003,5 +1003,20 @@
    "spend_12m_usd": 871.86,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "unavarra": {
+  "slug": "unavarra-518122d121",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 1080,
+   "yau": 364,
+   "mau": 46,
+   "docentes": 69,
+   "estudiantes": 449,
+   "pct_free": 98.7,
+   "designs_12m": 4271,
+   "spend_12m_usd": 824.63,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
