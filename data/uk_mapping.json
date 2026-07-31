@@ -607,5 +607,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "liverpool": {
+  "slug": "liverpool-6322709ac9",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 9339,
+   "users_global": 9856,
+   "yau": 3495,
+   "mau": 397,
+   "staff": 136,
+   "students": 4419,
+   "pct_free": 97.2,
+   "designs_12m": 28224,
+   "spend_12m_usd": 1287.45,
+   "teams": 12,
+   "campus_users": 0,
+   "paid_users": 218,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
