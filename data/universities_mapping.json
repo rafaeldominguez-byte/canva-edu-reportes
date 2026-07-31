@@ -358,5 +358,20 @@
    "spend_12m_usd": 8875.83,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uab": {
+  "slug": "uab-60b41b6386",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 8933,
+   "yau": 1221,
+   "mau": 232,
+   "docentes": 171,
+   "estudiantes": 4091,
+   "pct_free": 98.9,
+   "designs_12m": 14816,
+   "spend_12m_usd": 5024.88,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
