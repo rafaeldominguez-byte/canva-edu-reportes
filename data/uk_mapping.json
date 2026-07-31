@@ -523,5 +523,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "keele": {
+  "slug": "keele-53bc884558",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 842,
+   "users_global": 875,
+   "yau": 260,
+   "mau": 73,
+   "staff": 41,
+   "students": 100,
+   "pct_free": 91.4,
+   "designs_12m": 4322,
+   "spend_12m_usd": 132.17,
+   "teams": 18,
+   "campus_users": 0,
+   "paid_users": 55,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
