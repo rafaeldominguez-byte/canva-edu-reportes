@@ -1063,5 +1063,20 @@
    "spend_12m_usd": 434.82,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "upct": {
+  "slug": "upct-8636e53e79",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 536,
+   "yau": 203,
+   "mau": 27,
+   "docentes": 16,
+   "estudiantes": 268,
+   "pct_free": 98.3,
+   "designs_12m": 2009,
+   "spend_12m_usd": 637.08,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
