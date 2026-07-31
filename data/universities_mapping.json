@@ -658,5 +658,20 @@
    "spend_12m_usd": 3499.86,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "comillas": {
+  "slug": "comillas-dab4139287",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 3092,
+   "yau": 1137,
+   "mau": 136,
+   "docentes": 141,
+   "estudiantes": 1362,
+   "pct_free": 96.3,
+   "designs_12m": 12405,
+   "spend_12m_usd": 3185.52,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
