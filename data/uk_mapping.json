@@ -313,5 +313,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "dundee": {
+  "slug": "dundee-54cd01a20d",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 3282,
+   "users_global": 3482,
+   "yau": 956,
+   "mau": 148,
+   "staff": 85,
+   "students": 1261,
+   "pct_free": 97.5,
+   "designs_12m": 8708,
+   "spend_12m_usd": 451.16,
+   "teams": 12,
+   "campus_users": 0,
+   "paid_users": 71,
+   "group": "university",
+   "nation": "Scotland",
+   "as_of": "2026-07-31"
+  }
  }
 }
