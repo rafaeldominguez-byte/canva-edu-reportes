@@ -523,5 +523,20 @@
    "spend_12m_usd": 7419.51,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uclm": {
+  "slug": "uclm-99966db38c",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 4744,
+   "yau": 1589,
+   "mau": 237,
+   "docentes": 219,
+   "estudiantes": 2358,
+   "pct_free": 98.1,
+   "designs_12m": 15362,
+   "spend_12m_usd": 3535.42,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
