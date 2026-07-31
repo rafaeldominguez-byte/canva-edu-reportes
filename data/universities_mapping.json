@@ -628,5 +628,20 @@
    "spend_12m_usd": 1449.22,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uchceu": {
+  "slug": "uchceu-04e74c58b5",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 3079,
+   "yau": 926,
+   "mau": 94,
+   "docentes": 91,
+   "estudiantes": 1538,
+   "pct_free": 98.2,
+   "designs_12m": 9685,
+   "spend_12m_usd": 1987.41,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
