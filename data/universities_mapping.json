@@ -508,5 +508,20 @@
    "spend_12m_usd": 1408.97,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uem": {
+  "slug": "uem-b038ec35a2",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 3687,
+   "yau": 1376,
+   "mau": 190,
+   "docentes": 144,
+   "estudiantes": 1951,
+   "pct_free": 97.9,
+   "designs_12m": 18343,
+   "spend_12m_usd": 7419.51,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
