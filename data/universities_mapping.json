@@ -1108,5 +1108,20 @@
    "spend_12m_usd": 352.77,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uimp": {
+  "slug": "uimp-8008f5dfa7",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 174,
+   "yau": 57,
+   "mau": 13,
+   "docentes": 4,
+   "estudiantes": 66,
+   "pct_free": 99.4,
+   "designs_12m": 315,
+   "spend_12m_usd": 89.21,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
