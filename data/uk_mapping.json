@@ -796,5 +796,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "plymouth": {
+  "slug": "plymouth-599ae97722",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 1083,
+   "users_global": 1119,
+   "yau": 377,
+   "mau": 116,
+   "staff": 77,
+   "students": 129,
+   "pct_free": 93.4,
+   "designs_12m": 8925,
+   "spend_12m_usd": 921.64,
+   "teams": 2,
+   "campus_users": 0,
+   "paid_users": 69,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
