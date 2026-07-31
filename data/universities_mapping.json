@@ -778,5 +778,20 @@
    "spend_12m_usd": 1989.54,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "ubu": {
+  "slug": "ubu-22014d175e",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 2489,
+   "yau": 965,
+   "mau": 104,
+   "docentes": 103,
+   "estudiantes": 1293,
+   "pct_free": 97.5,
+   "designs_12m": 9918,
+   "spend_12m_usd": 1613.53,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
