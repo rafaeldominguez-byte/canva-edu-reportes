@@ -298,5 +298,20 @@
    "spend_12m_usd": 10214.07,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "unileon": {
+  "slug": "unileon-b18b983ced",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 12256,
+   "yau": 5967,
+   "mau": 1146,
+   "docentes": 472,
+   "estudiantes": 6404,
+   "pct_free": 96.9,
+   "designs_12m": 60067,
+   "spend_12m_usd": 7166.08,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
