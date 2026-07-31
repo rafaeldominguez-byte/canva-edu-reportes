@@ -283,5 +283,20 @@
    "spend_12m_usd": 8599.63,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "umh": {
+  "slug": "umh-f24b7c508a",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 13336,
+   "yau": 6155,
+   "mau": 1021,
+   "docentes": 489,
+   "estudiantes": 6607,
+   "pct_free": 98.4,
+   "designs_12m": 56587,
+   "spend_12m_usd": 10214.07,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
