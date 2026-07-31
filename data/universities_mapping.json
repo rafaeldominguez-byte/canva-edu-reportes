@@ -448,5 +448,20 @@
    "spend_12m_usd": 3981.73,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "upsa": {
+  "slug": "upsa-d5c5bbebaf",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 4801,
+   "yau": 2788,
+   "mau": 423,
+   "docentes": 193,
+   "estudiantes": 2451,
+   "pct_free": 97.9,
+   "designs_12m": 35918,
+   "spend_12m_usd": 4227.06,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
