@@ -166,5 +166,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "bristol": {
+  "slug": "bristol-b6e2764565",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 8909,
+   "users_global": 9546,
+   "yau": 2910,
+   "mau": 471,
+   "staff": 202,
+   "students": 3093,
+   "pct_free": 96.2,
+   "designs_12m": 25296,
+   "spend_12m_usd": 4225.0,
+   "teams": 86,
+   "campus_users": 0,
+   "paid_users": 189,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
