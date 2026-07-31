@@ -913,5 +913,20 @@
    "spend_12m_usd": 1010.44,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "deusto": {
+  "slug": "deusto-5b5ab800fe",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 1459,
+   "yau": 742,
+   "mau": 175,
+   "docentes": 242,
+   "estudiantes": 98,
+   "pct_free": 96.0,
+   "designs_12m": 9716,
+   "spend_12m_usd": 6065.17,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
