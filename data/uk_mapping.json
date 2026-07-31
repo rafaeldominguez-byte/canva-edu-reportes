@@ -481,5 +481,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "imperial": {
+  "slug": "imperial-deb5d3b4e0",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 4948,
+   "users_global": 5548,
+   "yau": 1293,
+   "mau": 252,
+   "staff": 100,
+   "students": 1383,
+   "pct_free": 94.8,
+   "designs_12m": 13960,
+   "spend_12m_usd": 5015.87,
+   "teams": 92,
+   "campus_users": 0,
+   "paid_users": 159,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
