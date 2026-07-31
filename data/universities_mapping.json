@@ -148,5 +148,20 @@
    "spend_12m_usd": 15460.94,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "unav": {
+  "slug": "unav-17db7eee01",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 19297,
+   "yau": 8460,
+   "mau": 1055,
+   "docentes": 542,
+   "estudiantes": 7779,
+   "pct_free": 98.2,
+   "designs_12m": 80841,
+   "spend_12m_usd": 25094.43,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
