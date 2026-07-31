@@ -958,5 +958,20 @@
    "spend_12m_usd": 884.59,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "viu": {
+  "slug": "viu-1447a0bf63",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 940,
+   "yau": 342,
+   "mau": 53,
+   "docentes": 49,
+   "estudiantes": 413,
+   "pct_free": 96.3,
+   "designs_12m": 3838,
+   "spend_12m_usd": 1514.71,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
