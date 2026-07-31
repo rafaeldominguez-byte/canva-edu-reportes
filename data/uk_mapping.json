@@ -40,5 +40,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "aston": {
+  "slug": "aston-d2fc7b4e3b",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 3210,
+   "users_global": 3437,
+   "yau": 992,
+   "mau": 119,
+   "staff": 39,
+   "students": 1303,
+   "pct_free": 96.9,
+   "designs_12m": 6410,
+   "spend_12m_usd": 570.73,
+   "teams": 5,
+   "campus_users": 0,
+   "paid_users": 31,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
