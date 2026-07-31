@@ -1279,5 +1279,26 @@
    "nation": "",
    "as_of": "2026-07-31"
   }
+ },
+ "ahzassociates": {
+  "slug": "ahzassociates-5c3c7bf441",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 14,
+   "users_global": 370,
+   "yau": 2,
+   "mau": 1,
+   "staff": 0,
+   "students": 1,
+   "pct_free": 100.0,
+   "designs_12m": 57,
+   "spend_12m_usd": 0,
+   "teams": 0,
+   "campus_users": 0,
+   "paid_users": 0,
+   "group": "organisation",
+   "nation": "",
+   "as_of": "2026-07-31"
+  }
  }
 }
