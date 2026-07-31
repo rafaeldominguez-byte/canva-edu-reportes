@@ -1132,5 +1132,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "accesscreative": {
+  "slug": "accesscreative-6fb1b986b6",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 3368,
+   "users_global": 3392,
+   "yau": 2067,
+   "mau": 291,
+   "staff": 47,
+   "students": 1738,
+   "pct_free": 98.6,
+   "designs_12m": 16837,
+   "spend_12m_usd": 157.01,
+   "teams": 4,
+   "campus_users": 0,
+   "paid_users": 23,
+   "group": "college",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
