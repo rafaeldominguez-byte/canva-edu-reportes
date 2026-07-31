@@ -808,5 +808,20 @@
    "spend_12m_usd": 1388.44,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "urv": {
+  "slug": "urv-303b548b2e",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 2312,
+   "yau": 712,
+   "mau": 118,
+   "docentes": 122,
+   "estudiantes": 1113,
+   "pct_free": 97.9,
+   "designs_12m": 8755,
+   "spend_12m_usd": 3601.86,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
