@@ -1033,5 +1033,20 @@
    "spend_12m_usd": 1292.41,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "upo": {
+  "slug": "upo-5fd99f698d",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 853,
+   "yau": 221,
+   "mau": 28,
+   "docentes": 43,
+   "estudiantes": 371,
+   "pct_free": 99.1,
+   "designs_12m": 1429,
+   "spend_12m_usd": 317.73,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
