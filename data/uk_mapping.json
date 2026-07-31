@@ -880,5 +880,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "roehampton": {
+  "slug": "roehampton-014a6a051a",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 1629,
+   "users_global": 1733,
+   "yau": 523,
+   "mau": 84,
+   "staff": 60,
+   "students": 608,
+   "pct_free": 93.1,
+   "designs_12m": 6637,
+   "spend_12m_usd": 770.73,
+   "teams": 48,
+   "campus_users": 0,
+   "paid_users": 59,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
