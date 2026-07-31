@@ -691,5 +691,26 @@
    "nation": "England",
    "as_of": "2026-07-31"
   }
+ },
+ "newcastle": {
+  "slug": "newcastle-67a969575d",
+  "updated": "2026-07-31",
+  "metrics": {
+   "users": 6772,
+   "users_global": 7262,
+   "yau": 2073,
+   "mau": 320,
+   "staff": 83,
+   "students": 3099,
+   "pct_free": 97.3,
+   "designs_12m": 20380,
+   "spend_12m_usd": 2036.81,
+   "teams": 5,
+   "campus_users": 0,
+   "paid_users": 177,
+   "group": "university",
+   "nation": "England",
+   "as_of": "2026-07-31"
+  }
  }
 }
