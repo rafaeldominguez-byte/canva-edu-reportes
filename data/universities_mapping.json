@@ -268,5 +268,20 @@
    "spend_12m_usd": 8210.54,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "mondragon": {
+  "slug": "mondragon-86745293a1",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 12870,
+   "yau": 6035,
+   "mau": 1263,
+   "docentes": 418,
+   "estudiantes": 6444,
+   "pct_free": 97.6,
+   "designs_12m": 82523,
+   "spend_12m_usd": 8599.63,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
