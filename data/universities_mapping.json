@@ -598,5 +598,20 @@
    "spend_12m_usd": 1430.13,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uah": {
+  "slug": "uah-bc38336099",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 3921,
+   "yau": 1322,
+   "mau": 196,
+   "docentes": 166,
+   "estudiantes": 2077,
+   "pct_free": 98.4,
+   "designs_12m": 15317,
+   "spend_12m_usd": 2248.51,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
