@@ -928,5 +928,20 @@
    "spend_12m_usd": 6065.17,
    "fecha_corte": "2026-07-31"
   }
+ },
+ "uvigo": {
+  "slug": "uvigo-649826da1f",
+  "updated": "2026-07-31",
+  "metrics": {
+   "usuarios": 1372,
+   "yau": 378,
+   "mau": 54,
+   "docentes": 77,
+   "estudiantes": 569,
+   "pct_free": 98.7,
+   "designs_12m": 2473,
+   "spend_12m_usd": 777.79,
+   "fecha_corte": "2026-07-31"
+  }
  }
 }
