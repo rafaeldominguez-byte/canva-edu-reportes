@@ -123,15 +123,15 @@
   "slug": "baleares-04ebc16adb",
   "updated": "2026-08-01",
   "metrics": {
-   "usuarios": 2745,
+   "usuarios": 2746,
    "yau": 1186,
-   "mau": 359,
-   "docentes": 905,
+   "mau": 345,
+   "docentes": 915,
    "estudiantes": 177,
-   "pct_free": 68.3,
-   "designs_12m": 46179,
-   "spend_12m_usd": 1424.8,
-   "fecha_corte": "2026-07-31"
+   "pct_free": 67.9,
+   "designs_12m": 46924,
+   "spend_12m_usd": 1166.33,
+   "fecha_corte": "2026-08-01"
   }
  },
  "canarias": {
