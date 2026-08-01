@@ -211,7 +211,7 @@
  },
  "ceuta": {
   "slug": "ceuta-c838b944fc",
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "metrics": {
    "usuarios": 4,
    "yau": 0,
@@ -220,8 +220,8 @@
    "estudiantes": 0,
    "pct_free": 0.0,
    "designs_12m": 0,
-   "spend_12m_usd": 0.0,
-   "fecha_corte": "2026-07-31"
+   "spend_12m_usd": 0,
+   "fecha_corte": "2026-08-01"
   }
  },
  "extremadura": {
