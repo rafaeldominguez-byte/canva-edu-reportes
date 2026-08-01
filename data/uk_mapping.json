@@ -257,7 +257,7 @@
  },
  "bristol": {
   "slug": "bristol-b6e2764565",
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "metrics": {
    "users": 11189,
    "users_global": 12611,
@@ -289,7 +289,7 @@
  },
  "cam": {
   "slug": "cam-44c1e566fe",
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "metrics": {
    "users": 13631,
    "users_global": 14907,
@@ -321,7 +321,7 @@
  },
  "canterbury": {
   "slug": "canterbury-43e4d14fb8",
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "metrics": {
    "users": 3448,
    "users_global": 3561,
@@ -545,7 +545,7 @@
  },
  "edgehill": {
   "slug": "edgehill-4cd11a5990",
-  "updated": "2026-08-01",
+  "updated": "2026-07-31",
   "metrics": {
    "users": 4216,
    "users_global": 4310,
