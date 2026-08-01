@@ -833,7 +833,7 @@
  },
  "kent": {
   "slug": "kent-20085176f1",
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "metrics": {
    "users": 4023,
    "users_global": 4330,
@@ -865,7 +865,7 @@
  },
  "leeds": {
   "slug": "leeds-86e717649f",
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "metrics": {
    "users": 11478,
    "users_global": 12335,
@@ -1153,7 +1153,7 @@
  },
  "ntu": {
   "slug": "ntu-46723f67b1",
-  "updated": "2026-08-01",
+  "updated": "2026-07-31",
   "metrics": {
    "users": 10798,
    "users_global": 11245,
