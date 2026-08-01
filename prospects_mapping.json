@@ -3,15 +3,15 @@
   "slug": "galicia-475fdff280",
   "updated": "2026-08-01",
   "metrics": {
-   "usuarios": 22191,
+   "usuarios": 22194,
    "yau": 13035,
-   "mau": 4242,
-   "docentes": 12012,
-   "estudiantes": 705,
-   "pct_free": 38.6,
-   "designs_12m": 692745,
-   "spend_12m_usd": 13389.0,
-   "fecha_corte": "2026-07-31"
+   "mau": 4107,
+   "docentes": 12074,
+   "estudiantes": 708,
+   "pct_free": 38.4,
+   "designs_12m": 697523,
+   "spend_12m_usd": 10739.14,
+   "fecha_corte": "2026-08-01"
   }
  },
  "murcia": {
