@@ -961,7 +961,7 @@
  },
  "lse": {
   "slug": "lse-8e020139b9",
-  "updated": "2026-08-01",
+  "updated": "2026-07-31",
   "metrics": {
    "users": 4138,
    "users_global": 4936,
@@ -993,7 +993,7 @@
  },
  "manchester": {
   "slug": "manchester-0e8ff456bb",
-  "updated": "2026-08-01",
+  "updated": "2026-07-31",
   "metrics": {
    "users": 10988,
    "users_global": 11914,
@@ -1185,7 +1185,7 @@
  },
  "ox": {
   "slug": "ox-232c49076a",
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "metrics": {
    "users": 6929,
    "users_global": 7600,
@@ -1217,7 +1217,7 @@
  },
  "plymouth": {
   "slug": "plymouth-599ae97722",
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "metrics": {
    "users": 4438,
    "users_global": 4961,
@@ -1249,7 +1249,7 @@
  },
  "port": {
   "slug": "port-f23cc183bb",
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "metrics": {
    "users": 1888,
    "users_global": 1993,
@@ -1281,7 +1281,7 @@
  },
  "qmul": {
   "slug": "qmul-9478b23f25",
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "metrics": {
    "users": 5452,
    "users_global": 5973,
