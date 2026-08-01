@@ -229,14 +229,14 @@
   "updated": "2026-08-01",
   "metrics": {
    "usuarios": 122008,
-   "yau": 79489,
-   "mau": 9891,
-   "docentes": 13212,
-   "estudiantes": 73709,
-   "pct_free": 80.8,
-   "designs_12m": 1497385,
-   "spend_12m_usd": 22912.68,
-   "fecha_corte": "2026-07-31"
+   "yau": 79449,
+   "mau": 9685,
+   "docentes": 13291,
+   "estudiantes": 74254,
+   "pct_free": 80.4,
+   "designs_12m": 1511357,
+   "spend_12m_usd": 21155.14,
+   "fecha_corte": "2026-08-01"
   }
  },
  "la-rioja": {
