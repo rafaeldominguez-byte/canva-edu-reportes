@@ -161,7 +161,7 @@
  },
  "bham": {
   "slug": "bham-badd6c61c2",
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "metrics": {
    "users": 13905,
    "users_global": 71655,
@@ -181,11 +181,11 @@
    "is_customer": true,
    "status": "customer",
    "customer_plan": "Canva Enterprise",
-   "seats": 244,
+   "seats": 248,
    "seats_used": 242,
    "seats_signed": 20500,
-   "penetration": 99,
-   "renew": "2026-08-16",
+   "penetration": 98,
+   "renew": "2026-08-11",
    "group": "university",
    "nation": "England",
    "as_of": "2026-07-31"
