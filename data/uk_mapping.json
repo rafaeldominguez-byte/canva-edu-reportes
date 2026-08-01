@@ -993,7 +993,7 @@
  },
  "manchester": {
   "slug": "manchester-0e8ff456bb",
-  "updated": "2026-08-01",
+  "updated": "2026-07-31",
   "metrics": {
    "users": 10988,
    "users_global": 11914,
@@ -1121,7 +1121,7 @@
  },
  "nottingham": {
   "slug": "nottingham-7af7d5458d",
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "metrics": {
    "users": 7492,
    "users_global": 8049,
