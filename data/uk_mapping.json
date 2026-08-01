@@ -1313,7 +1313,7 @@
  },
  "reading": {
   "slug": "reading-72ea3001cd",
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "metrics": {
    "users": 2977,
    "users_global": 3378,
@@ -1409,7 +1409,7 @@
  },
  "southampton": {
   "slug": "southampton-e114cc9bbe",
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "metrics": {
    "users": 5880,
    "users_global": 6621,
@@ -1601,7 +1601,7 @@
  },
  "westminster": {
   "slug": "westminster-23c07d553f",
-  "updated": "2026-08-01",
+  "updated": "2026-07-31",
   "metrics": {
    "users": 13118,
    "users_global": 15234,
@@ -1633,7 +1633,7 @@
  },
  "york": {
   "slug": "york-1a87a5727a",
-  "updated": "2026-08-01",
+  "updated": "2026-07-31",
   "metrics": {
    "users": 17301,
    "users_global": 18826,
@@ -1665,7 +1665,7 @@
  },
  "yorksj": {
   "slug": "yorksj-466dfa477b",
-  "updated": "2026-08-01",
+  "updated": "2026-07-31",
   "metrics": {
    "users": 2807,
    "users_global": 2887,
@@ -1761,7 +1761,7 @@
  },
  "acm": {
   "slug": "acm-f2d3e5bb29",
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "metrics": {
    "users": 1863,
    "users_global": 1948,
@@ -1793,7 +1793,7 @@
  },
  "2simple": {
   "slug": "2simple-57f3088397",
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "metrics": {
    "users": 23,
    "users_global": 27,
