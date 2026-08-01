@@ -170,13 +170,13 @@
   "metrics": {
    "usuarios": 1663,
    "yau": 263,
-   "mau": 101,
-   "docentes": 255,
+   "mau": 97,
+   "docentes": 259,
    "estudiantes": 21,
    "pct_free": 62.2,
-   "designs_12m": 15471,
-   "spend_12m_usd": 37.32,
-   "fecha_corte": "2026-07-31"
+   "designs_12m": 15821,
+   "spend_12m_usd": 78.85,
+   "fecha_corte": "2026-08-01"
   }
  },
  "castilla-y-leon": {
