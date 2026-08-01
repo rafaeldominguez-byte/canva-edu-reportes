@@ -83,7 +83,7 @@
     <p class="sub">Uso real de Canva por la comunidad educativa con los correos oficiales de la administración educativa — sin que exista todavía un convenio autonómico.</p>
     <div class="meta">
       <span>✉️ Dominios: @ceuta.educacion.gob.es</span>
-      <span>🗂️ Datos a 31 de julio de 2026</span>
+      <span>🗂️ Datos a 1 de agosto de 2026</span>
       <span>🎓 Alumnado público estimado: ~14.000</span>
     </div>
   </div>
@@ -103,12 +103,12 @@
   <div class="grid2">
     <div class="card">
       <h3>Usuarios acumulados y usuarios activos mensuales</h3>
-      <p class="note">El último punto (Jul 26*) es parcial y coincide con vacaciones.</p>
+      <p class="note">El último punto (Ago 26*) es parcial y coincide con vacaciones.</p>
       <div class="chartbox tall"><canvas id="ch1"></canvas></div>
     </div>
     <div class="card">
       <h3>Nuevos registros por año</h3>
-      <p class="note">2022* recoge solo hasta el 31 de julio de 2026.</p>
+      <p class="note">2022* recoge solo hasta el 1 de agosto de 2026.</p>
       <div class="chartbox tall"><canvas id="ch2"></canvas></div>
     </div>
   </div>
@@ -171,7 +171,7 @@
   </div>
 
   <p class="footnote">
-    Datos a 31 de julio de 2026. Se contabilizan los usuarios con correo de los dominios @ceuta.educacion.gob.es localizados en España (0 usuarios de otros países excluidos). El último mes es parcial (marcado con *). El gasto se expresa en dólares estadounidenses (US$). Cifras de alumnado público: estimación aproximada a partir de «Datos y cifras. Curso escolar 2025/2026» (Ministerio de Educación, FP y Deportes). MAU = usuarios activos mensuales. «Equipos» son espacios de trabajo de Canva Educación creados por los propios usuarios.
+    Datos a 1 de agosto de 2026. Se contabilizan los usuarios con correo de los dominios @ceuta.educacion.gob.es localizados en España (0 usuarios de otros países excluidos). El último mes es parcial (marcado con *). El gasto se expresa en dólares estadounidenses (US$). Cifras de alumnado público: estimación aproximada a partir de «Datos y cifras. Curso escolar 2025/2026» (Ministerio de Educación, FP y Deportes). MAU = usuarios activos mensuales. «Equipos» son espacios de trabajo de Canva Educación creados por los propios usuarios.
   </p>
 </div>
 <script>
@@ -180,9 +180,9 @@ Chart.defaults.font.family="'Segoe UI',-apple-system,Roboto,Helvetica,Arial,sans
 Chart.defaults.color='#5c6b7a';
 Chart.defaults.plugins.legend.labels.boxWidth=12;
 const fmt = v => v.toLocaleString('es-ES');
-new Chart(ch1, {type:'line', data: {labels: ["Sep 22", "Oct 22", "Nov 22", "Dic 22", "Ene 23", "Feb 23", "Mar 23", "Abr 23", "May 23", "Jun 23", "Jul 23", "Ago 23", "Sep 23", "Oct 23", "Nov 23", "Dic 23", "Ene 24", "Feb 24", "Mar 24", "Abr 24", "May 24", "Jun 24", "Jul 24", "Ago 24", "Sep 24", "Oct 24", "Nov 24", "Dic 24", "Ene 25", "Feb 25", "Mar 25", "Abr 25", "May 25", "Jun 25", "Jul 25", "Ago 25", "Sep 25", "Oct 25", "Nov 25", "Dic 25", "Ene 26", "Feb 26", "Mar 26", "Abr 26", "May 26", "Jun 26", "Jul 26*"],
- datasets:[{label:'Usuarios acumulados', data: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 8], borderColor:PURPLE, backgroundColor:'rgba(139,61,255,.08)', fill:true, pointRadius:0, borderWidth:2.5, yAxisID:'y'},
-   {label:'Activos mensuales (MAU)', data: [2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], borderColor:TEAL, pointRadius:0, borderWidth:2, yAxisID:'y1'}]},
+new Chart(ch1, {type:'line', data: {labels: ["Sep 22", "Oct 22", "Nov 22", "Dic 22", "Ene 23", "Feb 23", "Mar 23", "Abr 23", "May 23", "Jun 23", "Jul 23", "Ago 23", "Sep 23", "Oct 23", "Nov 23", "Dic 23", "Ene 24", "Feb 24", "Mar 24", "Abr 24", "May 24", "Jun 24", "Jul 24", "Ago 24", "Sep 24", "Oct 24", "Nov 24", "Dic 24", "Ene 25", "Feb 25", "Mar 25", "Abr 25", "May 25", "Jun 25", "Jul 25", "Ago 25", "Sep 25", "Oct 25", "Nov 25", "Dic 25", "Ene 26", "Feb 26", "Mar 26", "Abr 26", "May 26", "Jun 26", "Jul 26", "Ago 26*"],
+ datasets:[{label:'Usuarios acumulados', data: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 8, 4], borderColor:PURPLE, backgroundColor:'rgba(139,61,255,.08)', fill:true, pointRadius:0, borderWidth:2.5, yAxisID:'y'},
+   {label:'Activos mensuales (MAU)', data: [2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], borderColor:TEAL, pointRadius:0, borderWidth:2, yAxisID:'y1'}]},
  options:{responsive:true, maintainAspectRatio:false, interaction:{mode:'index',intersect:false},
   scales:{y:{position:'left', ticks:{callback:fmt}}, y1:{position:'right', grid:{drawOnChartArea:false}, ticks:{callback:fmt}}, x:{ticks:{maxTicksLimit:12}}}}});
 new Chart(ch2, {type:'bar', data: {labels: ["2022*"],
@@ -205,5 +205,5 @@ new Chart(ch7, {type:'bar', data: {labels: [],
  datasets:[{label:'Diseños', data: [], backgroundColor:TEAL, borderRadius:4}]},
  options:{indexAxis:'y', responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{x:{ticks:{callback:fmt}}}}});
 </script>
-<p style="font-size:11px;opacity:.7;max-width:900px;margin:8px auto"> Datos obtenidos por consulta directa al almacén de datos (31-07-2026). La clasificación por plan se ha refinado en esta edición; no es comparable 1:1 con ediciones anteriores. Serie histórica mensual de adopción: corte 18-07-2026.</p>
+  <p class="footnote">Datos obtenidos por consulta directa al almacén de datos (01-08-2026). Serie histórica mensual de adopción: corte 18-07-2026. (valle estacional de verano en métricas de actividad)</p>
 </body></html>
