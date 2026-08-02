@@ -155,29 +155,30 @@ html[data-lang="es"] .lang-en{display:none !important;}
 <p class="lead"><span class="lang-es">Las 77 universidades en una sola tabla. Filtra por play, región o confianza; ordena por score, renovación, ARR, activación o preparación; elige cuántas ver. Haz clic en cualquier fila para desplegar su resumen ejecutivo con la acción sugerida y el enlace a su informe completo. El ARR es siempre el importe real de Salesforce (nunca una estimación) y está pendiente de confirmar con Bush Amarshein, Petia Maximova y Andrés Prado.</span><span class="lang-en">All 77 universities in one table. Filter by play, region or confidence; sort by score, renewal, ARR, activation or readiness; choose how many to show. Click any row to expand its executive summary with the suggested action and the link to its full report. ARR is always the real Salesforce amount (never an estimate) and is pending confirmation with Bush Amarshein, Petia Maximova and Andrés Prado.</span></p>
 
 <div class="controls">
-<label><span class="lang-es">Buscar</span><span class="lang-en">Search</span><input id="f-q" type="text" placeholder="Universidad…"></label>
+<label><span class="lang-es">Buscar</span><span class="lang-en">Search</span><input id="f-q" type="text" placeholder="Universidad…"
+ data-es="Universidad…" data-en="Institution…"></label>
 <label>Play<select id="f-play">
- <option value="all"><span class="lang-es">Todos</span><span class="lang-en">All</span></option>
- <option value="A"><span class="lang-es">A · Activación alumnado</span><span class="lang-en">A · Student activation</span></option>
- <option value="C"><span class="lang-es">C · Prospect listo</span><span class="lang-en">C · Campus-ready prospect</span></option></select></label>
-<label><span class="lang-es">Región</span><span class="lang-en">Region</span><select id="f-region"><option value="all"><span class="lang-es">Todas</span><span class="lang-en">All</span></option><option value="Andalucía">Andalucía</option><option value="Aragón">Aragón</option><option value="Asturias">Asturias</option><option value="C. Valenciana">C. Valenciana</option><option value="Canarias">Canarias</option><option value="Cantabria">Cantabria</option><option value="Castilla y León">Castilla y León</option><option value="Castilla-La Mancha">Castilla-La Mancha</option><option value="Cataluña">Cataluña</option><option value="Estado">Estado</option><option value="Extremadura">Extremadura</option><option value="Galicia">Galicia</option><option value="Islas Baleares">Islas Baleares</option><option value="La Rioja">La Rioja</option><option value="Madrid">Madrid</option><option value="Murcia">Murcia</option><option value="Navarra">Navarra</option><option value="País Vasco">País Vasco</option></select></label>
+ <option value="all" data-es="Todos" data-en="All">Todos</option>
+ <option value="A" data-es="A · Activación alumnado" data-en="A · Student activation">A · Activación alumnado</option>
+ <option value="C" data-es="C · Prospect listo" data-en="C · Campus-ready prospect">C · Prospect listo</option></select></label>
+<label><span class="lang-es">Región</span><span class="lang-en">Region</span><select id="f-region"><option value="all" data-es="Todas" data-en="All">Todas</option><option value="Andalucía">Andalucía</option><option value="Aragón">Aragón</option><option value="Asturias">Asturias</option><option value="C. Valenciana">C. Valenciana</option><option value="Canarias">Canarias</option><option value="Cantabria">Cantabria</option><option value="Castilla y León">Castilla y León</option><option value="Castilla-La Mancha">Castilla-La Mancha</option><option value="Cataluña">Cataluña</option><option value="Estado">Estado</option><option value="Extremadura">Extremadura</option><option value="Galicia">Galicia</option><option value="Islas Baleares">Islas Baleares</option><option value="La Rioja">La Rioja</option><option value="Madrid">Madrid</option><option value="Murcia">Murcia</option><option value="Navarra">Navarra</option><option value="País Vasco">País Vasco</option></select></label>
 <label><span class="lang-es">Confianza</span><span class="lang-en">Confidence</span><select id="f-conf">
- <option value="all"><span class="lang-es">Todas</span><span class="lang-en">All</span></option>
- <option value="high"><span class="lang-es">Alta</span><span class="lang-en">High</span></option>
- <option value="medium"><span class="lang-es">Media</span><span class="lang-en">Medium</span></option>
- <option value="low"><span class="lang-es">Baja</span><span class="lang-en">Low</span></option></select></label>
+ <option value="all" data-es="Todas" data-en="All">Todas</option>
+ <option value="high" data-es="Alta" data-en="High">Alta</option>
+ <option value="medium" data-es="Media" data-en="Medium">Media</option>
+ <option value="low" data-es="Baja" data-en="Low">Baja</option></select></label>
 <label><span class="lang-es">Ordenar por</span><span class="lang-en">Sort by</span><select id="f-sort">
  <option value="score">Score</option>
- <option value="renew"><span class="lang-es">Renovación más próxima</span><span class="lang-en">Nearest renewal</span></option>
- <option value="arr"><span class="lang-es">ARR conocido</span><span class="lang-en">Known ARR</span></option>
- <option value="act"><span class="lang-es">Activación más baja</span><span class="lang-en">Lowest activation</span></option>
- <option value="ratio"><span class="lang-es">Preparación (docentes/requeridas)</span><span class="lang-en">Readiness (staff/required)</span></option>
- <option value="spend"><span class="lang-es">Gasto de bolsillo</span><span class="lang-en">Out-of-pocket spend</span></option></select></label>
+ <option value="renew" data-es="Renovación más próxima" data-en="Nearest renewal">Renovación más próxima</option>
+ <option value="arr" data-es="ARR conocido" data-en="Known ARR">ARR conocido</option>
+ <option value="act" data-es="Activación más baja" data-en="Lowest activation">Activación más baja</option>
+ <option value="ratio" data-es="Preparación (docentes/requeridas)" data-en="Readiness (staff/required)">Preparación (docentes/requeridas)</option>
+ <option value="spend" data-es="Gasto de bolsillo" data-en="Out-of-pocket spend">Gasto de bolsillo</option></select></label>
 <label><span class="lang-es">Mostrar</span><span class="lang-en">Show</span><select id="f-top">
  <option value="10">Top 10</option>
  <option value="20" selected>Top 20</option>
  <option value="30">Top 30</option>
- <option value="all"><span class="lang-es">Todas (77)</span><span class="lang-en">All (77)</span></option></select></label>
+ <option value="all" data-es="Todas (77)" data-en="All (77)">Todas (77)</option></select></label>
 <span class="count"><span class="lang-es">Mostrando</span><span class="lang-en">Showing</span> <span id="f-count"></span></span>
 </div>
 
@@ -2058,8 +2059,14 @@ html[data-lang="es"] .lang-en{display:none !important;}
 </div></div>
 <script>
 function toggleAcc(tr){ tr.parentElement.classList.toggle('open'); }
+function applyLang(lang){
+  document.documentElement.setAttribute('data-lang', lang);
+  // <option> and placeholder cannot hold HTML spans: swap their text from data attributes
+  document.querySelectorAll('option[data-es]').forEach(o => { o.textContent = o.dataset[lang]; });
+  document.querySelectorAll('input[data-es]').forEach(i => { i.placeholder = i.dataset[lang]; });
+}
 document.querySelectorAll('.langtoggle button').forEach(b => b.addEventListener('click', () => {
-  document.documentElement.setAttribute('data-lang', b.dataset.lang);
+  applyLang(b.dataset.lang);
   document.querySelectorAll('.langtoggle button').forEach(x => x.classList.toggle('on', x === b));
 }));
 const $ = id => document.getElementById(id);
