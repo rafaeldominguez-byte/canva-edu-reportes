@@ -58,9 +58,14 @@ td.sm{font-size:11px;color:#4a5766;}
 a.rep{display:inline-block;font-size:10.5px;font-weight:700;padding:6px 12px;border-radius:999px;text-decoration:none;
 background:linear-gradient(90deg,#00C4CC,#8B3DFF);color:#fff;white-space:nowrap;}
 tr.mainrow{cursor:pointer;}
-tr.mainrow:hover td{background:#FAFBFF;}
-.caret{display:inline-block;margin-right:7px;color:#8B3DFF;font-size:11px;transition:transform .15s;}
-tbody.open .caret{transform:rotate(90deg);}
+tr.mainrow:hover td{background:#F5F0FF;}
+tr.mainrow:hover .caret{background:#8B3DFF;color:#fff;}
+.caret{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;margin-right:8px;
+border-radius:50%;background:#EFE7FF;color:#8B3DFF;font-size:10px;transition:transform .15s, background .15s;}
+tbody.open .caret{transform:rotate(90deg);background:#8B3DFF;color:#fff;}
+.hint{color:#8B3DFF;font-weight:600;}
+td.lnk{white-space:nowrap;}
+a.rep.mini{font-size:9.5px;padding:5px 10px;}
 tr.accrow{display:none;}
 tbody.open tr.accrow{display:table-row;}
 tr.accrow>td{background:#FAF8FF;border-bottom:2px solid #e6dcf8;padding:14px 18px 16px;}
@@ -224,24 +229,25 @@ suggested action and the link to its full report. ARR is always the real Salesfo
 
 <div class="tblwrap"><table id="explorer">
 <thead><tr><th>#</th><th>Institution</th><th>Play</th><th>Key metric</th><th>Confidence</th>
-<th>Renewal</th><th>ARR (known)</th><th>Score</th></tr></thead>
+<th>Renewal</th><th>ARR (known)</th><th>Score</th><th>Report</th></tr></thead>
 <tbody class="inst" data-id="cardiff" data-name="cardiff university" data-play="A"
  data-nation="Wales" data-conf="high" data-score="100"
  data-renew="2026-08-17" data-arr="59671.81"
  data-act="0" data-ratio="0.2600"
  data-spend="5143.29">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Cardiff University</b>
-<div class="sub">Wales · university · 28,325 students</div></td>
+<div class="sub">Wales · university · 28,325 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-a">Student unlock activation</span></td>
 <td class="sm">Campus organisation with no student brand: 0 of 28,325 students unlocked</td>
 <td><span class="chip cf-hi">High</span></td>
 <td class="sm">2026-08-17<div class="sub">in 16 days</div></td>
 <td class="sm"><b>$59,672</b><div class="pending">pending conf.</div></td>
 <td class="num">100</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/cardiff-a44b36231c/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-cs">Success / IM</span> <span class="chip cf-hi">High</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Renewal on 2026-08-17 with only 0% of entitled students unlocked — open the provisioning conversation (identity/LMS provisioning, student brand creation) before renewing, not after. The organisation is typed Campus but no CCST student brand exists at all. Routing: Success / IM.</div>
 <div class="dorg">Organisation: Cardiff University - Official <code>OAGYdgStiZQ</code> · Campus · 1 brands · 105 members (105 staff / 0 students)</div>
@@ -255,18 +261,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="2026-08-13" data-arr="417216.43"
  data-act="0" data-ratio="0.1900"
  data-spend="1305.04">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Liverpool</b>
-<div class="sub">England · university · 28,215 students</div></td>
+<div class="sub">England · university · 28,215 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-a">Student unlock activation</span></td>
 <td class="sm">1 of 28,215 entitled students provisioned (0.0%)</td>
 <td><span class="chip cf-hi">High</span></td>
 <td class="sm">2026-08-13<div class="sub">in 12 days</div></td>
 <td class="sm"><b>$417,216</b><div class="pending">pending conf.</div></td>
 <td class="num">100</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/liverpool-6322709ac9/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-cs">Success / IM</span> <span class="chip cf-hi">High</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Renewal on 2026-08-13 with only 0% of entitled students unlocked — open the provisioning conversation (identity/LMS provisioning, student brand creation) before renewing, not after. The student brand exists and holds 1 of 28,215 entitled students (0.0%). Routing: Success / IM.</div>
 <div class="dorg">Organisation: University of Liverpool <code>OAGrk9G-1Rg</code> · Campus · 2 brands · 54 members (53 staff / 1 students)</div>
@@ -280,18 +287,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="10436.16"
  data-act="0" data-ratio="0.1200"
  data-spend="1276.56">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of the Arts London</b>
-<div class="sub">England · university · 20,255 students</div></td>
+<div class="sub">England · university · 20,255 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-b">Staff licence expansion and renewal risk</span></td>
 <td class="sm">1,045 seats bought, no organisation created</td>
 <td><span class="chip cf-hi">High</span></td>
 <td class="sm">—</td>
 <td class="sm"><b>$10,436</b><div class="pending">pending conf.</div></td>
 <td class="num">90</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/arts-b916037807/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-hi">High</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> 1,045 seats bought but nothing deployed — implementation is blocked. Escalate deployment before any value/renewal review. Routing: HEd Sales.</div>
 
@@ -305,18 +313,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="64830.68"
  data-act="0" data-ratio="0.2400"
  data-spend="862.19">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>London School of Economics and Political Science</b>
-<div class="sub">England · university · 12,590 students</div></td>
+<div class="sub">England · university · 12,590 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-b">Staff licence expansion and renewal risk</span></td>
 <td class="sm">100 seats bought, no organisation created</td>
 <td><span class="chip cf-hi">High</span></td>
 <td class="sm">—</td>
 <td class="sm"><b>$64,831</b><div class="pending">pending conf.</div></td>
 <td class="num">90</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/lse-8e020139b9/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-hi">High</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> 100 seats bought but nothing deployed — implementation is blocked. Escalate deployment before any value/renewal review. Routing: HEd Sales.</div>
 
@@ -330,18 +339,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="2026-08-11" data-arr="90924.91"
  data-act="18.76" data-ratio="0.3700"
  data-spend="5038.1">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Birmingham</b>
-<div class="sub">England · university · 32,850 students</div></td>
+<div class="sub">England · university · 32,850 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-a">Student unlock activation</span></td>
 <td class="sm">6,163 of 32,850 entitled students provisioned (18.76%)</td>
 <td><span class="chip cf-hi">High</span></td>
 <td class="sm">2026-08-11<div class="sub">in 10 days</div></td>
 <td class="sm"><b>$90,925</b><div class="pending">pending conf.</div></td>
 <td class="num">81</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/bham-badd6c61c2/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-cs">Success / IM</span> <span class="chip cf-hi">High</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Student activation plan with the IT team: 6,163 of 32,850 provisioned (18.76%). Routing: Success / IM.</div>
 <div class="dorg">Organisation: University of Birmingham <code>OAG1952Qbmw</code> · Campus · 4 brands · 6,444 members (248 staff / 6,163 students)</div>
@@ -355,18 +365,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="25610.64"
  data-act="0" data-ratio="0.2700"
  data-spend="1732.51">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Manchester Metropolitan University</b>
-<div class="sub">England · university · 35,870 students</div></td>
+<div class="sub">England · university · 35,870 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-b">Staff licence expansion and renewal risk</span></td>
 <td class="sm">50 seats bought, no organisation created</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><b>$25,611</b><div class="pending">pending conf.</div></td>
 <td class="num">76</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/mmu-df019ab843/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> 50 seats bought but nothing deployed — implementation is blocked. Escalate deployment before any value/renewal review. Routing: HEd Sales.</div>
 
@@ -380,18 +391,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="2026-08-15" data-arr="72260.62"
  data-act="0" data-ratio="0.3000"
  data-spend="2923.04">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Leeds</b>
-<div class="sub">England · university · 33,635 students</div></td>
+<div class="sub">England · university · 33,635 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-b">Staff licence expansion and renewal risk</span></td>
 <td class="sm">90 of 90 staff licences in use (100.0%) · 910 short of the custom tier</td>
 <td><span class="chip cf-hi">High</span></td>
 <td class="sm">2026-08-15<div class="sub">in 14 days</div></td>
 <td class="sm"><b>$72,261</b><div class="pending">pending conf.</div></td>
 <td class="num">59</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/leeds-86e717649f/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-hi">High</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Renewal on 2026-08-15: utilisation 100.0% (90/90 seats) — prepare the renewal with the usage story ready. Routing: HEd Sales.</div>
 <div class="dorg">Organisation: University Of Leeds <code>OAHLbGrSDWU</code> · Enterprise · 1 brands · 90 members (90 staff / 0 students)</div>
@@ -405,18 +417,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="2.0900"
  data-spend="25.87">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Abingdon & Witney College</b>
-<div class="sub">England · college · 9,530 students</div></td>
+<div class="sub">England · college · 9,530 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">314 active staff today against 150 required staff licences (2.09x) · 379 people already in unmanaged brands</td>
 <td><span class="chip cf-hi">High</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">57</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/abingdon-witney-0824c55b4d/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-hi">High</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> More staff already active (314) than the licences an agreement would require (150) — table a formal Canva for Campus proposal. Routing: HEd Sales.</div>
 
@@ -430,18 +443,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="2026-08-26" data-arr="11543.02"
  data-act="0" data-ratio="0.5500"
  data-spend="1868.77">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Queen Mary University of London</b>
-<div class="sub">England · university · 23,100 students</div></td>
+<div class="sub">England · university · 23,100 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-b">Staff licence expansion and renewal risk</span></td>
 <td class="sm">47 of 49 staff licences in use (95.9%) · 701 short of the 750 tier</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">2026-08-26<div class="sub">in 25 days</div></td>
 <td class="sm"><b>$11,543</b><div class="pending">pending conf.</div></td>
 <td class="num">56</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/qmul-9478b23f25/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Renewal on 2026-08-26: utilisation 95.9% (47/49 seats) — prepare the renewal with the usage story ready. Routing: HEd Sales.</div>
 
@@ -455,18 +469,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.9600"
  data-spend="358.85">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Edge Hill University</b>
-<div class="sub">England · university · 11,435 students</div></td>
+<div class="sub">England · university · 11,435 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">239 active staff today against 250 required staff licences (0.96x)</td>
 <td><span class="chip cf-hi">High</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">56</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/edgehill-4cd11a5990/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-hi">High</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> 4% short of the minimum (239 of 250 staff) — run a staff-activation push to close the gap, then formalise. Routing: HEd Sales.</div>
 
@@ -480,18 +495,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1800"
  data-spend="5544.3">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Nottingham</b>
-<div class="sub">England · university · 34,610 students</div></td>
+<div class="sub">England · university · 34,610 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-d">Eligibility review</span></td>
 <td class="sm">256 eligibility-based free seats (240 Canva Education · 16 not-for-profit)</td>
 <td><span class="chip cf-hi">High</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">50</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/nottingham-7af7d5458d/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-elig">Eligibility review - C4E/NFP team</span> <span class="chip cf-hi">High</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Route to the C4E/NFP eligibility review: 256 eligibility-based free seats on the domain — confirm eligibility or migrate to the right agreement. Routing: Eligibility review - C4E/NFP team.</div>
 
@@ -505,18 +521,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="2026-08-30" data-arr="8532.35"
  data-act="0" data-ratio="0.3600"
  data-spend="17140.47">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Cambridge</b>
-<div class="sub">England · university · 21,175 students</div></td>
+<div class="sub">England · university · 21,175 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-b">Staff licence expansion and renewal risk</span></td>
 <td class="sm">37 of 37 staff licences in use (100.0%) · 713 short of the 750 tier</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">2026-08-30<div class="sub">in 29 days</div></td>
 <td class="sm"><b>$8,532</b><div class="pending">pending conf.</div></td>
 <td class="num">50</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/cam-44c1e566fe/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Renewal on 2026-08-30: utilisation 100.0% (37/37 seats) — prepare the renewal with the usage story ready. Routing: HEd Sales.</div>
 
@@ -530,18 +547,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.5200"
  data-spend="1770.38">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Westminster</b>
-<div class="sub">England · university · 18,865 students</div></td>
+<div class="sub">England · university · 18,865 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-d">Eligibility review</span></td>
 <td class="sm">432 eligibility-based free seats (432 Canva Education · 0 not-for-profit)</td>
 <td><span class="chip cf-hi">High</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">50</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/westminster-23c07d553f/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-elig">Eligibility review - C4E/NFP team</span> <span class="chip cf-hi">High</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Route to the C4E/NFP eligibility review: 432 eligibility-based free seats on the domain — confirm eligibility or migrate to the right agreement. Routing: Eligibility review - C4E/NFP team.</div>
 
@@ -555,18 +573,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="2026-08-19" data-arr="24401.91"
  data-act="0" data-ratio="0.2500"
  data-spend="4428.59">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Edinburgh</b>
-<div class="sub">Scotland · university · 36,260 students</div></td>
+<div class="sub">Scotland · university · 36,260 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-b">Staff licence expansion and renewal risk</span></td>
 <td class="sm">49 of 53 staff licences in use (92.5%) · 947 short of the custom tier</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">2026-08-19<div class="sub">in 18 days</div></td>
 <td class="sm"><b>$24,402</b><div class="pending">pending conf.</div></td>
 <td class="num">45</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/edinburgh-8223481ab1/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Renewal on 2026-08-19: utilisation 92.5% (49/53 seats) — prepare the renewal with the usage story ready. Routing: HEd Sales.</div>
 
@@ -580,18 +599,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="2026-08-02" data-arr="7827.12"
  data-act="0" data-ratio="0.2100"
  data-spend="550.08">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Portsmouth</b>
-<div class="sub">England · university · 20,730 students</div></td>
+<div class="sub">England · university · 20,730 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-b">Staff licence expansion and renewal risk</span></td>
 <td class="sm">18 of 18 staff licences in use (100.0%) · 732 short of the 750 tier</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">2026-08-02<div class="sub">in 1 days</div></td>
 <td class="sm"><b>$7,827</b><div class="pending">pending conf.</div></td>
 <td class="num">44</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/port-f23cc183bb/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Renewal on 2026-08-02: utilisation 100.0% (18/18 seats) — prepare the renewal with the usage story ready. Routing: HEd Sales.</div>
 
@@ -605,18 +625,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="2026-08-06" data-arr="26795.35"
  data-act="0" data-ratio="0.1900"
  data-spend="6461.55">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Oxford</b>
-<div class="sub">England · university · 21,840 students</div></td>
+<div class="sub">England · university · 21,840 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-b">Staff licence expansion and renewal risk</span></td>
 <td class="sm">66 of 70 staff licences in use (94.3%) · 680 short of the 750 tier</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">2026-08-06<div class="sub">in 5 days</div></td>
 <td class="sm"><b>$26,795</b><div class="pending">pending conf.</div></td>
 <td class="num">42</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/ox-232c49076a/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Renewal on 2026-08-06: utilisation 94.3% (66/70 seats) — prepare the renewal with the usage story ready. Routing: HEd Sales.</div>
 
@@ -630,18 +651,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="2026-08-07" data-arr="34404.7"
  data-act="0" data-ratio="0.1400"
  data-spend="283.83">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Leicester</b>
-<div class="sub">England · university · 17,370 students</div></td>
+<div class="sub">England · university · 17,370 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-b">Staff licence expansion and renewal risk</span></td>
 <td class="sm">64 of 64 staff licences in use (100.0%) · 436 short of the 500 tier</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">2026-08-07<div class="sub">in 6 days</div></td>
 <td class="sm"><b>$34,405</b><div class="pending">pending conf.</div></td>
 <td class="num">40</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/leicester-f484ad09f5/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Renewal on 2026-08-07: utilisation 100.0% (64/64 seats) — prepare the renewal with the usage story ready. Routing: HEd Sales.</div>
 
@@ -655,18 +677,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="2026-08-21" data-arr="3132.77"
  data-act="0" data-ratio="0.4800"
  data-spend="210.04">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>The Academy of Contemporary Music</b>
-<div class="sub">England · college · 1,020 students</div></td>
+<div class="sub">England · college · 1,020 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-b">Staff licence expansion and renewal risk</span></td>
 <td class="sm">12 of 12 staff licences in use (100.0%) · 38 short of the 50 tier</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">2026-08-21<div class="sub">in 20 days</div></td>
 <td class="sm"><b>$3,133</b><div class="pending">pending conf.</div></td>
 <td class="num">40</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/acm-f2d3e5bb29/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Renewal on 2026-08-21: utilisation 100.0% (12/12 seats) — prepare the renewal with the usage story ready. Routing: HEd Sales.</div>
 
@@ -680,18 +703,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="2026-08-28" data-arr="20074.14"
  data-act="0" data-ratio="0.1400"
  data-spend="1625.67">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Nottingham Trent University</b>
-<div class="sub">England · university · 32,170 students</div></td>
+<div class="sub">England · university · 32,170 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-b">Staff licence expansion and renewal risk</span></td>
 <td class="sm">17 of 20 staff licences in use (85.0%) · 980 short of the custom tier</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">2026-08-28<div class="sub">in 27 days</div></td>
 <td class="sm"><b>$20,074</b><div class="pending">pending conf.</div></td>
 <td class="num">38</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/ntu-46723f67b1/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Renewal on 2026-08-28: utilisation 85.0% (17/20 seats) — prepare the renewal with the usage story ready. Routing: HEd Sales.</div>
 
@@ -705,18 +729,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.5800"
  data-spend="312.83">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>York St John University</b>
-<div class="sub">England · university · 11,175 students</div></td>
+<div class="sub">England · university · 11,175 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">145 active staff today against 250 required staff licences (0.58x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">29</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/yorksj-466dfa477b/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 145 active staff of the 250 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -730,18 +755,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1900"
  data-spend="526.6">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Coventry University</b>
-<div class="sub">England · university · 26,705 students</div></td>
+<div class="sub">England · university · 26,705 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-d">Eligibility review</span></td>
 <td class="sm">158 eligibility-based free seats (158 Canva Education · 0 not-for-profit)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">27</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/coventry-6ea5a2c2f3/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-elig">Eligibility review - C4E/NFP team</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Route to the C4E/NFP eligibility review: 158 eligibility-based free seats on the domain — confirm eligibility or migrate to the right agreement. Routing: Eligibility review - C4E/NFP team.</div>
 
@@ -755,18 +781,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="2026-08-06" data-arr="4127.28"
  data-act="0" data-ratio="0.4300"
  data-spend="157.01">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Access Creative College</b>
-<div class="sub">England · college · 5,200 students</div></td>
+<div class="sub">England · college · 5,200 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-b">Staff licence expansion and renewal risk</span></td>
 <td class="sm">7 of 18 staff licences in use (38.9%) · 132 short of the 150 tier</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">2026-08-06<div class="sub">in 5 days</div></td>
 <td class="sm"><b>$4,127</b><div class="pending">pending conf.</div></td>
 <td class="num">24</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/accesscreative-6fb1b986b6/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Renewal on 2026-08-06: utilisation 38.9% (7/18 seats) — prepare the renewal with the usage story ready. Routing: HEd Sales.</div>
 
@@ -780,18 +807,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.3100"
  data-spend="4558.9">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Sheffield</b>
-<div class="sub">England · university · 26,870 students</div></td>
+<div class="sub">England · university · 26,870 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">309 active staff today against custom required staff licences (0.31x) · 122 people already in unmanaged brands</td>
 <td><span class="chip cf-hi">High</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">22</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/sheffield-a649b0e699/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-hi">High</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 309 active staff of the 1,000 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -805,18 +833,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.3100"
  data-spend="3609.53">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of York</b>
-<div class="sub">England · university · 20,360 students</div></td>
+<div class="sub">England · university · 20,360 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">235 active staff today against 750 required staff licences (0.31x)</td>
 <td><span class="chip cf-hi">High</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">21</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/york-1a87a5727a/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-hi">High</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 235 active staff of the 750 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -830,18 +859,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.3800"
  data-spend="490.89">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Derby</b>
-<div class="sub">England · university · 14,905 students</div></td>
+<div class="sub">England · university · 14,905 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">96 active staff today against 250 required staff licences (0.38x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">20</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/derby-09feaab9c1/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 96 active staff of the 250 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -855,18 +885,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.2700"
  data-spend="3188.14">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University College London</b>
-<div class="sub">England · university · 46,135 students</div></td>
+<div class="sub">England · university · 46,135 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">273 active staff today against custom required staff licences (0.27x)</td>
 <td><span class="chip cf-hi">High</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">19</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/ucl-046a18bfdb/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-hi">High</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 273 active staff of the 1,000 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -880,18 +911,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.2700"
  data-spend="5163.9">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Bristol</b>
-<div class="sub">England · university · 30,335 students</div></td>
+<div class="sub">England · university · 30,335 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">268 active staff today against custom required staff licences (0.27x)</td>
 <td><span class="chip cf-hi">High</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">19</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/bristol-b6e2764565/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-hi">High</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 268 active staff of the 1,000 an agreement would require. Not yet a closing conversation. The community already pays $5,164/yr out of pocket — a direct institutional savings argument. Routing: HEd Sales.</div>
 
@@ -905,18 +937,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="6204.48"
  data-act="0" data-ratio="0.3700"
  data-spend="451.16">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Dundee</b>
-<div class="sub">Scotland · university · 13,270 students</div></td>
+<div class="sub">Scotland · university · 13,270 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">92 active staff today against 250 required staff licences (0.37x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><b>$6,204</b><div class="pending">pending conf.</div></td>
 <td class="num">19</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/dundee-54cd01a20d/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 92 active staff of the 250 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -930,18 +963,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.3500"
  data-spend="619.67">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Hull</b>
-<div class="sub">England · university · 12,165 students</div></td>
+<div class="sub">England · university · 12,165 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">87 active staff today against 250 required staff licences (0.35x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">18</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/hull-78d3de5f72/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 87 active staff of the 250 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -955,18 +989,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.3600"
  data-spend="385.09">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Chester</b>
-<div class="sub">England · university · 11,910 students</div></td>
+<div class="sub">England · university · 11,910 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">90 active staff today against 250 required staff licences (0.36x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">18</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/chester-537969df2e/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 90 active staff of the 250 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -980,18 +1015,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.2300"
  data-spend="4178.52">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Manchester</b>
-<div class="sub">England · university · 42,890 students</div></td>
+<div class="sub">England · university · 42,890 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">225 active staff today against custom required staff licences (0.23x)</td>
 <td><span class="chip cf-hi">High</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">16</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/manchester-0e8ff456bb/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-hi">High</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 225 active staff of the 1,000 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1005,18 +1041,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.2200"
  data-spend="2930.18">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Exeter</b>
-<div class="sub">England · university · 28,995 students</div></td>
+<div class="sub">England · university · 28,995 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">219 active staff today against custom required staff licences (0.22x)</td>
 <td><span class="chip cf-hi">High</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">15</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/exeter-b9630e6e71/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-hi">High</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 219 active staff of the 1,000 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1030,18 +1067,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.2400"
  data-spend="3436.65">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Sussex</b>
-<div class="sub">England · university · 15,980 students</div></td>
+<div class="sub">England · university · 15,980 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">118 active staff today against 500 required staff licences (0.24x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">13</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/sussex-1e11bcd690/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 118 active staff of the 500 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1055,18 +1093,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.2600"
  data-spend="770.73">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Roehampton</b>
-<div class="sub">England · university · 10,200 students</div></td>
+<div class="sub">England · university · 10,200 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">65 active staff today against 250 required staff licences (0.26x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">13</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/roehampton-014a6a051a/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 65 active staff of the 250 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1080,18 +1119,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.3400"
  data-spend="261.34">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Bedfordshire</b>
-<div class="sub">England · university · 9,805 students</div></td>
+<div class="sub">England · university · 9,805 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">51 active staff today against 150 required staff licences (0.34x)</td>
 <td><span class="chip cf-lo">Low</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">12</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/beds-c84d968c0b/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-lo">Low</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 51 active staff of the 150 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1105,18 +1145,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1800"
  data-spend="4607.12">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>King's College London</b>
-<div class="sub">England · university · 35,150 students</div></td>
+<div class="sub">England · university · 35,150 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">181 active staff today against custom required staff licences (0.18x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">11</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/kcl-a8255f2a25/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 181 active staff of the 1,000 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1130,18 +1171,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1200"
  data-spend="570.73">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Aston University</b>
-<div class="sub">England · university · 15,145 students</div></td>
+<div class="sub">England · university · 15,145 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-d">Eligibility review</span></td>
 <td class="sm">65 eligibility-based free seats (65 Canva Education · 0 not-for-profit)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">11</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/aston-d2fc7b4e3b/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-elig">Eligibility review - C4E/NFP team</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Route to the C4E/NFP eligibility review: 65 eligibility-based free seats on the domain — confirm eligibility or migrate to the right agreement. Routing: Eligibility review - C4E/NFP team.</div>
 
@@ -1155,18 +1197,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1500"
  data-spend="1800.31">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of the West of England, Bristol</b>
-<div class="sub">England · university · 29,410 students</div></td>
+<div class="sub">England · university · 29,410 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">147 active staff today against custom required staff licences (0.15x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">9</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/uwe-66b5c42ad8/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 147 active staff of the 1,000 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1180,18 +1223,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1700"
  data-spend="1411.2">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Plymouth</b>
-<div class="sub">England · university · 15,880 students</div></td>
+<div class="sub">England · university · 15,880 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">84 active staff today against 500 required staff licences (0.17x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">9</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/plymouth-599ae97722/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 84 active staff of the 500 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1205,18 +1249,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1400"
  data-spend="1227.55">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Birmingham City University</b>
-<div class="sub">England · university · 27,615 students</div></td>
+<div class="sub">England · university · 27,615 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">139 active staff today against custom required staff licences (0.14x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">8</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/bcu-4be108273e/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 139 active staff of the 1,000 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1230,18 +1275,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1500"
  data-spend="5015.87">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Imperial College London</b>
-<div class="sub">England · university · 21,310 students</div></td>
+<div class="sub">England · university · 21,310 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">110 active staff today against 750 required staff licences (0.15x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">8</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/imperial-deb5d3b4e0/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 110 active staff of the 750 an agreement would require. Not yet a closing conversation. The community already pays $5,016/yr out of pocket — a direct institutional savings argument. Routing: HEd Sales.</div>
 
@@ -1255,18 +1301,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1400"
  data-spend="5682.09">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Durham University</b>
-<div class="sub">England · university · 21,265 students</div></td>
+<div class="sub">England · university · 21,265 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">104 active staff today against 750 required staff licences (0.14x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">8</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/durham-5177ca1691/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 104 active staff of the 750 an agreement would require. Not yet a closing conversation. The community already pays $5,682/yr out of pocket — a direct institutional savings argument. Routing: HEd Sales.</div>
 
@@ -1280,18 +1327,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1600"
  data-spend="3549.94">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Surrey</b>
-<div class="sub">England · university · 15,195 students</div></td>
+<div class="sub">England · university · 15,195 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">80 active staff today against 500 required staff licences (0.16x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">8</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/surrey-817b087b11/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 80 active staff of the 500 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1305,18 +1353,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.2100"
  data-spend="1320.04">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Essex</b>
-<div class="sub">England · university · 12,205 students</div></td>
+<div class="sub">England · university · 12,205 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">53 active staff today against 250 required staff licences (0.21x)</td>
 <td><span class="chip cf-lo">Low</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">8</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/essex-d52f362da3/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-lo">Low</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 53 active staff of the 250 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1330,18 +1379,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1100"
  data-spend="927.75">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Canterbury Christ Church University</b>
-<div class="sub">England · university · 31,390 students</div></td>
+<div class="sub">England · university · 31,390 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">110 active staff today against custom required staff licences (0.11x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">7</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/canterbury-43e4d14fb8/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 110 active staff of the 1,000 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1355,18 +1405,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1200"
  data-spend="1201.8">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Warwick</b>
-<div class="sub">England · university · 25,685 students</div></td>
+<div class="sub">England · university · 25,685 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">117 active staff today against custom required staff licences (0.12x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">7</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/warwick-e1348471c5/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 117 active staff of the 1,000 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1380,18 +1431,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1100"
  data-spend="846.2">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Northumbria University</b>
-<div class="sub">England · university · 25,645 students</div></td>
+<div class="sub">England · university · 25,645 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">111 active staff today against custom required staff licences (0.11x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">7</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/northumbria-07c895b393/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 111 active staff of the 1,000 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1405,18 +1457,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1300"
  data-spend="1254.52">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Southampton</b>
-<div class="sub">England · university · 24,340 students</div></td>
+<div class="sub">England · university · 24,340 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">95 active staff today against 750 required staff licences (0.13x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">7</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/southampton-e114cc9bbe/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 95 active staff of the 750 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1430,18 +1483,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1900"
  data-spend="664.8">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Kent</b>
-<div class="sub">England · university · 14,440 students</div></td>
+<div class="sub">England · university · 14,440 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">48 active staff today against 250 required staff licences (0.19x)</td>
 <td><span class="chip cf-lo">Low</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">7</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/kent-20085176f1/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-lo">Low</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 48 active staff of the 250 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1455,18 +1509,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1000"
  data-spend="714.61">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Anglia Ruskin University</b>
-<div class="sub">England · university · 26,245 students</div></td>
+<div class="sub">England · university · 26,245 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">104 active staff today against custom required staff licences (0.1x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">6</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/anglia-6650b491e6/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 104 active staff of the 1,000 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1480,18 +1535,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.0300"
  data-spend="104.03">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Greenwich</b>
-<div class="sub">England · university · 24,120 students</div></td>
+<div class="sub">England · university · 24,120 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-d">Eligibility review</span></td>
 <td class="sm">47 eligibility-based free seats (0 Canva Education · 47 not-for-profit)</td>
 <td><span class="chip cf-lo">Low</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">6</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/greenwich-6ebadf3cbd/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-elig">Eligibility review - C4E/NFP team</span> <span class="chip cf-lo">Low</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Route to the C4E/NFP eligibility review: 47 eligibility-based free seats on the domain — confirm eligibility or migrate to the right agreement. Routing: Eligibility review - C4E/NFP team.</div>
 
@@ -1505,18 +1561,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1300"
  data-spend="920.66">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Bournemouth University</b>
-<div class="sub">England · university · 15,580 students</div></td>
+<div class="sub">England · university · 15,580 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-d">Eligibility review</span></td>
 <td class="sm">46 eligibility-based free seats (0 Canva Education · 46 not-for-profit)</td>
 <td><span class="chip cf-lo">Low</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">6</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/bournemouth-818f0c60eb/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-elig">Eligibility review - C4E/NFP team</span> <span class="chip cf-lo">Low</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Route to the C4E/NFP eligibility review: 46 eligibility-based free seats on the domain — confirm eligibility or migrate to the right agreement. Routing: Eligibility review - C4E/NFP team.</div>
 
@@ -1530,18 +1587,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1800"
  data-spend="449.61">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Keele University</b>
-<div class="sub">England · university · 10,850 students</div></td>
+<div class="sub">England · university · 10,850 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">45 active staff today against 250 required staff licences (0.18x)</td>
 <td><span class="chip cf-lo">Low</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">6</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/keele-53bc884558/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-lo">Low</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 45 active staff of the 250 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1555,18 +1613,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.0900"
  data-spend="2036.81">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Newcastle University</b>
-<div class="sub">England · university · 26,255 students</div></td>
+<div class="sub">England · university · 26,255 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">85 active staff today against custom required staff licences (0.09x)</td>
 <td><span class="chip cf-md">Medium</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">5</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/newcastle-67a969575d/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-md">Medium</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 85 active staff of the 1,000 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1580,18 +1639,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1200"
  data-spend="537.81">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>University of Reading</b>
-<div class="sub">England · university · 17,425 students</div></td>
+<div class="sub">England · university · 17,425 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">58 active staff today against 500 required staff licences (0.12x)</td>
 <td><span class="chip cf-lo">Low</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">4</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/reading-72ea3001cd/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-lo">Low</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 58 active staff of the 500 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1605,18 +1665,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.1300"
  data-spend="1035.95">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Birkbeck, University of London</b>
-<div class="sub">England · university · 6,225 students</div></td>
+<div class="sub">England · university · 6,225 students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-c">Campus-ready prospect</span></td>
 <td class="sm">19 active staff today against 150 required staff licences (0.13x)</td>
 <td><span class="chip cf-lo">Low</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">4</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/birkbeck-cd43151553/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-sales">HEd Sales</span> <span class="chip cf-lo">Low</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> Nurture: 19 active staff of the 150 an agreement would require. Not yet a closing conversation. Routing: HEd Sales.</div>
 
@@ -1630,18 +1691,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.0000"
  data-spend="0">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>2Simple</b>
-<div class="sub">— · organisation · — students</div></td>
+<div class="sub">— · organisation · — students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-n">No action this cycle</span></td>
 <td class="sm"></td>
 <td><span class="chip cf-lo">Low</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">0</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/2simple-57f3088397/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-none">No action</span> <span class="chip cf-lo">Low</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> No play triggered by the current data — monitor. Routing: No action.</div>
 
@@ -1655,18 +1717,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.0000"
  data-spend="0">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>4Matrix</b>
-<div class="sub">— · organisation · — students</div></td>
+<div class="sub">— · organisation · — students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-n">No action this cycle</span></td>
 <td class="sm"></td>
 <td><span class="chip cf-lo">Low</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">0</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/4matrix-c85021dc1f/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-none">No action</span> <span class="chip cf-lo">Low</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> No play triggered by the current data — monitor. Routing: No action.</div>
 
@@ -1680,18 +1743,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.0000"
  data-spend="787.33">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Active Learning Group</b>
-<div class="sub">— · organisation · — students</div></td>
+<div class="sub">— · organisation · — students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-n">No action this cycle</span></td>
 <td class="sm"></td>
 <td><span class="chip cf-lo">Low</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">0</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/activelearninggroup-1481751d76/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-none">No action</span> <span class="chip cf-lo">Low</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> No play triggered by the current data — monitor. Routing: No action.</div>
 
@@ -1705,18 +1769,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.0000"
  data-spend="0">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Acuity Coaching</b>
-<div class="sub">— · organisation · — students</div></td>
+<div class="sub">— · organisation · — students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-n">No action this cycle</span></td>
 <td class="sm"></td>
 <td><span class="chip cf-lo">Low</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">0</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/acuitycoaching-7e37a52ed5/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-none">No action</span> <span class="chip cf-lo">Low</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> No play triggered by the current data — monitor. Routing: No action.</div>
 
@@ -1730,18 +1795,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.0000"
  data-spend="426.89">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Adam Stott</b>
-<div class="sub">— · organisation · — students</div></td>
+<div class="sub">— · organisation · — students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-n">No action this cycle</span></td>
 <td class="sm"></td>
 <td><span class="chip cf-lo">Low</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">0</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/adamstott-e013c7de28/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-none">No action</span> <span class="chip cf-lo">Low</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> No play triggered by the current data — monitor. Routing: No action.</div>
 
@@ -1755,18 +1821,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.0000"
  data-spend="0">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>AHZ Associates</b>
-<div class="sub">— · organisation · — students</div></td>
+<div class="sub">— · organisation · — students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-n">No action this cycle</span></td>
 <td class="sm"></td>
 <td><span class="chip cf-lo">Low</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">0</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/ahzassociates-5c3c7bf441/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-none">No action</span> <span class="chip cf-lo">Low</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> No play triggered by the current data — monitor. Routing: No action.</div>
 
@@ -1780,18 +1847,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.0000"
  data-spend="0">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Adam Matthew Digital</b>
-<div class="sub">— · organisation · — students</div></td>
+<div class="sub">— · organisation · — students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-n">No action this cycle</span></td>
 <td class="sm"></td>
 <td><span class="chip cf-lo">Low</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">0</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/amdigital-905d8d806f/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-none">No action</span> <span class="chip cf-lo">Low</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> No play triggered by the current data — monitor. Routing: No action.</div>
 
@@ -1805,18 +1873,19 @@ suggested action and the link to its full report. ARR is always the real Salesfo
  data-renew="9999-12-31" data-arr="0"
  data-act="0" data-ratio="0.0000"
  data-spend="0">
-<tr class="mainrow" onclick="toggleAcc(this)">
+<tr class="mainrow" onclick="toggleAcc(this)" title="Click to expand the detail">
 <td class="rk"><span class="rknum"></span></td>
 <td class="nm"><span class="caret">▸</span><b>Xelgro</b>
-<div class="sub">— · organisation · — students</div></td>
+<div class="sub">— · organisation · — students · <span class="hint">click for detail</span></div></td>
 <td><span class="chip pl-n">No action this cycle</span></td>
 <td class="sm"></td>
 <td><span class="chip cf-lo">Low</span></td>
 <td class="sm">—</td>
 <td class="sm"><span class="na">n/a</span></td>
 <td class="num">0</td>
+<td class="lnk" onclick="event.stopPropagation()"><a class="rep mini" href="https://rafaeldominguez-byte.github.io/canva-edu-reportes/uk-hed/xelgro-4a11d0d517/" target="_blank" rel="noopener">Report ↗</a></td>
 </tr>
-<tr class="accrow"><td colspan="8"><div class="dwrap">
+<tr class="accrow"><td colspan="9"><div class="dwrap">
 <div class="dchips"><span class="chip rt-none">No action</span> <span class="chip cf-lo">Low</span></div>
 <div class="dact"><span class="dactlbl">Suggested action</span> No play triggered by the current data — monitor. Routing: No action.</div>
 
