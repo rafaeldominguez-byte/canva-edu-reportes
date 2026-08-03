@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>How to use the priority indexes and account reports — field guide</title>
+<style>
+:root{--ink:#1f2430;--mut:#5b6472;--line:#e5e8ee;--bg:#f6f7fa;--card:#fff;--acc:#5a32fa;--acc2:#00c4cc;--warn:#9a6b00;}
+*{box-sizing:border-box;}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55;}
+.hero{background:linear-gradient(105deg,#2bb8c4,#5a32fa 55%,#7d2ae8);color:#fff;padding:48px 24px 40px;}
+.hero .wrap{max-width:1080px;margin:0 auto;}
+.hero h1{margin:0 0 10px;font-size:2rem;line-height:1.2;}
+.hero p{max-width:70ch;margin:0 0 14px;opacity:.95;}
+.badge{display:inline-block;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:5px 14px;font-size:.8rem;font-weight:600;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
+main{padding:32px 0 64px;}
+h2{font-size:1.45rem;margin:44px 0 6px;}
+h2 .n{color:var(--acc);}
+h3{font-size:1.05rem;margin:26px 0 6px;}
+p{margin:8px 0;}
+.lead{color:var(--mut);}
+.fig{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:16px 0 22px;box-shadow:0 1px 3px rgba(20,25,40,.06);}
+.fig img{display:block;width:100%;height:auto;}
+.fig figcaption{padding:10px 16px;font-size:.85rem;color:var(--mut);border-top:1px solid var(--line);}
+.fig figcaption b{color:var(--ink);}
+.steps{counter-reset:s;list-style:none;padding:0;margin:14px 0;}
+.steps li{counter-increment:s;position:relative;padding:0 0 12px 44px;}
+.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:28px;height:28px;border-radius:50%;background:var(--acc);color:#fff;font-weight:700;font-size:.85rem;display:flex;align-items:center;justify-content:center;}
+.chip{display:inline-block;background:#eef0ff;color:var(--acc);border-radius:6px;padding:1px 8px;font-size:.85em;font-weight:600;white-space:nowrap;}
+.note{background:#fff8e8;border:1px solid #f0dfae;border-radius:12px;padding:12px 16px;margin:16px 0;font-size:.92rem;}
+.note b{color:var(--warn);}
+.grid2{display:flex;flex-wrap:wrap;gap:14px;margin:14px 0;}
+.card{flex:1 1 320px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;}
+.card h4{margin:0 0 6px;font-size:.95rem;}
+.card p{margin:0;font-size:.9rem;color:var(--mut);}
+table{border-collapse:collapse;width:100%;margin:12px 0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:.92rem;}
+th{Text-align:left;font-size:.75rem;letter-spacing:.04em;text-transform:uppercase;color:var(--mut);padding:10px 12px;border-bottom:1px solid var(--line);background:#fafbfd;}
+td{padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+tr:last-child td{border-bottom:none;}
+.toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin:20px 0;}
+.toc a{color:var(--acc);text-decoration:none;}
+.toc a:hover{text-decoration:underline;}
+.foot{color:var(--mut);font-size:.85rem;border-top:1px solid var(--line);margin-top:48px;padding-top:16px;}
+a{color:var(--acc);}
+kbd{background:#eef0f5;border:1px solid #d8dce5;border-bottom-width:2px;border-radius:5px;padding:0 6px;font-size:.85em;font-family:inherit;}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="wrap">
+    <h1>How to use the priority indexes and account reports</h1>
+    <p>A field guide for AEs and CSMs working the Education opportunity engine. All screenshots come from the live <b>UK Higher Ed</b> index and the University of Birmingham report; the CRUE (Spain) and K-12 (Iberia) indexes work the same way, with the differences listed at the end.</p>
+    <span class="badge">⚠️ Internal use only · aggregated figures, no personal data · guide updated 3 August 2026</span>
+  </div>
+</div>
+<main class="wrap">
+
+<div class="toc">
+  <b>Contents</b><br>
+  <a href="#quick">The index in 60 seconds</a> ·
+  <a href="#kpis">1. Header and portfolio KPIs</a> ·
+  <a href="#renewals">2. Renewals block</a> ·
+  <a href="#explorer">3. The opportunity explorer</a> ·
+  <a href="#row">4. Reading a row</a> ·
+  <a href="#accordion">5. The accordion</a> ·
+  <a href="#recipes">6. Filter recipes</a> ·
+  <a href="#playd">7. Play D and no-play</a> ·
+  <a href="#orglayer">8. Organisation layer and method</a> ·
+  <a href="#report">9. Inside a full report</a> ·
+  <a href="#variants">10. CRUE and K-12 differences</a>
+</div>
+
+<h2 id="quick">The index in 60 seconds</h2>
+<ol class="steps">
+  <li><b>Open your index</b> (UK, CRUE or K-12). The KPI band at the top tells you the size of the game; the <b>Renewals in the next 30 days</b> box is your this-month to-do list.</li>
+  <li><b>Scroll to the Opportunity explorer</b> and filter by the play you own — or sort by <span class="chip">Nearest renewal</span> if you work renewals.</li>
+  <li><b>Click any row</b> to expand it: you get the suggested action, the key numbers, the ARR context and the executive summary — enough to decide whether to act without opening anything else.</li>
+  <li>When you do need depth, hit <span class="chip">Report ↗</span> — it is on every row, expanded or not — and you land on that institution's full report.</li>
+</ol>
+
+<h2 id="kpis"><span class="n">1.</span> Header and portfolio KPIs</h2>
+<p class="lead">The top band answers "how big is this portfolio and where does it stand" before you touch a single filter.</p>
+<figure class="fig"><img src="figs/fig-01-index-header-kpis.jpg" alt="Index header with KPI band and renewals block">
+<figcaption><b>Fig. 1</b> — Hero, KPI band and the start of the renewals block. KPIs left to right: institutions reviewed · how many fall in each play (A/B/C/D) · staff licences in use vs bought · students provisioned vs entitled for Play A accounts · staff seats bought but not yet implemented · prospects already Campus-ready · known ARR (real won Salesforce deals, pending confirmation).</figcaption></figure>
+
+<h2 id="renewals"><span class="n">2.</span> Renewals block — your month at a glance</h2>
+<p>Every agreement renewing in the next 30 days, sorted by date, each with a one-line instruction and its <span class="chip">Full report ↗</span> button. Two patterns to recognise:</p>
+<div class="grid2">
+  <div class="card"><h4>High utilisation (≥85%)</h4><p>"Prepare the renewal with the usage story ready" — the licence is full, walk in with the numbers. Routing: HEd Sales.</p></div>
+  <div class="card"><h4>Student activation near 0%</h4><p>"Open the provisioning conversation before renewing, not after" — the deal is signed but the students were never unlocked. Routing: Success / IM.</p></div>
+</div>
+<div class="note"><b>Dates are computed against the data cutoff</b> (shown in the header badge), not against today. If the cutoff is a few days old, "1 day from cutoff" may already be past — check before calling.</div>
+
+<h2 id="explorer"><span class="n">3.</span> The opportunity explorer</h2>
+<p class="lead">All institutions in one table. Six controls, combinable; the <b>Showing N / total</b> counter on the right confirms what your filters caught.</p>
+<figure class="fig"><img src="figs/fig-02-explorer-controls.jpg" alt="Explorer controls: search, play, nation, confidence, sort, show">
+<figcaption><b>Fig. 2</b> — <b>Search</b> (institution name) · <b>Play</b> (A student activation / B staff expansion &amp; renewal risk / C Campus-ready prospect / D eligibility review / no play) · <b>Nation</b> · <b>Confidence</b> (high/medium/low) · <b>Sort by</b> (score, nearest renewal, known ARR, lowest activation, readiness, out-of-pocket spend) · <b>Show</b> (Top 10/20/30/all). Default view: Top 20 by score.</figcaption></figure>
+
+<h2 id="row"><span class="n">4.</span> Reading a row</h2>
+<figure class="fig"><img src="figs/fig-03-explorer-table.jpg" alt="Explorer table rows">
+<figcaption><b>Fig. 3</b> — Each row: rank · institution (with nation, type, student FTE and a <i>click for detail</i> hint) · play chip · <b>key metric</b> (the one number that justifies the play) · confidence · renewal date · known ARR (always a real won Salesforce amount, flagged <i>pending conf.</i>) · score · <span class="chip">Report ↗</span>.</figcaption></figure>
+<p><b>The score</b> = 100 × play weight × intensity × confidence. Play weights: A 1.00 · B 0.90 · C 0.70 · D 0.50; confidence high 1.00 · medium 0.85 · low 0.60. So a score of 100 is a high-confidence Play A at full intensity — the most urgent thing in the portfolio. Use it to order work, not to report value: value is the ARR column and the activation gap.</p>
+
+<h2 id="accordion"><span class="n">5.</span> The accordion — decide without leaving the index</h2>
+<figure class="fig"><img src="figs/fig-05-accordion-expanded.jpg" alt="Expanded accordion for University of Birmingham">
+<figcaption><b>Fig. 4</b> — University of Birmingham expanded. Top to bottom: routing and confidence chips · <b>suggested action</b> (generated by transparent rules over the data — never free text) · the organisation line (tenant reference, type, brands, members) · stat cards (students provisioned/entitled, staff licences, renewal, users on domain, yearly active users, designs, orphan teams, Salesforce account &amp; owner) · the ARR line with deal date and seats · an executive one-liner · <span class="chip">Full report ↗</span>.</figcaption></figure>
+<div class="note"><b>Where the suggested action comes from:</b> documented rules over the same data you see (e.g. Play A renewing in ≤45 days with &lt;5% student activation → provisioning conversation before renewal; Play B at ≥95% utilisation → expansion conversation). The rules are printed in full in the index's <i>Method and scope</i> section — if you disagree with an action, you can see exactly which rule fired.</div>
+
+<h2 id="recipes"><span class="n">6.</span> Filter recipes</h2>
+<figure class="fig"><img src="figs/fig-04-filters-play-b-renewal.jpg" alt="Explorer filtered to Play B sorted by nearest renewal">
+<figcaption><b>Fig. 5</b> — Recipe in action: Play = <span class="chip">B · Staff expansion / renewal risk</span>, Sort = <span class="chip">Nearest renewal</span>, Show = <span class="chip">All</span>. The counter reads 13/64: the August renewal run, in date order.</figcaption></figure>
+<table>
+  <tr><th>You are…</th><th>Set…</th><th>You get</th></tr>
+  <tr><td>Working this month's renewals</td><td>Play B · sort Nearest renewal · show All</td><td>The renewal calendar with utilisation per row</td></tr>
+  <tr><td>Driving student activation</td><td>Play A · sort Lowest activation</td><td>Signed deals with the biggest unactivated student body first</td></tr>
+  <tr><td>Hunting new logos</td><td>Play C · sort Readiness</td><td>Prospects whose active staff already exceed the required tier</td></tr>
+  <tr><td>Building a business case</td><td>sort Out-of-pocket spend</td><td>Institutions whose users personally pay the most — the friction argument</td></tr>
+  <tr><td>Preparing a QBR for one account</td><td>Search its name · expand · Full report</td><td>Everything on record for that institution</td></tr>
+</table>
+
+<h2 id="playd"><span class="n">7.</span> Play D and "no play triggered"</h2>
+<figure class="fig"><img src="figs/fig-06-play-d-eligibility.jpg" alt="Play D eligibility review section and no-play section">
+<figcaption><b>Fig. 6</b> — Play D lists eligibility-based free seats (Canva Education / not-for-profit plans) detected on institution domains — <b>hypotheses for the C4E/NFP team to review, not accusations</b>: the seats may be perfectly legitimate. Enterprise customers are excluded on purpose. Below it, the no-play section: monitored, not worked.</figcaption></figure>
+
+<h2 id="orglayer"><span class="n">8.</span> Organisation layer and method</h2>
+<figure class="fig"><img src="figs/fig-07-organisation-layer.jpg" alt="Organisation layer table and Canva for Campus model">
+<figcaption><b>Fig. 7</b> — Customer state is read from the <b>organisation layer</b> (<i>dim_organization</i> and satellites), never inferred from email domain + bundle. This table shows the matched organisations with tenant type, brands, members and SCIM. Below, the Canva for Campus model: student FTE sets the minimum staff licences; once met, the whole student body unlocks free.</figcaption></figure>
+<figure class="fig"><img src="figs/fig-08-definitions-scoring.jpg" alt="Definitions, suggested action rules and scoring">
+<figcaption><b>Fig. 8</b> — The <i>Method and scope</i> footer: definitions (entitled vs provisioned, utilisation, domain claim), the full suggested-action rulebook, and the scoring formula. When someone challenges a number, this is where you point.</figcaption></figure>
+
+<h2 id="report"><span class="n">9.</span> Inside a full report</h2>
+<p class="lead">Seven sections, always in the same order. Reference: University of Birmingham.</p>
+<figure class="fig"><img src="figs/fig-09-report-header.jpg" alt="Report header">
+<figcaption><b>Fig. 9</b> — Header: customer status and renewal date, the official email domains being counted, data cutoff, and the worldwide-vs-in-country user note. Only in-country users on official domains are counted below.</figcaption></figure>
+<figure class="fig"><img src="figs/fig-10-report-exec-summary.jpg" alt="Executive summary and big numbers">
+<figcaption><b>Fig. 10</b> — <b>Executive summary</b>: the same suggested action as the index, the four decision numbers, the ARR line, then the big-number band (registered, active, staff, students, on-plan, outside tenant, out-of-pocket spend). Reading this section alone is a legitimate way to prep a call.</figcaption></figure>
+<figure class="fig"><img src="figs/fig-11-report-adoption-charts.jpg" alt="Adoption charts">
+<figcaption><b>Fig. 11</b> — Section 1, adoption: cumulative users + MAU (term-time seasonality is normal; summer troughs are the school calendar, not churn) and sign-ups per year.</figcaption></figure>
+<figure class="fig"><img src="figs/fig-12-report-licence-penetration.jpg" alt="Licence penetration">
+<figcaption><b>Fig. 12</b> — Section 3, licence penetration: users by plan (managed vs free) and out-of-pocket spend per month — the expansion argument in two charts.</figcaption></figure>
+<figure class="fig"><img src="figs/fig-13-report-managed-tenant.jpg" alt="Managed tenant table and section 6 verdict cards">
+<figcaption><b>Fig. 13</b> — Section 5, the managed tenant: team-by-team membership with bundles (CCST students / ENTC staff). Below, section 6: the ✅/⚠️ verdict cards that summarise adoption, expansion and renewal — lift these straight into your QBR deck.</figcaption></figure>
+<figure class="fig"><img src="figs/fig-14-report-user-journey.jpg" alt="User journey funnel">
+<figcaption><b>Fig. 14</b> — Section 7, the user journey: registered → active year → quarter → month, split for staff and students, plus the six journey stages from discovery to institutionalisation. The last stage — bringing outside users into the tenant — is usually the ask.</figcaption></figure>
+
+<h2 id="variants"><span class="n">10.</span> CRUE and K-12: what changes</h2>
+<div class="grid2">
+  <div class="card"><h4>CRUE Spain (77 universities)</h4><p>Bilingual — use the <b>ES/EN toggle</b> top-right of the index. Plays A and C only: Play B matches zero today (all six Spanish customers are typed Campus) and Play D awaits the C4E/NFP eligibility feed. ARR exists for the six customers; prospect ARR is deliberately not sized yet.</p></div>
+  <div class="card"><h4>K-12 Iberia (47 school accounts)</h4><p>All agreements are <b>free</b>, so the currency is activation, not ARR: the key metrics are activated users against TPU (staff + students from Salesforce) and MAU/MACCDU trends read on core school months. Plays: A stalled activation · B declining use · C deepen · D healthy. The index also carries <b>tenant structure</b> (federated vs single) as a filter — in a federated group there is no single admin who can activate everyone, so the action changes.</p></div>
+</div>
+<div class="note"><b>Vocabulary that prevents arguments:</b> <i>activated</i> = has created a Canva account and sits in the institutional team; <i>active</i> = has used Canva in the window (MAU = last 30 days). <i>Entitled</i> = what the agreement unlocks; <i>provisioned</i> = who is actually inside today. ARR figures are real won Salesforce opportunities, never estimates, and remain <i>pending confirmation</i> until Bush/Petia sign off.</div>
+
+<p class="foot">Internal working document · Canva Education · figures in screenshots reflect the 2026-08-01 data cutoff and will differ after each monthly refresh · the guide describes controls and structure, which are stable across refreshes. Indexes: <a href="../uk-hed-priority-4f8a2c/">UK Higher Ed</a> · <a href="../crue-priority-edd24e647b/">CRUE Spain</a> · <a href="../k12-priority-9c4e7b21af/">K-12 Iberia</a>.</p>
+</main>
+</body>
+</html>
