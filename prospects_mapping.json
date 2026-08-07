@@ -91,17 +91,17 @@
  },
  "aragon": {
   "slug": "aragon-df67dabad9",
-  "updated": "2026-08-01",
+  "updated": "2026-08-07",
   "metrics": {
-   "usuarios": 674,
+   "usuarios": 675,
    "yau": 269,
-   "mau": 99,
+   "mau": 90,
    "docentes": 236,
    "estudiantes": 22,
-   "pct_free": 60.7,
-   "designs_12m": 20212,
-   "spend_12m_usd": 378.21,
-   "fecha_corte": "2026-07-31"
+   "pct_free": 60.4,
+   "designs_12m": 20227,
+   "spend_12m_usd": 252.51,
+   "fecha_corte": "2026-08-01"
   }
  },
  "asturias": {
