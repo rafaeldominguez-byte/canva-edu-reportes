@@ -151,17 +151,17 @@
  },
  "cantabria": {
   "slug": "cantabria-5f207850fa",
-  "updated": "2026-08-01",
+  "updated": "2026-08-07",
   "metrics": {
-   "usuarios": 36816,
-   "yau": 24532,
-   "mau": 2704,
-   "docentes": 4729,
-   "estudiantes": 22588,
-   "pct_free": 79.3,
-   "designs_12m": 431391,
-   "spend_12m_usd": 7557.61,
-   "fecha_corte": "2026-07-31"
+   "usuarios": 36821,
+   "yau": 24529,
+   "mau": 2594,
+   "docentes": 4734,
+   "estudiantes": 22591,
+   "pct_free": 78.8,
+   "designs_12m": 434552,
+   "spend_12m_usd": 5190.26,
+   "fecha_corte": "2026-08-01"
   }
  },
  "castilla-la-mancha": {
