@@ -76,17 +76,17 @@
  },
  "andalucia": {
   "slug": "andalucia-06a7e53958",
-  "updated": "2026-08-01",
+  "updated": "2026-08-07",
   "metrics": {
-   "usuarios": 581412,
-   "yau": 357836,
-   "mau": 30205,
-   "docentes": 57339,
-   "estudiantes": 378217,
-   "pct_free": 81.0,
-   "designs_12m": 5665365,
-   "spend_12m_usd": 61752.86,
-   "fecha_corte": "2026-07-31"
+   "usuarios": 581371,
+   "yau": 357580,
+   "mau": 27646,
+   "docentes": 57313,
+   "estudiantes": 378171,
+   "pct_free": 80.6,
+   "designs_12m": 5716701,
+   "spend_12m_usd": 45026.71,
+   "fecha_corte": "2026-08-01"
   }
  },
  "aragon": {
