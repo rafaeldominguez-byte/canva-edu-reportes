@@ -271,17 +271,17 @@
  },
  "melilla": {
   "slug": "melilla-ea4f8b4db5",
-  "updated": "2026-08-01",
+  "updated": "2026-08-07",
   "metrics": {
-   "usuarios": 4453,
-   "yau": 2300,
-   "mau": 310,
-   "docentes": 794,
-   "estudiantes": 3213,
-   "pct_free": 96.1,
-   "designs_12m": 54602,
+   "usuarios": 4447,
+   "yau": 2292,
+   "mau": 280,
+   "docentes": 793,
+   "estudiantes": 3207,
+   "pct_free": 95.9,
+   "designs_12m": 55872,
    "spend_12m_usd": 38.82,
-   "fecha_corte": "2026-07-31"
+   "fecha_corte": "2026-08-01"
   }
  }
 }
