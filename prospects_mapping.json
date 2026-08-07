@@ -46,17 +46,17 @@
  },
  "pais-vasco": {
   "slug": "pais-vasco-9ecc01e567",
-  "updated": "2026-08-01",
+  "updated": "2026-08-07",
   "metrics": {
-   "usuarios": 7582,
-   "yau": 3799,
-   "mau": 771,
-   "docentes": 3260,
+   "usuarios": 7588,
+   "yau": 3793,
+   "mau": 651,
+   "docentes": 3256,
    "estudiantes": 269,
-   "pct_free": 59.8,
-   "designs_12m": 143042,
-   "spend_12m_usd": 2547.65,
-   "fecha_corte": "2026-07-31"
+   "pct_free": 59.6,
+   "designs_12m": 146528,
+   "spend_12m_usd": 2104.51,
+   "fecha_corte": "2026-08-01"
   }
  },
  "valencia": {
