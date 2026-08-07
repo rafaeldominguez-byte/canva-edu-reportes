@@ -121,16 +121,16 @@
  },
  "baleares": {
   "slug": "baleares-04ebc16adb",
-  "updated": "2026-08-01",
+  "updated": "2026-08-07",
   "metrics": {
-   "usuarios": 2746,
-   "yau": 1186,
-   "mau": 345,
-   "docentes": 915,
+   "usuarios": 2751,
+   "yau": 1192,
+   "mau": 328,
+   "docentes": 909,
    "estudiantes": 177,
-   "pct_free": 67.9,
-   "designs_12m": 46924,
-   "spend_12m_usd": 1166.33,
+   "pct_free": 68.0,
+   "designs_12m": 46932,
+   "spend_12m_usd": 1146.67,
    "fecha_corte": "2026-08-01"
   }
  },
