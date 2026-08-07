@@ -16,17 +16,17 @@
  },
  "murcia": {
   "slug": "murcia-44d0da5fef",
-  "updated": "2026-08-07",
+  "updated": "2026-08-01",
   "metrics": {
-   "usuarios": 234483,
-   "yau": 158528,
-   "mau": 17120,
-   "docentes": 23063,
-   "estudiantes": 143657,
-   "pct_free": 81.3,
-   "designs_12m": 2967142,
-   "spend_12m_usd": 27855.97,
-   "fecha_corte": "2026-08-01"
+   "usuarios": 234519,
+   "yau": 158724,
+   "mau": 19237,
+   "docentes": 23073,
+   "estudiantes": 143741,
+   "pct_free": 81.6,
+   "designs_12m": 2928124,
+   "spend_12m_usd": 38947.02,
+   "fecha_corte": "2026-07-31"
   }
  },
  "navarra": {
