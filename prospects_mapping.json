@@ -106,17 +106,17 @@
  },
  "asturias": {
   "slug": "asturias-573f036ca9",
-  "updated": "2026-08-01",
+  "updated": "2026-08-07",
   "metrics": {
-   "usuarios": 63920,
-   "yau": 43711,
-   "mau": 4876,
-   "docentes": 7216,
-   "estudiantes": 40838,
-   "pct_free": 77.9,
-   "designs_12m": 787126,
-   "spend_12m_usd": 13287.2,
-   "fecha_corte": "2026-07-31"
+   "usuarios": 63910,
+   "yau": 43681,
+   "mau": 4452,
+   "docentes": 7211,
+   "estudiantes": 40830,
+   "pct_free": 77.7,
+   "designs_12m": 792342,
+   "spend_12m_usd": 9482.18,
+   "fecha_corte": "2026-08-01"
   }
  },
  "baleares": {
